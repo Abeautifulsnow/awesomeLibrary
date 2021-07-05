@@ -22,6 +22,7 @@
 * [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 帮助没有类型定义的js代码声明变量的定义
 * [topology](https://github.com/le5le-com/topology) 一个轻量、功能丰富的绘图工具
 * [LogicFlow](https://github.com/didi/LogicFlow) 流程图交互
+* [actionsflow](https://github.com/actionsflow/actionsflow) 基于GitHub行为的自动化工作流工具
 
 > JavaScript
 
@@ -30,6 +31,7 @@
 * [hoppscotch](https://github.com/hoppscotch/hoppscotch) API接口调试
 * [drawio](https://github.com/jgraph/drawio) js绘图工具
 * [drawio-desktop](https://github.com/jgraph/drawio-desktop) 桌面版drawio应用
+* [regexper-static](https://gitlab.com/javallone/regexper-static) 正则表达式可视化
 
 > go
 
@@ -46,6 +48,7 @@
 * [gorm](https://github.com/go-gorm/gorm) 出色的go版orm框架
 * [air](https://github.com/cosmtrek/air) Go实时重载应用
 * [carbon](https://github.com/golang-module/carbon) 一个轻量级、语义化、对开发者友好的 Golang 时间处理库
+* [pg](https://github.com/go-pg/pg) PostgreSQL client and ORM for Golang
 
 > python
 
@@ -58,6 +61,7 @@
 * [diagrams](https://github.com/mingrammer/diagrams) 🎨 Diagram as Code for prototyping cloud system architectures
 * [xpinyin](https://github.com/lxneng/xpinyin) 一个python写的汉字转拼音库
 * [pyfiglet](https://github.com/pwaller/pyfiglet) figlet Python版本的实现
+* [poetry](https://github.com/python-poetry/poetry) python包管理器
 
 > other online tools
 
