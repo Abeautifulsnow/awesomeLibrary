@@ -51,6 +51,7 @@
 * [carbon](https://github.com/golang-module/carbon) 一个轻量级、语义化、对开发者友好的 Golang 时间处理库
 * [pg](https://github.com/go-pg/pg) PostgreSQL client and ORM for Golang
 * [rosedb](https://github.com/roseduan/rosedb) 一个 Go 语言实现的快速、稳定、内嵌的 k-v 数据库。
+* [minidb](https://github.com/roseduan/minidb) mini version of rosedb.
 
 > python
 
