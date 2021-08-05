@@ -24,6 +24,10 @@
 * [LogicFlow](https://github.com/didi/LogicFlow) 流程图交互
 * [actionsflow](https://github.com/actionsflow/actionsflow) 基于GitHub行为的自动化工作流工具
 * [react-hook-form](https://github.com/react-hook-form/react-hook-form) React Hooks for forms validation (Web + React Native)
+* [virtual-background](https://github.com/Volcomix/virtual-background) Demo on adding virtual background to a live video stream in the browser
+* [redux-toolkit](https://github.com/reduxjs/redux-toolkit) The official, opinionated, batteries-included toolset for efficient Redux development
+* [vscode-database-client](https://github.com/cweijan/vscode-database-client) Database Client For Visual Studio Code
+* [varlet](https://github.com/haoziqaq/varlet) 基于Vue3的Material design风格移动端组件库 Material design mobile component library for Vue3
 
 > JavaScript
 
@@ -52,6 +56,13 @@
 * [pg](https://github.com/go-pg/pg) PostgreSQL client and ORM for Golang
 * [rosedb](https://github.com/roseduan/rosedb) 一个 Go 语言实现的快速、稳定、内嵌的 k-v 数据库。
 * [minidb](https://github.com/roseduan/minidb) mini version of rosedb.
+* [goproxy.cn](https://github.com/goproxy/goproxy.cn) 国内go模块代理
+* [go-extend](https://github.com/thinkeridea/go-extend) go语言扩展包，收集一些常用的操作函数，辅助更快的完成开发工作，并减少重复代码
+* [cobra](https://github.com/spf13/cobra) A Commander for modern Go CLI interactions
+* [selenium](https://github.com/tebeka/selenium) Selenium/Webdriver client for Go
+* [gorse](https://github.com/zhenghaoz/gorse) An open source recommender system service written in Go
+* [go-echarts](https://github.com/go-echarts/go-echarts) go版本echarts库
+* [git-cc](https://github.com/SKalt/git-cc) a git extension to help write conventional commits
 
 > python
 
@@ -65,6 +76,10 @@
 * [xpinyin](https://github.com/lxneng/xpinyin) 一个python写的汉字转拼音库
 * [pyfiglet](https://github.com/pwaller/pyfiglet) figlet Python版本的实现
 * [poetry](https://github.com/python-poetry/poetry) python包管理器
+* [youtube-dl](https://github.com/ytdl-org/youtube-dl) 使用命令行从YouTube和其他视频网站下载视频资源
+* [pythonlibs](https://www.lfd.uci.edu/~gohlke/pythonlibs/) 非官方版windows二进制的python扩展包
+* [bk-log](https://github.com/TencentBlueKing/bk-log) 蓝鲸日志平台
+
 
 > other online tools
 
