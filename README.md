@@ -28,10 +28,10 @@
 * [redux-toolkit](https://github.com/reduxjs/redux-toolkit) The official, opinionated, batteries-included toolset for efficient Redux development
 * [vscode-database-client](https://github.com/cweijan/vscode-database-client) Database Client For Visual Studio Code
 * [varlet](https://github.com/haoziqaq/varlet) 基于Vue3的Material design风格移动端组件库 Material design mobile component library for Vue3
-- [typescript-book-chinese](https://github.com/jkchao/typescript-book-chinese) typescript中文版
-- [github1s](https://github.com/conwnet/github1s) One second to read GitHub code with VS Code.
-- [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
-- [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync
+* [typescript-book-chinese](https://github.com/jkchao/typescript-book-chinese) typescript中文版
+* [github1s](https://github.com/conwnet/github1s) One second to read GitHub code with VS Code.
+* [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
+* [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync
 
 > JavaScript
 
@@ -41,8 +41,8 @@
 * [drawio](https://github.com/jgraph/drawio) js绘图工具
 * [drawio-desktop](https://github.com/jgraph/drawio-desktop) 桌面版drawio应用
 * [regexper-static](https://gitlab.com/javallone/regexper-static) 正则表达式可视化
-- [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy
-- [commander.js](https://github.com/tj/commander.js) node.js command-line interfaces made easy
+* [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy
+* [commander.js](https://github.com/tj/commander.js) node.js command-line interfaces made easy
 
 > go
 
@@ -69,9 +69,9 @@
 * [gorse](https://github.com/zhenghaoz/gorse) An open source recommender system service written in Go
 * [go-echarts](https://github.com/go-echarts/go-echarts) go版本echarts库
 * [git-cc](https://github.com/SKalt/git-cc) a git extension to help write conventional commits
-- [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
-- [go-stress-testing](https://github.com/link1st/go-stress-testing) go 实现的压测工具
-- [dtm](https://github.com/yedf/dtm) go分布式事务管理器
+* [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
+* [go-stress-testing](https://github.com/link1st/go-stress-testing) go 实现的压测工具
+* [dtm](https://github.com/yedf/dtm) go分布式事务管理器
 
 > python
 
@@ -88,22 +88,22 @@
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl) 使用命令行从YouTube和其他视频网站下载视频资源
 * [pythonlibs](https://www.lfd.uci.edu/~gohlke/pythonlibs/) 非官方版windows二进制的python扩展包
 * [bk-log](https://github.com/TencentBlueKing/bk-log) 蓝鲸日志平台
-- [textual](https://github.com/willmcgugan/textual) Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
-- [locust](https://github.com/locustio/locust) 可扩展的压测工具(有UI界面)
-- [public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs
+* [textual](https://github.com/willmcgugan/textual) Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
+* [locust](https://github.com/locustio/locust) 可扩展的压测工具(有UI界面)
+* [public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs
 
 
 > other online tools
 
 * [regexper](https://regexper.com/) 正则表达式可视化
-- [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) 🔧 Cross-platform GUI management tool for Redis
+* [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) 🔧 Cross-platform GUI management tool for Redis
 
 > rust
 
-- [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
+* [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
 
 
 > Organization
 
-- [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
+* [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
 
