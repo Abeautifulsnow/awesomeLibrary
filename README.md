@@ -1,13 +1,29 @@
-# 所有资源总目录入口
+# Contents
+
+- [其它](#其它)
+- [语言资源库](#语言资源库)
+  - [typecript](#typecript)
+  - [JavaScript](#javascript)
+  - [go](#go)
+  - [python](#python)
+  - [other online tools](#other-online-tools)
+  - [rust](#rust)
+  - [Organization](#organization)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+
+## 其它
 
 * [neovim](./neovim/neovim.md)
 * [python相关](./python/python.md)
 
 -----------------
 
-# 语言资源库
+## 语言资源库
 
-> typecript
+### typecript
 
 * [typeorm](https://github.com/typeorm/typeorm) 支持typescript的orm库
 * [pg-god](https://github.com/ivawzh/pg-god) postgresql创建or删除的库
@@ -33,7 +49,7 @@
 * [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
 * [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync
 
-> JavaScript
+### JavaScript
 
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
 * [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) 命令行工具接口
@@ -44,7 +60,7 @@
 * [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy
 * [commander.js](https://github.com/tj/commander.js) node.js command-line interfaces made easy
 
-> go
+### go
 
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
 * [gin](https://github.com/gin-gonic/gin) 优秀的go后端web框架
@@ -73,7 +89,7 @@
 * [go-stress-testing](https://github.com/link1st/go-stress-testing) go 实现的压测工具
 * [dtm](https://github.com/yedf/dtm) go分布式事务管理器
 
-> python
+### python
 
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
 * [typer](https://github.com/tiangolo/typer) Typer, build great CLIs. Easy to code. Based on Python type hints.
@@ -93,17 +109,17 @@
 * [public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs
 
 
-> other online tools
+### other online tools
 
 * [regexper](https://regexper.com/) 正则表达式可视化
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) 🔧 Cross-platform GUI management tool for Redis
 
-> rust
+### rust
 
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
 
 
-> Organization
+### Organization
 
 * [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
 
