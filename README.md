@@ -88,6 +88,14 @@
 * [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
 * [go-stress-testing](https://github.com/link1st/go-stress-testing) go 实现的压测工具
 * [dtm](https://github.com/yedf/dtm) go分布式事务管理器
+* [go-playground](https://github.com/x1unix/go-playground) 一个好用的go运行窗口，在线运行go代码
+* [awesome-go](https://github.com/avelino/awesome-go) A curated list of awesome Go frameworks, libraries and software.
+* [ngrok](https://github.com/inconshreveable/ngrok) 内网穿透
+* [gopay](https://github.com/go-pay/gopay) 微信、支付宝、PayPal 的Go版本SDK。【极简、易用的聚合支付SDK】
+* [go-micro](https://github.com/asim/go-micro) A Go framework for distributed systems development.
+* [clash](https://github.com/Dreamacro/clash) - A rule-based tunnel in Go.
+* [proxypool](https://github.com/zu1k/proxypool) - 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表.
+* [jupiter](https://github.com/douyu/jupiter) - Jupiter是斗鱼开源的面向服务治理的Golang微服务框架
 
 ### python
 
