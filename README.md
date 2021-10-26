@@ -116,6 +116,7 @@
 * [textual](https://github.com/willmcgugan/textual) Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
 * [locust](https://github.com/locustio/locust) 可扩展的压测工具(有UI界面)
 * [public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs
+* [awesome-asgi](https://github.com/florimondmanca/awesome-asgi) - A curated list of awesome ASGI servers, frameworks, apps, libraries, and other resources.
 
 
 ### other online tools
@@ -126,7 +127,6 @@
 ### rust
 
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
-
 
 ### Organization
 
