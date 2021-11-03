@@ -121,8 +121,9 @@
 
 ### other online tools
 
-* [regexper](https://regexper.com/) 正则表达式可视化
-* [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) 🔧 Cross-platform GUI management tool for Redis
+* [regexper](https://regexper.com/) - 正则表达式可视化
+* [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - 🔧 Cross-platform GUI management tool for Redis
+* [crontab](https://crontab.guru/) - 在线验证crontab表达式
 
 ### rust
 
