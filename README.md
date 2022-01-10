@@ -6,9 +6,9 @@
   - [JavaScript](#javascript)
   - [go](#go)
   - [python](#python)
-  - [other online tools](#other-online-tools)
   - [rust](#rust)
   - [Organization](#organization)
+  - [other online tools](#other-online-tools)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -47,7 +47,12 @@
 * [typescript-book-chinese](https://github.com/jkchao/typescript-book-chinese) typescript中文版
 * [github1s](https://github.com/conwnet/github1s) One second to read GitHub code with VS Code.
 * [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
-* [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync
+* [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
+* [SwitchHosts](https://github.com/oldj/SwitchHosts) - Switch hosts quickly!
+* [pnpm](https://github.com/pnpm/pnpm) - 快速的，节省磁盘空间的包管理工具.
+* [tui.editor](https://github.com/nhn/tui.editor) - 🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.
+* [rsuite](https://github.com/rsuite/rsuite) - 🧱 A suite of React components .(React UI framework.)
+* [umi](https://github.com/umijs/umi) - 🌋 Pluggable enterprise-level react application framework.
 
 ### JavaScript
 
@@ -60,6 +65,13 @@
 * [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy
 * [commander.js](https://github.com/tj/commander.js) node.js command-line interfaces made easy
 * [glsl-sandbox](https://github.com/mrdoob/glsl-sandbox) Online live editor for fragment shaders.
+* [m3u8-downloader](https://github.com/Momo707577045/m3u8-downloader) - m3u8 视频在线提取工具
+* [httpx](https://github.com/encode/httpx) - A next generation HTTP client for Python. 🦋
+* [smarGate](https://github.com/lazy-luo/smarGate) - 内网穿透工具
+* [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D Library.
+* [mavonEditor](https://github.com/hinesboy/mavonEditor) - A markdown editor based on Vue that supports a variety of personalized features.
+* [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
+* [vue-form-making](https://github.com/GavinZhuLei/vue-form-making) - 基于Vue的可视化表单设计器.
 
 ### go
 
@@ -96,7 +108,29 @@
 * [go-micro](https://github.com/asim/go-micro) A Go framework for distributed systems development.
 * [clash](https://github.com/Dreamacro/clash) - A rule-based tunnel in Go.
 * [proxypool](https://github.com/zu1k/proxypool) - 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表.
-* [jupiter](https://github.com/douyu/jupiter) - Jupiter是斗鱼开源的面向服务治理的Golang微服务框架
+* [jupiter](https://github.com/douyu/jupiter) - Jupiter是斗鱼开源的面向服务治理的Golang微服务框架.
+* [gowalker](https://github.com/Unknwon/gowalker) - Go Walker is a server that generates Go projects API documentation on the fly.
+* [gogs](https://github.com/gogs/gogs) - Gogs is a painless self-hosted Git service.
+* [gitcache](https://github.com/git-cloner/gitcache) - When clone from github.com, build mirror cache to improve clone speed.
+* [termui](https://github.com/gizak/termui) - Golang terminal dashboard.
+* [machinery](https://github.com/RichardKnop/machinery) - Machinery is an asynchronous task queue/job queue based on distributed message passing.
+* [ferry](https://github.com/lanyulei/ferry) - 开源工单系统.
+* [golangweekly](https://github.com/polaris1119/golangweekly) - Go语言爱好者周刊，每周日发布
+* [easyjson](https://github.com/mailru/easyjson) - Fast JSON serializer for golang.
+* [gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea, painless self-hosted git service.
+* [xorm](https://gitea.com/xorm/xorm) - Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,sqlite,mssql,oracle,cockroach.
+* [groupcache](https://github.com/golang/groupcache) - A caching and cache-filling library, intended as a replacement for memcached in many cases.
+* [websocket](https://github.com/gorilla/websocket) - A fast, well-tested and widely used WebSocket implementation for Go.
+* [tidb](https://github.com/pingcap/tidb) - TiDB is an open source distributed HTAP database compatible with the MySQL protocol.
+* [ping](https://github.com/go-ping/ping) - ICMP Ping library for Go.
+* [immudb](https://github.com/codenotary/immudb) - world’s fastest immutable database, built on a zero trust model
+* [sealos](https://github.com/fanux/sealos) - 一条命令离线安装高可用kubernetes
+* [sh](https://github.com/mvdan/sh) - A shell parser, formatter, and interpreter with bash support; includes shfmt
+* [goquery](https://github.com/PuerkitoBio/goquery) - A little like that j-thing, only in Go.
+* [goproxy](https://github.com/elazarl/goproxy) - An HTTP proxy library for Go.
+* [pls](https://github.com/chenjiandongx/pls) - ✏️ Impressive Linux commands cheat sheet CLI written in Go.
+* [tview](https://github.com/rivo/tview) - Terminal UI library with rich, interactive widgets — written in Golang.
+* [ants](https://github.com/panjf2000/ants) - 🐜🐜🐜 ants is a high-performance and low-cost goroutine pool in Go, inspired by fasthttp./ ants 是一个高性能且低损耗的 goroutine 池.
 
 ### python
 
@@ -117,19 +151,34 @@
 * [locust](https://github.com/locustio/locust) 可扩展的压测工具(有UI界面)
 * [public-apis](https://github.com/public-apis/public-apis) A collective list of free APIs
 * [awesome-asgi](https://github.com/florimondmanca/awesome-asgi) - A curated list of awesome ASGI servers, frameworks, apps, libraries, and other resources.
+* [m3u8](https://github.com/globocom/m3u8) - Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions.
+* [GitHub520](https://github.com/521xueweihan/GitHub520) - 😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
+* [aiofiles](https://github.com/Tinche/aiofiles) - File support for asyncio.
+* [system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+* [funboost](https://github.com/ydf0509/funboost) - python通用分布式函数调度框架
+* [waka-readme-stats](https://github.com/anmol098/waka-readme-stats) - This GitHub action helps to add cool dev metrics to your github profile Readme.
+* [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) - Python bindings for FFmpeg - with complex filtering support.
+* [djangorestframework-simplejwt](https://github.com/jazzband/djangorestframework-simplejwt) - A JSON Web Token authentication plugin for the Django REST Framework.
 
+
+### rust
+
+* [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
+* [writing-an-os-in-rust](https://github.com/rustcc/writing-an-os-in-rust) - 使用Rust编写操作系统「中文译本」
+* [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
+
+
+### Organization
+
+* [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
+* [overnote](https://github.com/overnote) - 笔记
 
 ### other online tools
 
 * [regexper](https://regexper.com/) - 正则表达式可视化
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - 🔧 Cross-platform GUI management tool for Redis
 * [crontab](https://crontab.guru/) - 在线验证crontab表达式
-
-### rust
-
-* [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
-
-### Organization
-
-* [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
+* [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands.
+* [jsdelivr](https://www.jsdelivr.com/) - A free CDN for Open Source
+* [.tmux](https://github.com/gpakosz/.tmux) - 🇫🇷 Oh my tmux! My self-contained, pretty & versatile tmux configuration made with ❤️.
 
