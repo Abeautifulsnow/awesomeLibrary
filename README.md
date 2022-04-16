@@ -53,6 +53,16 @@
 * [tui.editor](https://github.com/nhn/tui.editor) - 🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.
 * [rsuite](https://github.com/rsuite/rsuite) - 🧱 A suite of React components .(React UI framework.)
 * [umi](https://github.com/umijs/umi) - 🌋 Pluggable enterprise-level react application framework.
+* [milkdown](https://github.com/Saul-Mirone/milkdown) - 🍼 Plugin driven WYSIWYG markdown editor framework.
+* [react-use](https://github.com/streamich/react-use) - React Hooks.
+* [nextui](https://github.com/nextui-org/nextui) - 🚀 Beautiful, fast and modern React UI library.
+* [hooks](https://github.com/alibaba/hooks) - A high-quality & reliable React Hooks library.
+* [pixijs](https://github.com/pixijs/pixijs) - The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.
+* [vue-class-component](https://github.com/vuejs/vue-class-component) - ES / TypeScript decorator for class-style Vue components.
+* [vuex-class](https://github.com/ktsn/vuex-class) - Binding helpers for Vuex and vue-class-component.
+* [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) - Vue.js and Property Decorator.
+* [react-redux](https://github.com/reduxjs/react-redux) - Official React bindings for Redux
+* [foca](https://github.com/foca-js/foca) - 流畅的react状态管理库
 
 ### JavaScript
 
@@ -72,6 +82,10 @@
 * [mavonEditor](https://github.com/hinesboy/mavonEditor) - A markdown editor based on Vue that supports a variety of personalized features.
 * [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
 * [vue-form-making](https://github.com/GavinZhuLei/vue-form-making) - 基于Vue的可视化表单设计器.
+* [next.js](https://github.com/vercel/next.js) - The React Framework.
+* [Painter](https://github.com/Kujiale-Mobile/Painter) - 小程序生成图片库，轻松通过 json 方式绘制一张可以发到朋友圈的图片.
+* [vuex](https://github.com/vuejs/vuex) - 🗃️ Centralized State Management for Vue.js.
+* [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
 
 ### go
 
@@ -131,6 +145,18 @@
 * [pls](https://github.com/chenjiandongx/pls) - ✏️ Impressive Linux commands cheat sheet CLI written in Go.
 * [tview](https://github.com/rivo/tview) - Terminal UI library with rich, interactive widgets — written in Golang.
 * [ants](https://github.com/panjf2000/ants) - 🐜🐜🐜 ants is a high-performance and low-cost goroutine pool in Go, inspired by fasthttp./ ants 是一个高性能且低损耗的 goroutine 池.
+* [starcharts](https://github.com/caarlos0/starcharts) - Plot your repository stars over time.
+* [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) - gin-vue-admin.
+* [gin-admin](https://github.com/LyricTian/gin-admin) - RBAC scaffolding based on Gin + Gorm 2.0 + Casbin + Wire DI.
+* [jwt](https://github.com/golang-jwt/jwt) - A go implementation of [JSON Web Tokens](https://datatracker.ietf.org/doc/html/rfc7519).
+* [testify](https://github.com/stretchr/testify) - A toolkit with common assertions and mocks that plays nicely with the standard library.
+* [viper](https://github.com/spf13/viper) - Go configuration with fangs.
+* [lumberjack](https://github.com/natefinch/lumberjack) - lumberjack is a log rolling package for Go.
+* [validator](https://github.com/go-playground/validator) - 💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
+* [lo](https://github.com/samber/lo) - 💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...).
+* [rpcx](https://github.com/smallnest/rpcx) - Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. 
+* [zinx](https://github.com/aceld/zinx) - 基于Golang轻量级TCP并发服务器框架.
+* [go-kit](https://github.com/go-kit/kit) - A standard library for microservices.
 
 ### python
 
@@ -160,6 +186,12 @@
 * [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) - Python bindings for FFmpeg - with complex filtering support.
 * [djangorestframework-simplejwt](https://github.com/jazzband/djangorestframework-simplejwt) - A JSON Web Token authentication plugin for the Django REST Framework.
 * [Viper](https://github.com/FunnyWolf/Viper) - Intranet penetration tool with webui 开源图形化内网渗透工具 支持主动式&被动式Log4j漏洞扫描.
+* [python-jose](https://github.com/mpdavis/python-jose) - A JOSE implementation in Python.
+* [pyjwt](https://github.com/jpadilla/pyjwt) - JSON Web Token implementation in Python.
+* [mycli](https://github.com/dbcli/mycli) - A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.
+* [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocompletion and syntax highlighting.
+* [django-hosts](https://github.com/jazzband/django-hosts) - Dynamic and static host resolving for Django. Maps hostnames to URLconfs.
+* [httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era.
 
 
 ### rust
@@ -167,6 +199,7 @@
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
 * [writing-an-os-in-rust](https://github.com/rustcc/writing-an-os-in-rust) - 使用Rust编写操作系统「中文译本」
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
+* [py-spy](https://github.com/benfred/py-spy) - Sampling profiler for Python programs.
 
 
 ### Organization
@@ -174,7 +207,7 @@
 * [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
 * [overnote](https://github.com/overnote) - 笔记
 
-### other online tools
+### others && online tools
 
 * [regexper](https://regexper.com/) - 正则表达式可视化
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - 🔧 Cross-platform GUI management tool for Redis
@@ -182,4 +215,7 @@
 * [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands.
 * [jsdelivr](https://www.jsdelivr.com/) - A free CDN for Open Source
 * [.tmux](https://github.com/gpakosz/.tmux) - 🇫🇷 Oh my tmux! My self-contained, pretty & versatile tmux configuration made with ❤️.
+* [oktools.net](https://oktools.net/) - 在线工具转换
+* [dbdiagram](https://dbdiagram.io/home) - 数据库设计工具
+* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 
