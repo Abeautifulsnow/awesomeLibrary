@@ -9,6 +9,7 @@
   - [rust](#rust)
   - [Organization](#organization)
   - [other online tools](#other-online-tools)
+  - [books](#books)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -63,6 +64,9 @@
 * [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) - Vue.js and Property Decorator.
 * [react-redux](https://github.com/reduxjs/react-redux) - Official React bindings for Redux
 * [foca](https://github.com/foca-js/foca) - 流畅的react状态管理库
+* [sql-generator](https://github.com/liyupi/sql-generator) - 🔨 用 JSON 来生成结构化的 SQL 语句.
+* [docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+* [embla-carousel](https://github.com/davidjerleke/embla-carousel) - A lightweight carousel library with fluid motion and great swipe precision.
 
 ### JavaScript
 
@@ -86,6 +90,8 @@
 * [Painter](https://github.com/Kujiale-Mobile/Painter) - 小程序生成图片库，轻松通过 json 方式绘制一张可以发到朋友圈的图片.
 * [vuex](https://github.com/vuejs/vuex) - 🗃️ Centralized State Management for Vue.js.
 * [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
+* [react-container-query](https://github.com/react-container-query/react-container-query) - 📦 Modular responsive component
+* [vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv) - 🌈Rainbow CSV - VS Code extension: Highlight CSV and TSV spreadsheet files in different rainbow colors.
 
 ### go
 
@@ -157,6 +163,27 @@
 * [rpcx](https://github.com/smallnest/rpcx) - Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. 
 * [zinx](https://github.com/aceld/zinx) - 基于Golang轻量级TCP并发服务器框架.
 * [go-kit](https://github.com/go-kit/kit) - A standard library for microservices.
+* [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer
+* [syncthing](https://github.com/syncthing/syncthaling) - Open Source Continuous File Synchronization
+* [gods](https://github.com/emirpasic/gods) - GoDS (Go Data Structures) - Sets, Lists, Stacks, Maps, Trees, Queues, and much more.
+* [dapr](https://github.com/dapr/dapr) - Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.
+* [tablewriter](https://github.com/olekukonko/tablewriter) - ASCII table in golang.
+* [migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
+* [Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server) - OpenIM: Instant messaging open source project based on go built by IM technology experts. Backend in Go.
+* [nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform.
+* [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - A prompt theme engine for any shell.
+* [mock](https://github.com/golang/mock) - GoMock is a mocking framework for the Go programming language.
+* [golang-lru](https://github.com/hashicorp/golang-lru) - Golang LRU cache.
+* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
+* [zap](https://github.com/uber-go/zap) - Blazing fast, structured, leveled logging in Go.
+* [spinner](https://github.com/briandowns/spinner) - Go (golang) package with 90 configurable terminal spinner/progress indicators.
+* [color](https://github.com/fatih/color) - Color package for Go (golang).
+* [golang-set](https://github.com/deckarep/golang-set) - A simple generic set type for the Go language. (Inspired by python.)
+* [pp](https://github.com/k0kubun/pp) - Colored pretty printer for Go language
+* [NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Real-time microphone noise suppression on Linux.
+* [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
+* [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/) - cqhttp的golang实现，轻量、原生跨平台.
+* [pixlet](https://github.com/tidbyt/pixlet) - Build apps for pixel-based displays ✨
 
 ### python
 
@@ -192,6 +219,16 @@
 * [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocompletion and syntax highlighting.
 * [django-hosts](https://github.com/jazzband/django-hosts) - Dynamic and static host resolving for Django. Maps hostnames to URLconfs.
 * [httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era.
+* [isort](https://github.com/PyCQA/isort) - A Python utility / library to sort imports.
+* [RBQL](https://github.com/mechatroner/RBQL) - 🦜RBQL - Rainbow Query Language: SQL-like query engine for (not only) CSV file processing. Supports SQL queries with Python and JavaScript expressions.
+* [rainbow_csv](https://github.com/mechatroner/rainbow_csv) - 🌈Rainbow CSV - Vim plugin: Highlight columns in CSV and TSV files and run queries in SQL-like language
+* [pyinstrument](https://github.com/joerick/pyinstrument) - 🚴 Call stack profiler for Python. Shows you why your code is slow!
+* [blade](https://github.com/chen3feng/blade-build) - Blade is a powerful build system from Tencent.
+* [textdistance](https://github.com/life4/textdistance) - Compute distance between sequences. 30+ algorithms, pure python implementation, common interface, optional external libs usage.
+* [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns/idioms in Python.
+* [textual](https://github.com/Textualize/textual) - Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
+* [dooit](https://github.com/kraanzu/dooit) - A TUI todo manager.
+* [shot-scraper](https://github.com/simonw/shot-scraper) - A comand-line utility for taking automated screenshots of websites
 
 
 ### rust
@@ -200,6 +237,7 @@
 * [writing-an-os-in-rust](https://github.com/rustcc/writing-an-os-in-rust) - 使用Rust编写操作系统「中文译本」
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
 * [py-spy](https://github.com/benfred/py-spy) - Sampling profiler for Python programs.
+* [tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
 
 
 ### Organization
@@ -218,4 +256,12 @@
 * [oktools.net](https://oktools.net/) - 在线工具转换
 * [dbdiagram](https://dbdiagram.io/home) - 数据库设计工具
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
+* [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) - 🚀🚀🚀A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys.
+* [FastGithub](https://github.com/dotnetcore/FastGithub) - github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
+* [ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
+
+
+### books
+
+* [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
 
