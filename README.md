@@ -7,9 +7,11 @@
   - [go](#go)
   - [python](#python)
   - [rust](#rust)
-  - [Organization](#organization)
-  - [other online tools](#other-online-tools)
+  - [shell](#shell)
+  - [Organization & Forum & Blog](#Organization & Forum & Blog)
+  - [tools](#tools)
   - [books](#books)
+  - [(begin|end)with-awesome library](#(begin|end)with-awesome library)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -67,6 +69,17 @@
 * [sql-generator](https://github.com/liyupi/sql-generator) - 🔨 用 JSON 来生成结构化的 SQL 语句.
 * [docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 * [embla-carousel](https://github.com/davidjerleke/embla-carousel) - A lightweight carousel library with fluid motion and great swipe precision.
+* [vue3-ace-editor](https://github.com/CarterLi/vue3-ace-editor) - Like vue2-ace-editor but more functional and supports Vue 3
+* [turbo-console-log](https://github.com/Chakroun-Anas/turbo-console-log) - fantastic debug tool
+* [nextui](https://github.com/nextui-org/nextui) - 🚀 Beautiful, fast and modern React UI library.
+* [chakra-ui](https://github.com/chakra-ui/chakra-ui) - ⚡️ Simple, Modular & Accessible UI Components for your React Applications
+* [puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API
+* [xterm.js](https://github.com/xtermjs/xterm.js) - A terminal for the web
+* [html-to-image](https://github.com/bubkoo/html-to-image) - ✂️ Generates an image from a DOM node using HTML5 canvas and SVG.
+* [satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
+* [windicss](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
+* [memlab](https://github.com/facebook/memlab) - A framework for finding JavaScript memory leaks and analyzing heap snapshots
+* [naive-ui](https://github.com/tusen-ai/naive-ui) - A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.
 
 ### JavaScript
 
@@ -92,6 +105,11 @@
 * [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
 * [react-container-query](https://github.com/react-container-query/react-container-query) - 📦 Modular responsive component
 * [vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv) - 🌈Rainbow CSV - VS Code extension: Highlight CSV and TSV spreadsheet files in different rainbow colors.
+* [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) - Drag-and-drop sortable component for nested data and hierarchies
+* [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) - Vue drag-and-drop component based on Sortable.js
+* [strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
+* [next.js](https://github.com/vercel/next.js) - The React Framework.
+* [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 
 ### go
 
@@ -184,6 +202,19 @@
 * [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
 * [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/) - cqhttp的golang实现，轻量、原生跨平台.
 * [pixlet](https://github.com/tidbyt/pixlet) - Build apps for pixel-based displays ✨
+* [gnomock](https://github.com/orlangure/gnomock) - Test your code without writing mocks with ephemeral Docker containers 📦 Setup popular services with just a couple lines of code ⏱️ No bash, no yaml, only code 💻
+* [lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
+* [gocity](https://github.com/rodrigo-brito/gocity) - 📊 Code City metaphor for visualizing Go source code in 3D
+* [sharingan](https://github.com/didi/sharingan) - Sharingan（写轮眼）是一个基于golang的流量录制回放工具，适合项目重构、回归测试等。
+* [go-prompt](https://github.com/c-bata/go-prompt) - Building powerful interactive prompts in Go, inspired by python-prompt-toolkit.
+* [survey](https://github.com/AlecAivazis/survey) - A golang library for building interactive and accessible prompts with full support for windows and posix terminals.
+* [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
+* [dagu](https://github.com/yohamta/dagu) - A just another Cron alternative with a Web UI, but with much more capabilities. It aims to solve greater problems.
+* [learngo](https://github.com/inancgumus/learngo) - ❤️ 1000+ Hand-Crafted Go Examples, Exercises, and Quizzes. 🚀 Learn Go by fixing 1000+ tiny programs.
+* [frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+* [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost
+* [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
+* [nuxui](https://github.com/nuxui/nuxui) - NuxUI is Golang GUI SDK for IOS, Android, macOS, Windows, Linux
 
 ### python
 
@@ -228,7 +259,28 @@
 * [textual](https://github.com/Textualize/textual) - Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
 * [dooit](https://github.com/kraanzu/dooit) - A TUI todo manager.
 * [shot-scraper](https://github.com/simonw/shot-scraper) - A comand-line utility for taking automated screenshots of websites
-
+* [ykdl](https://github.com/SeaHOH/ykdl) - a video downloader focus on China mainland video sites.
+* [PrettyTable](https://github.com/jazzband/prettytable) - Display tabular data in a visually appealing ASCII table format
+* [python-tabulate](https://github.com/astanin/python-tabulate) - Pretty-print tabular data in Python, a library and a command-line utility.
+* [texttable](https://github.com/foutaise/texttable) - Python module to create simple ASCII tables
+* [jina](https://github.com/jina-ai/jina) - Build cross-modal and multimodal applications on the cloud
+* [notifiers](https://github.com/liiight/notifiers) - The easy way to send notifications
+* [colorama](https://github.com/tartley/colorama) - Simple cross-platform colored terminal text in Python
+* [halo](https://github.com/manrajgrover/halo) - 💫 Beautiful spinners for terminal, IPython and Jupyter
+* [pritunl](https://github.com/pritunl/pritunl) - Enterprise VPN server
+* [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator, collection
+* [pygments](https://github.com/pygments/pygments) - Pygments is a generic syntax highlighter written in Python
+* [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
+* [PyWebIO](https://github.com/pywebio/PyWebIO) - Write interactive web app in script way.
+* [pexpect](https://github.com/pexpect/pexpect) - A Python module for controlling interactive programs in a pseudo-terminal
+* [bullet](https://github.com/bchao1/bullet) - 🚅 Interactive prompts made simple. Build a prompt like stacking blocks.
+* [simple-term-menu](https://github.com/IngoMeyer441/simple-term-menu) - A Python package which creates simple interactive menus on the command line.
+* [iredis](https://github.com/laixintao/iredis) - Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting.
+* [python-prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit) - Library for building powerful interactive command line applications in Python
+* [HibiAPI](https://github.com/mixmoe/HibiAPI) - 一个实现了多种常用站点的易用化API的程序
+* [rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background.
+* [mkdocs](https://github.com/mkdocs/mkdocs) - Project documentation with Markdown.
+* [dunamai](https://github.com/mtkennerly/dunamai) - Dynamic versioning library and CLI
 
 ### rust
 
@@ -237,15 +289,32 @@
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
 * [py-spy](https://github.com/benfred/py-spy) - Sampling profiler for Python programs.
 * [tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+* [rust-search-extension](https://github.com/huhu/rust-search-extension) - 🦀 The ultimate search extension for Rust
+* [langs-in-rust](https://github.com/alilleybrinker/langs-in-rust) - A list of programming languages implemented in Rust, for inspiration.
+
+### shell
+
+* [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
+* [vim-plug](https://github.com/junegunn/vim-plug) - 🌺 Minimalist Vim Plugin Manager
 
 
-### Organization
+### Organization & Forum & Blog
 
 * [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
 * [overnote](https://github.com/overnote) - 笔记
+* [gopherdaily](https://github.com/bigwhite/gopherdaily) - the archive of gopher daily articles.
+* [overnote](https://github.com/overnote) - overnote
+* [edgedb](https://github.com/edgedb) - A next-generation graph-relational database.
 
-### others && online tools
+### tools
 
+* [siyuan](https://github.com/siyuan-note/siyuan) - local-first personal knowledge management system
+* [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.
+* [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - Roadmap to becoming a developer in 2022
+* [Fira Code](https://github.com/tonsky/FiraCode) - Free monospaced font with programming ligatures
+* [modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
+* [godbolt.](https://godbolt.org/) - 各语言的汇编查看
+* [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 * [regexper](https://regexper.com/) - 正则表达式可视化
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - 🔧 Cross-platform GUI management tool for Redis
 * [crontab](https://crontab.guru/) - 在线验证crontab表达式
@@ -263,4 +332,16 @@
 ### books
 
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
+* [advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) - 📚 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿)
+* [english-words](https://github.com/dwyl/english-words) - 📝 A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion
+* [WTF-Solidity](https://github.com/AmazingAng/WTF-Solidity) - Solidity教程
+* [Go42](https://github.com/ffhelicopter/Go42) - 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。
+* [vim-doc](https://github.com/yianwillis/vimcdoc) - Vim 中文文档计划
+
+
+### (begin|end)with-awesome library
+
+* [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
+* [architect-awesome](https://github.com/xingshaocheng/architect-awesome) - 后端架构师技术图谱
+* [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins, themes and tutorials.
 
