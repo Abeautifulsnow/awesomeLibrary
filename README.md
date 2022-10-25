@@ -8,10 +8,10 @@
   - [python](#python)
   - [rust](#rust)
   - [shell](#shell)
-  - [Organization & Forum & Blog](#Organization & Forum & Blog)
+  - [Organization & Forum & Blog](#Organization-Forum-Blog)
   - [tools](#tools)
   - [books](#books)
-  - [(begin|end)with-awesome library](#(begin|end)with-awesome library)
+  - [(begin|end)with-awesome library](#(begin|end)with-awesome-library)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -298,7 +298,7 @@
 * [vim-plug](https://github.com/junegunn/vim-plug) - 🌺 Minimalist Vim Plugin Manager
 
 
-### Organization & Forum & Blog
+### Organization-Forum-Blog
 
 * [nats-io](https://github.com/nats-io) NATS - The Cloud Native Messaging System
 * [overnote](https://github.com/overnote) - 笔记
@@ -339,7 +339,7 @@
 * [vim-doc](https://github.com/yianwillis/vimcdoc) - Vim 中文文档计划
 
 
-### (begin|end)with-awesome library
+### (begin|end)with-awesome-library
 
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
 * [architect-awesome](https://github.com/xingshaocheng/architect-awesome) - 后端架构师技术图谱
