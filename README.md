@@ -112,7 +112,6 @@
 * [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 
 ### go
-
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
 * [gin](https://github.com/gin-gonic/gin) 优秀的go后端web框架
 * [Prometheus](https://github.com/prometheus/prometheus) 监控系统
@@ -215,9 +214,12 @@
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost
 * [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 * [nuxui](https://github.com/nuxui/nuxui) - NuxUI is Golang GUI SDK for IOS, Android, macOS, Windows, Linux
+* [Yatai](https://github.com/bentoml/Yatai) - Model Deployment at Scale on Kubernetes 🦄️
+* [retry-go](https://github.com/avast/retry-go) - Simple golang library for retry mechanism
+* [answer](https://github.com/answerdev/answer) - About An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
+* [clipboard](https://github.com/golang-design/clipboard) - cross-platform clipboard package that supports accessing text and image in Go
 
 ### python
-
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
 * [typer](https://github.com/tiangolo/typer) Typer, build great CLIs. Easy to code. Based on Python type hints.
 * [awesome-python](https://github.com/vinta/awesome-python) 精选的python库、框架、软件、资源列表集
@@ -281,9 +283,9 @@
 * [rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background.
 * [mkdocs](https://github.com/mkdocs/mkdocs) - Project documentation with Markdown.
 * [dunamai](https://github.com/mtkennerly/dunamai) - Dynamic versioning library and CLI
+* [aim](https://github.com/aimhubio/aim) - Aim 💫 — easy-to-use and performant open-source ML experiment tracker.
 
 ### rust
-
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
 * [writing-an-os-in-rust](https://github.com/rustcc/writing-an-os-in-rust) - 使用Rust编写操作系统「中文译本」
 * [alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
@@ -291,6 +293,7 @@
 * [tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
 * [rust-search-extension](https://github.com/huhu/rust-search-extension) - 🦀 The ultimate search extension for Rust
 * [langs-in-rust](https://github.com/alilleybrinker/langs-in-rust) - A list of programming languages implemented in Rust, for inspiration.
+* [ruff](https://github.com/charliermarsh/ruff) - An extremely fast Python linter, written in Rust.
 
 ### shell
 
@@ -330,18 +333,17 @@
 
 
 ### books
-
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
 * [advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) - 📚 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿)
 * [english-words](https://github.com/dwyl/english-words) - 📝 A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion
 * [WTF-Solidity](https://github.com/AmazingAng/WTF-Solidity) - Solidity教程
 * [Go42](https://github.com/ffhelicopter/Go42) - 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。
 * [vim-doc](https://github.com/yianwillis/vimcdoc) - Vim 中文文档计划
-
+* [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Discover the latest machine learning / AI courses on YouTube.
 
 ### awesome-library
-
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
 * [architect-awesome](https://github.com/xingshaocheng/architect-awesome) - 后端架构师技术图谱
 * [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins, themes and tutorials.
+* [awesome-hand-pose-estimation](https://github.com/xinghaochen/awesome-hand-pose-estimation) - Awesome work on hand pose estimation/tracking
 

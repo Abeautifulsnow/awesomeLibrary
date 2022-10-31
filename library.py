@@ -170,7 +170,7 @@ if __name__ == "__main__":
     parser.add_argument("-a", "--repo_about", type=str, help="The description of github repository.")
     args = parser.parse_args()
 
-    mkd = MKDownControl("./test.md")
+    mkd = MKDownControl("README.md")
     head_new_content = mkd.append_new_content(
         header=args.header,
         repo_name=args.repo_name,
