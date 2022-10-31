@@ -1,6 +1,6 @@
+import argparse
 from pprint import pprint
 from typing import Dict, List, Union
-import argparse
 
 
 class ValueNotFoundError(BaseException):
@@ -163,19 +163,35 @@ class MKDownControl:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Add/Update new/old content to README.md file.")
+    parser = argparse.ArgumentParser(
+        description="Add/Update new/old content to README.md file."
+    )
     parser.add_argument("-t", "--header", type=str, help="The header of content.")
-    parser.add_argument("-n", "--repo_name", type=str, help="The name of github repository.")
-    parser.add_argument("-u", "--repo_url", type=str, help="The url of github repository.")
-    parser.add_argument("-a", "--repo_about", type=str, help="The description of github repository.")
+    parser.add_argument(
+        "-n", "--repo_name", type=str, help="The name of github repository."
+    )
+    parser.add_argument(
+        "-u", "--repo_url", type=str, help="The url of github repository."
+    )
+    parser.add_argument(
+        "-a", "--repo_about", type=str, help="The description of github repository."
+    )
+    parser.add_argument(
+        "-l", "--header_list", action="store_true", help="List these headers."
+    )
     args = parser.parse_args()
 
     mkd = MKDownControl("README.md")
-    head_new_content = mkd.append_new_content(
-        header=args.header,
-        repo_name=args.repo_name,
-        repo_url=args.repo_url,
-        repo_about=args.repo_about,
-    )
-    mkd.update_content(args.header, head_new_content)
-    pprint(mkd.restore_data_and_write())
+
+    if args.header_list:
+        headers = mkd.get_all_head()
+        pprint(headers)
+    else:
+        head_new_content = mkd.append_new_content(
+            header=args.header,
+            repo_name=args.repo_name,
+            repo_url=args.repo_url,
+            repo_about=args.repo_about,
+        )
+        mkd.update_content(args.header, head_new_content)
+        pprint(mkd.restore_data_and_write())
