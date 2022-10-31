@@ -1,5 +1,6 @@
 from pprint import pprint
 from typing import Dict, List, Union
+import argparse
 
 
 class ValueNotFoundError(BaseException):
@@ -86,6 +87,13 @@ class MKDownControl:
         return "\n" + ("#" * level_num) + " {}".format(title) + "\n"
 
     def set_new_content(self, *, repo_name: str, repo_url: str, repo_about: str) -> str:
+        """
+        Set new content for head.
+        :param repo_name: repo's name
+        :param repo_url: repo's url
+        :param repo_about: repo's about content
+        :return: new content
+        """
         content = f"* [{repo_name}]({repo_url}) - {repo_about}\n"
         return content
 
@@ -110,11 +118,12 @@ class MKDownControl:
         new_content = self.set_new_content(
             repo_name=repo_name, repo_url=repo_url, repo_about=repo_about
         )
+        head_content_length = len(head_content)
 
-        if len(head_content) == 0:
+        if head_content_length == 0:
             raise ValueNotFoundError(f"Not found {header}'s")
 
-        for i in range(len(head_content) - 1, -1, -1):
+        for i in range(head_content_length - 1, -1, -1):
             current_content = head_content[i]
             if "\n" == head_content[i] and not (
                 current_content.strip("").startswith("*")
@@ -154,12 +163,19 @@ class MKDownControl:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Add/Update new/old content to README.md file.")
+    parser.add_argument("-t", "--header", type=str, help="The header of content.")
+    parser.add_argument("-n", "--repo_name", type=str, help="The name of github repository.")
+    parser.add_argument("-u", "--repo_url", type=str, help="The url of github repository.")
+    parser.add_argument("-a", "--repo_about", type=str, help="The description of github repository.")
+    args = parser.parse_args()
+
     mkd = MKDownControl("./test.md")
     head_new_content = mkd.append_new_content(
-        header="go",
-        repo_name="glow",
-        repo_url="https://github.com/charmbracelet/glow",
-        repo_about="Render markdown on the CLI, with pizzazz! 💅🏻",
+        header=args.header,
+        repo_name=args.repo_name,
+        repo_url=args.repo_url,
+        repo_about=args.repo_about,
     )
-    mkd.update_content("go", head_new_content)
+    mkd.update_content(args.header, head_new_content)
     pprint(mkd.restore_data_and_write())
