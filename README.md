@@ -2,7 +2,7 @@
 
 - [其它](#其它)
 - [语言资源库](#语言资源库)
-  - [typecript](#typecript)
+  - [typescript](#typescript)
   - [JavaScript](#javascript)
   - [go](#go)
   - [python](#python)
@@ -26,8 +26,7 @@
 
 ## 语言资源库
 
-### typecript
-
+### typescript
 * [typeorm](https://github.com/typeorm/typeorm) 支持typescript的orm库
 * [pg-god](https://github.com/ivawzh/pg-god) postgresql创建or删除的库
 * [nestjs](https://github.com/nestjs/nest) nodejs中支持typescript最好的后端框架
@@ -80,6 +79,7 @@
 * [windicss](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
 * [memlab](https://github.com/facebook/memlab) - A framework for finding JavaScript memory leaks and analyzing heap snapshots
 * [naive-ui](https://github.com/tusen-ai/naive-ui) - A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.
+* [outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, realtime, feature rich, and markdown compatible.
 
 ### JavaScript
 
@@ -218,6 +218,8 @@
 * [retry-go](https://github.com/avast/retry-go) - Simple golang library for retry mechanism
 * [answer](https://github.com/answerdev/answer) - About An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
 * [clipboard](https://github.com/golang-design/clipboard) - cross-platform clipboard package that supports accessing text and image in Go
+* [gf](https://github.com/gogf/gf) - GoFrame is a modular, powerful, high-performance and enterprise-class application development framework of Golang.
+* [consul](https://github.com/hashicorp/consul) - Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架

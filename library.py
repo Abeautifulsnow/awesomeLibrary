@@ -121,7 +121,7 @@ class MKDownControl:
         head_content_length = len(head_content)
 
         if head_content_length == 0:
-            raise ValueNotFoundError(f"Not found {header}'s")
+            raise ValueNotFoundError(f"Not found header:「{header}」")
 
         for i in range(head_content_length - 1, -1, -1):
             current_content = head_content[i]
@@ -194,4 +194,6 @@ if __name__ == "__main__":
             repo_about=args.repo_about,
         )
         mkd.update_content(args.header, head_new_content)
-        pprint(mkd.restore_data_and_write())
+        mkd.restore_data_and_write()
+        # Print last five elements.
+        pprint(mkd.get_head_content(args.header)[-5:])
