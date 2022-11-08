@@ -196,4 +196,5 @@ if __name__ == "__main__":
         mkd.update_content(args.header, head_new_content)
         mkd.restore_data_and_write()
         # Print last five elements.
+        print("last five elements are displayed here".center(80, "*"))
         pprint(mkd.get_head_content(args.header)[-5:])

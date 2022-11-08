@@ -80,9 +80,15 @@
 * [memlab](https://github.com/facebook/memlab) - A framework for finding JavaScript memory leaks and analyzing heap snapshots
 * [naive-ui](https://github.com/tusen-ai/naive-ui) - A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.
 * [outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, realtime, feature rich, and markdown compatible.
+* [primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps.
+* [taro](https://github.com/NervJS/taro) - 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。
+* [vant](https://github.com/youzan/vant) - Lightweight Mobile UI Components built on Vue
+* [quark-design](https://github.com/hellof2e/quark-design) - Next generation Frontend component library, it can be used in any framework or no framework at the same time.
+* [solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
+* [hope-ui](https://github.com/hope-ui/hope-ui) - 🤞 The SolidJS component library you've hoped for.
+* [remix](https://github.com/remix-run/remix) - Build Better Websites. Create modern, resilient user experiences with web fundamentals.
 
 ### JavaScript
-
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
 * [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) 命令行工具接口
 * [hoppscotch](https://github.com/hoppscotch/hoppscotch) API接口调试
@@ -110,6 +116,8 @@
 * [strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
 * [next.js](https://github.com/vercel/next.js) - The React Framework.
 * [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
+* [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) - 🎨 ArtPlayer.js is a modern and full featured HTML5 video player
+* [remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
@@ -220,6 +228,7 @@
 * [clipboard](https://github.com/golang-design/clipboard) - cross-platform clipboard package that supports accessing text and image in Go
 * [gf](https://github.com/gogf/gf) - GoFrame is a modular, powerful, high-performance and enterprise-class application development framework of Golang.
 * [consul](https://github.com/hashicorp/consul) - Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
+* [wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -296,6 +305,7 @@
 * [rust-search-extension](https://github.com/huhu/rust-search-extension) - 🦀 The ultimate search extension for Rust
 * [langs-in-rust](https://github.com/alilleybrinker/langs-in-rust) - A list of programming languages implemented in Rust, for inspiration.
 * [ruff](https://github.com/charliermarsh/ruff) - An extremely fast Python linter, written in Rust.
+* [wasmer-python](https://github.com/wasmerio/wasmer-python) - 🐍🕸 WebAssembly runtime for Python
 
 ### shell
 
