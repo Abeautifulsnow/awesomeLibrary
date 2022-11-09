@@ -229,6 +229,7 @@
 * [gf](https://github.com/gogf/gf) - GoFrame is a modular, powerful, high-performance and enterprise-class application development framework of Golang.
 * [consul](https://github.com/hashicorp/consul) - Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 * [wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
+* [server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
