@@ -230,6 +230,7 @@
 * [consul](https://github.com/hashicorp/consul) - Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
 * [wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 * [server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
+* [go-recipes](https://github.com/nikolaydubina/go-recipes) - <0001f9a9> Tools for Go projects
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
