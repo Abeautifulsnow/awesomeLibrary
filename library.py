@@ -1,6 +1,12 @@
 import argparse
-from pprint import pprint
-from typing import Dict, List, Union
+from typing import List, TypedDict, Union
+
+from pretty_print import Pprint, PrintJson, PrintMarkDown
+
+
+class MDContent(TypedDict):
+    head: str
+    content: List[str]
 
 
 class ValueNotFoundError(BaseException):
@@ -12,19 +18,17 @@ class ValueNotFoundError(BaseException):
 class MKDownControl:
     def __init__(self, file_abs_path: str) -> None:
         self.file_path = file_abs_path
-        self.md_content_list: List[Dict[str, Union[str, List[str]]]] = self.get_content(
-            self.file_path
-        )
+        self.md_content_list: List[MDContent] = self.get_content(self.file_path)
 
-    def get_content(self, file_name: str) -> List[Dict[str, Union[str, List[str]]]]:
-        content_list = []
-        tmp_dict = {}
+    def get_content(self, file_name: str) -> List[MDContent]:
+        content_list: List[MDContent] = []
+        tmp_dict: MDContent = MDContent(head="", content=[])
         with open(file_name, "r", encoding="utf-8") as f_r:
             for line in f_r:
                 if line.startswith("#"):
                     if len(tmp_dict.keys()) != 0:
                         content_list.append(tmp_dict)
-                        tmp_dict = {}
+                        tmp_dict = MDContent(head="", content=[])
 
                     tmp_dict["head"] = line
                     tmp_dict["content"] = []
@@ -44,9 +48,10 @@ class MKDownControl:
         return headers
 
     def get_head_content(self, head: str) -> Union[str, List[str]]:
-        content = []
+        content: Union[str, List[str]] = []
         head = head.lower()
         for item in self.md_content_list:
+            # Refer to: https://stackoverflow.com/questions/63829680/type-assertion-in-mypy
             if head in item["head"].lower():
                 content = item["content"]
 
@@ -99,7 +104,7 @@ class MKDownControl:
 
     def append_new_content(
         self, *, header: str, repo_name: str, repo_url: str, repo_about: str
-    ) -> Union[str, List[str]]:
+    ) -> List[str]:
         """Add new content to the body of the corresponding header.
 
         Args:
@@ -112,9 +117,10 @@ class MKDownControl:
             ValueNotFoundError: ...
 
         Returns:
-            Union[str, List[str]]: [...]
+            List[str]: [...]
         """
         head_content = self.get_head_content(header)
+        assert isinstance(head_content, list)
         new_content = self.set_new_content(
             repo_name=repo_name, repo_url=repo_url, repo_about=repo_about
         )
@@ -135,12 +141,12 @@ class MKDownControl:
 
         return head_content
 
-    def update_content(self, head: str, new_content: Union[str, List[str]]):
+    def update_content(self, head: str, new_content: List[str]):
         """Add new content to the body of the corresponding header.
 
         Args:
             head (str): the title of the content.
-            new_content (Union[str, List[str]]): new content.
+            new_content (List[str]): new content.
         """
         head = head.lower()
         for item in self.md_content_list:
@@ -166,18 +172,24 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Add/Update new/old content to README.md file."
     )
-    parser.add_argument("-t", "--header", type=str, help="The header of content.")
-    parser.add_argument(
+
+    group_add = parser.add_argument_group("add")
+    group_add.add_argument("-t", "--header", type=str, help="The header of content.")
+    group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of github repository."
     )
-    parser.add_argument(
+    group_add.add_argument(
         "-u", "--repo_url", type=str, help="The url of github repository."
     )
-    parser.add_argument(
+    group_add.add_argument(
         "-a", "--repo_about", type=str, help="The description of github repository."
     )
+
     parser.add_argument(
         "-l", "--header_list", action="store_true", help="List these headers."
+    )
+    parser.add_argument(
+        "-c", "--header_content", action="store_true", help="Present header's content."
     )
     args = parser.parse_args()
 
@@ -185,7 +197,9 @@ if __name__ == "__main__":
 
     if args.header_list:
         headers = mkd.get_all_head()
-        pprint(headers)
+        Pprint.pretty_print(headers)
+    elif args.header_content:
+        ...
     else:
         head_new_content = mkd.append_new_content(
             header=args.header,
@@ -197,4 +211,4 @@ if __name__ == "__main__":
         mkd.restore_data_and_write()
         # Print last five elements.
         print("last five elements are displayed here".center(80, "*"))
-        pprint(mkd.get_head_content(args.header)[-5:])
+        PrintMarkDown.pretty_print(mkd.get_head_content(args.header)[-5:])
