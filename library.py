@@ -1,7 +1,8 @@
 import argparse
+import json
 from typing import List, TypedDict, Union
 
-from pretty_print import Pprint, PrintJson, PrintMarkDown
+from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
 
 
 class MDContent(TypedDict):
@@ -49,7 +50,10 @@ class MKDownControl:
 
     def get_head_content(self, head: str) -> Union[str, List[str]]:
         content: Union[str, List[str]] = []
-        head = head.lower()
+        if head:
+            head = head.lower()
+        else:
+            raise ValueNotFoundError(f"head: `{head}` not exist...")
         for item in self.md_content_list:
             # Refer to: https://stackoverflow.com/questions/63829680/type-assertion-in-mypy
             if head in item["head"].lower():
@@ -121,6 +125,15 @@ class MKDownControl:
         """
         head_content = self.get_head_content(header)
         assert isinstance(head_content, list)
+        for repo_key, repo_value in {
+            "repo_name": repo_name,
+            "repo_url": repo_url,
+            "repo_about": repo_about,
+        }.items():
+            assert (
+                repo_value is not None
+            ), f"Variable [{repo_key}]'s value expected a string type of data, got {repo_value}"
+
         new_content = self.set_new_content(
             repo_name=repo_name, repo_url=repo_url, repo_about=repo_about
         )
@@ -148,7 +161,14 @@ class MKDownControl:
             head (str): the title of the content.
             new_content (List[str]): new content.
         """
-        head = head.lower()
+        if head:
+            head = head.lower()
+        else:
+            raise ValueNotFoundError(f"head: `{head}` not exist...")
+
+        if new_content is None:
+            raise ValueError(f"Content of {head} can not be None, expected: list type.")
+
         for item in self.md_content_list:
             if head in item["head"].lower():
                 item["content"] = new_content
@@ -173,8 +193,12 @@ if __name__ == "__main__":
         description="Add/Update new/old content to README.md file."
     )
 
-    group_add = parser.add_argument_group("add")
-    group_add.add_argument("-t", "--header", type=str, help="The header of content.")
+    parser.add_argument("-t", "--header", type=str, help="The header of content.")
+
+    group_add_parser = parser.add_subparsers(
+        title="Sub-parser commands...", dest="add_sub_command"
+    )
+    group_add = group_add_parser.add_parser("add")
     group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of github repository."
     )
@@ -185,30 +209,42 @@ if __name__ == "__main__":
         "-a", "--repo_about", type=str, help="The description of github repository."
     )
 
+    # others
     parser.add_argument(
-        "-l", "--header_list", action="store_true", help="List these headers."
-    )
-    parser.add_argument(
-        "-c", "--header_content", action="store_true", help="Present header's content."
+        "-l",
+        "--header_list",
+        action="store_true",
+        help="List these headers.",
     )
     args = parser.parse_args()
+    print(args)
 
     mkd = MKDownControl("README.md")
 
     if args.header_list:
         headers = mkd.get_all_head()
-        Pprint.pretty_print(headers)
-    elif args.header_content:
-        ...
-    else:
-        head_new_content = mkd.append_new_content(
-            header=args.header,
-            repo_name=args.repo_name,
-            repo_url=args.repo_url,
-            repo_about=args.repo_about,
-        )
-        mkd.update_content(args.header, head_new_content)
-        mkd.restore_data_and_write()
-        # Print last five elements.
-        print("last five elements are displayed here".center(80, "*"))
-        PrintMarkDown.pretty_print(mkd.get_head_content(args.header)[-5:])
+        AllConsole(headers, Pprint).pretty_out()
+    elif args.header:
+        if not args.add_sub_command:
+            {
+                AllConsole(line.strip("\n"), PrintMarkDown).pretty_out()
+                for line in mkd.get_head_content(args.header)
+                if line != "\n"
+            }
+        else:
+            head_new_content = mkd.append_new_content(
+                header=args.header,
+                repo_name=args.repo_name,
+                repo_url=args.repo_url,
+                repo_about=args.repo_about,
+            )
+            mkd.update_content(args.header, head_new_content)
+            mkd.restore_data_and_write()
+            # Print last five elements. Not include [\n].
+            print("last five elements are displayed here".center(80, "*"))
+            json_list = [
+                line.rstrip("\n")
+                for line in mkd.get_head_content(args.header)[-6:]
+                if line != "\n"
+            ]
+            AllConsole(json.dumps(json_list), PrintJson).pretty_out()

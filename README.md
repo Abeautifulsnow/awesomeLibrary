@@ -232,6 +232,7 @@
 * [server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
 * [go-recipes](https://github.com/nikolaydubina/go-recipes) - <0001f9a9> Tools for Go projects
 * [go-term-markdown](https://github.com/MichaelMure/go-term-markdown) - A markdown renderer package for the terminal
+* [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -355,6 +356,7 @@
 * [Go42](https://github.com/ffhelicopter/Go42) - 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。
 * [vim-doc](https://github.com/yianwillis/vimcdoc) - Vim 中文文档计划
 * [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Discover the latest machine learning / AI courses on YouTube.
+* [conference](https://github.com/gopherchina/conference) - Golang Conference PPT
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
