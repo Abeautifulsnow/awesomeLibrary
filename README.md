@@ -301,6 +301,8 @@
 * [dunamai](https://github.com/mtkennerly/dunamai) - Dynamic versioning library and CLI
 * [aim](https://github.com/aimhubio/aim) - Aim 💫 — easy-to-use and performant open-source ML experiment tracker.
 * [aio-libs](https://github.com/aio-libs) - The set of asyncio-based libraries built with high quality
+* [scipy](https://github.com/scipy/scipy) - an open-source software for mathematics, science, and engineering. 
+* [moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
