@@ -299,6 +299,7 @@
 * [mkdocs](https://github.com/mkdocs/mkdocs) - Project documentation with Markdown.
 * [dunamai](https://github.com/mtkennerly/dunamai) - Dynamic versioning library and CLI
 * [aim](https://github.com/aimhubio/aim) - Aim 💫 — easy-to-use and performant open-source ML experiment tracker.
+* [aio-libs](https://github.com/aio-libs) - The set of asyncio-based libraries built with high quality
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
