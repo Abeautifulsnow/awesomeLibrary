@@ -233,6 +233,7 @@
 * [go-recipes](https://github.com/nikolaydubina/go-recipes) - <0001f9a9> Tools for Go projects
 * [go-term-markdown](https://github.com/MichaelMure/go-term-markdown) - A markdown renderer package for the terminal
 * [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
+* [NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Real-time microphone noise suppression on Linux.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
