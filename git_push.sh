@@ -82,9 +82,11 @@ function get_help() {
 	local commit_in
 	local branch_in
 
-	if [[ $# -lt 1 ]]; then
+	if [[ $# -lt 0 ]]; then
 		Error_print
 		return
+	elif [[ $# == 0 ]]; then
+		echo
 	elif [[ $# -ge 1 && $# -lt 5 ]]; then
 		local mFirst=0
 		local bFirst=0
