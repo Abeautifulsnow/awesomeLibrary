@@ -315,6 +315,7 @@
 * [langs-in-rust](https://github.com/alilleybrinker/langs-in-rust) - A list of programming languages implemented in Rust, for inspiration.
 * [ruff](https://github.com/charliermarsh/ruff) - An extremely fast Python linter, written in Rust.
 * [wasmer-python](https://github.com/wasmerio/wasmer-python) - 🐍🕸 WebAssembly runtime for Python
+* [Rocket](https://github.com/SergioBenitez/Rocket) - A web framework for Rust.
 
 ### shell
 
