@@ -316,6 +316,7 @@
 * [ruff](https://github.com/charliermarsh/ruff) - An extremely fast Python linter, written in Rust.
 * [wasmer-python](https://github.com/wasmerio/wasmer-python) - 🐍🕸 WebAssembly runtime for Python
 * [Rocket](https://github.com/SergioBenitez/Rocket) - A web framework for Rust.
+* [yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
 
 ### shell
 
