@@ -4,6 +4,7 @@ import re
 from typing import List, TypedDict, Union
 
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
+from validator import URLValidator, ValidationError
 
 
 class MDContent(TypedDict):
@@ -125,11 +126,15 @@ class MKDownControl:
         :param repo_about: repo's about content
         :return: new content
         """
-        assert repo_url.startswith(
-            ("http://", "https://")
-        ), f"{repo_url} is not a valid URL."
-        content = f"* [{repo_name}]({repo_url}) - {repo_about}\n"
-        return content
+        try:
+            URLValidator()(repo_url)
+        except ValidationError:
+            raise ValidationError(
+                f"{repo_url}", code="Invalid", params={"value": repo_url}
+            )
+        else:
+            content = f"* [{repo_name}]({repo_url}) - {repo_about}\n"
+            return content
 
     def append_new_content(
         self, *, header: str, repo_name: str, repo_url: str, repo_about: str
