@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 from typing import List, TypedDict, Union
 
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
@@ -10,8 +11,14 @@ class MDContent(TypedDict):
     content: List[str]
 
 
-class ValueNotFoundError(BaseException):
+class ValueNotFoundError(Exception):
     """If there's no response returned, throw this error."""
+
+    ...
+
+
+class RepeatValueError(Exception):
+    """If the item already exists, throw this error."""
 
     ...
 
@@ -125,6 +132,13 @@ class MKDownControl:
         """
         head_content = self.get_head_content(header)
         assert isinstance(head_content, list)
+
+        for item in head_content:
+            # [aim] [halo] etc.
+            item_name = re.search("(?<!!)\[(.*?)\]", item)
+            if item_name and repo_name in item_name.group():
+                raise RepeatValueError(f"`{repo_name}` already exists.")
+
         for repo_key, repo_value in {
             "repo_name": repo_name,
             "repo_url": repo_url,
@@ -196,9 +210,9 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--header", type=str, help="The header of content.")
 
     group_add_parser = parser.add_subparsers(
-        title="Sub-parser commands...", dest="add_sub_command"
+        title="Sub-parser commands", dest="sub_command"
     )
-    group_add = group_add_parser.add_parser("add")
+    group_add = group_add_parser.add_parser("add", help="Add new data to content.")
     group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of github repository."
     )
@@ -225,26 +239,27 @@ if __name__ == "__main__":
         headers = mkd.get_all_head()
         AllConsole(headers, Pprint).pretty_out()
     elif args.header:
-        if not args.add_sub_command:
+        if not args.sub_command:
             {
                 AllConsole(line.strip("\n"), PrintMarkDown).pretty_out()
                 for line in mkd.get_head_content(args.header)
                 if line != "\n"
             }
         else:
-            head_new_content = mkd.append_new_content(
-                header=args.header,
-                repo_name=args.repo_name,
-                repo_url=args.repo_url,
-                repo_about=args.repo_about,
-            )
-            mkd.update_content(args.header, head_new_content)
-            mkd.restore_data_and_write()
-            # Print last five elements. Not include [\n].
-            print("last five elements are displayed here".center(80, "*"))
-            json_list = [
-                line.rstrip("\n")
-                for line in mkd.get_head_content(args.header)[-6:]
-                if line != "\n"
-            ]
-            AllConsole(json.dumps(json_list), PrintJson).pretty_out()
+            if args.sub_command == "add":
+                head_new_content = mkd.append_new_content(
+                    header=args.header,
+                    repo_name=args.repo_name,
+                    repo_url=args.repo_url,
+                    repo_about=args.repo_about,
+                )
+                mkd.update_content(args.header, head_new_content)
+                mkd.restore_data_and_write()
+                # Print last five elements. Not include [\n].
+                print("last five elements are displayed here".center(80, "*"))
+                json_list = [
+                    line.rstrip("\n")
+                    for line in mkd.get_head_content(args.header)[-6:]
+                    if line != "\n"
+                ]
+                AllConsole(json.dumps(json_list), PrintJson).pretty_out()

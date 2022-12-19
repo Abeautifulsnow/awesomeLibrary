@@ -14,22 +14,28 @@ class PrettyPrint(metaclass=ABCMeta):
 
 
 class PrintMarkDown(PrettyPrint):
+    """Render Markdown to the console."""
+
     @classmethod
-    def pretty_print(cls, content: Any):
+    def pretty_print(cls, content: Any, *args, **kwargs):
         md = Markdown(content)
-        Console().print(md)
+        Console().print(md, *args, **kwargs)
 
 
 class PrintJson(PrettyPrint):
+    """Pretty prints JSON. Output will be valid JSON."""
+
     @classmethod
-    def pretty_print(cls, content: Any):
-        Console().print_json(content)
+    def pretty_print(cls, content: Any, *args, **kwargs):
+        Console().print_json(content, *args, **kwargs)
 
 
 class Pprint(PrettyPrint):
+    """A convenience function for pretty printing."""
+
     @classmethod
-    def pretty_print(cls, content: Any):
-        pprint(content)
+    def pretty_print(cls, content: Any, *args, **kwargs):
+        pprint(content, *args, **kwargs)
 
 
 ####################################
@@ -38,5 +44,5 @@ class AllConsole:
         self._content: Any = content
         self._console = consoleCls
 
-    def pretty_out(self):
-        self._console.pretty_print(self._content)
+    def pretty_out(self, *args, **kwargs):
+        self._console.pretty_print(self._content, *args, **kwargs)
