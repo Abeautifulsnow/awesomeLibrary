@@ -235,6 +235,7 @@
 * [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 * [NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Real-time microphone noise suppression on Linux.
 * [filebrowser](https://github.com/filebrowser/filebrowser) - 📂 Web File Browser
+* [git-xargs](https://github.com/gruntwork-io/git-xargs) - git-xargs is a command-line tool (CLI) for making updates across multiple Github repositories with a single command.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架

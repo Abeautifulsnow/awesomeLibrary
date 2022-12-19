@@ -49,7 +49,7 @@ class MKDownControl:
 
         return content_list
 
-    def get_all_head(self):
+    def get_all_head(self) -> List[str]:
         headers = []
         for item in self.md_content_list:
             headers.append(item["head"].strip("\n# "))
@@ -100,7 +100,22 @@ class MKDownControl:
                 "level's expected value: 1, 2, 3, 4, 5 or 6, but level = " + str(level)
             )
 
-        return "\n" + ("#" * level_num) + " {}".format(title) + "\n"
+        return "\n" + ("#" * level_num) + " {}".format(title) + "\n\n"
+
+    def set_new_header(self, header: str, level: int):
+        """Set a new header.
+
+        Args:
+            header (str): _description_
+            level (int): _description_
+
+        Returns:
+            A title that conforms to Markdown syntax.
+        """
+        assert header not in [
+            head.lower() for head in self.get_all_head()
+        ], f"{header} already exists, you can `python {__file__} -l` command to list them."
+        return self.set_level_num_header(header, level)
 
     def set_new_content(self, *, repo_name: str, repo_url: str, repo_about: str) -> str:
         """
@@ -110,6 +125,9 @@ class MKDownControl:
         :param repo_about: repo's about content
         :return: new content
         """
+        assert repo_url.startswith(
+            ("http://", "https://")
+        ), f"{repo_url} is not a valid URL."
         content = f"* [{repo_name}]({repo_url}) - {repo_about}\n"
         return content
 
@@ -131,6 +149,10 @@ class MKDownControl:
             List[str]: [...]
         """
         head_content = self.get_head_content(header)
+
+        # head is not existence.
+        if head_content is None:
+            head_content = []
         assert isinstance(head_content, list)
 
         for item in head_content:
@@ -153,16 +175,14 @@ class MKDownControl:
         )
         head_content_length = len(head_content)
 
-        if head_content_length == 0:
-            raise ValueNotFoundError(f"Not found header:「{header}」")
-
-        for i in range(head_content_length - 1, -1, -1):
-            current_content = head_content[i]
-            if "\n" == head_content[i] and not (
-                current_content.strip("").startswith("*")
-                or current_content.strip("").startswith("-")
-            ):
-                del head_content[i]
+        if head_content_length > 0:
+            for i in range(head_content_length - 1, -1, -1):
+                current_content = head_content[i]
+                if "\n" == head_content[i] and not (
+                    current_content.strip("").startswith("*")
+                    or current_content.strip("").startswith("-")
+                ):
+                    del head_content[i]
 
         head_content.extend([new_content, "\n"])
 
@@ -178,14 +198,21 @@ class MKDownControl:
         if head:
             head = head.lower()
         else:
-            raise ValueNotFoundError(f"head: `{head}` not exist...")
+            raise ValueNotFoundError(f"head: `{head}` cannot be None...")
 
         if new_content is None:
             raise ValueError(f"Content of {head} can not be None, expected: list type.")
 
+        exist_flag = False
         for item in self.md_content_list:
             if head in item["head"].lower():
+                exist_flag = True
                 item["content"] = new_content
+
+        if not exist_flag:
+            # head not exist.
+            new_head = self.set_new_header(head, 3)
+            self.md_content_list.append({"head": new_head, "content": new_content})
 
     def restore_data_and_write(self) -> List[str]:
         writable_data = []
