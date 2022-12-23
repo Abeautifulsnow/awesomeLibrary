@@ -321,6 +321,7 @@ Task scheduling library for Python
 * [wasmer-python](https://github.com/wasmerio/wasmer-python) - 🐍🕸 WebAssembly runtime for Python
 * [Rocket](https://github.com/SergioBenitez/Rocket) - A web framework for Rust.
 * [yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
+* [clash-verge](https://github.com/zzzgydi/clash-verge) - A Clash GUI based on tauri. Supports Windows, macOS and Linux.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
