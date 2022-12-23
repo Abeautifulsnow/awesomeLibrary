@@ -323,10 +323,9 @@ Task scheduling library for Python
 * [yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
 
 ### shell
-
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
 * [vim-plug](https://github.com/junegunn/vim-plug) - 🌺 Minimalist Vim Plugin Manager
-
+* [ShellClash](https://github.com/juewuy/ShellClash) - One-click deployment and management of Clash services using Shell scripts in Linux environment
 
 ### Organization-Forum-Blog
 
