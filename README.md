@@ -306,8 +306,8 @@
 * [aio-libs](https://github.com/aio-libs) - The set of asyncio-based libraries built with high quality
 * [scipy](https://github.com/scipy/scipy) - an open-source software for mathematics, science, and engineering. 
 * [moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
-* [apscheduler](https://github.com/agronholm/apscheduler) - About
-Task scheduling library for Python
+* [apscheduler](https://github.com/agronholm/apscheduler) - Task scheduling library for Python
+* [platformdirs](https://github.com/platformdirs/platformdirs) - A small Python module for determining appropriate platform-specific dirs, e.g. a <user data dir>.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
