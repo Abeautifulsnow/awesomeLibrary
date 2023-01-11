@@ -308,6 +308,7 @@
 * [moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
 * [apscheduler](https://github.com/agronholm/apscheduler) - Task scheduling library for Python
 * [platformdirs](https://github.com/platformdirs/platformdirs) - A small Python module for determining appropriate platform-specific dirs, e.g. a <user data dir>.
+* [langchain](https://github.com/hwchase17/langchain) - ⚡ Building applications with LLMs through composability ⚡
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
