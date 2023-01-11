@@ -309,6 +309,7 @@
 * [apscheduler](https://github.com/agronholm/apscheduler) - Task scheduling library for Python
 * [platformdirs](https://github.com/platformdirs/platformdirs) - A small Python module for determining appropriate platform-specific dirs, e.g. a <user data dir>.
 * [langchain](https://github.com/hwchase17/langchain) - ⚡ Building applications with LLMs through composability ⚡
+* [fast_amis_admin](https://github.com/amisadmin/fastapi_amis_admin) - A high-performance, efficient and easily extensible FastAPI admin framework. Inspired by django-admin, and has as many powerful functions as django-admin.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
