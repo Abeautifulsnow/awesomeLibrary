@@ -237,6 +237,7 @@
 * [filebrowser](https://github.com/filebrowser/filebrowser) - 📂 Web File Browser
 * [git-xargs](https://github.com/gruntwork-io/git-xargs) - git-xargs is a command-line tool (CLI) for making updates across multiple Github repositories with a single command.
 * [brook](https://github.com/txthinking/brook) - A cross-platform network tool designed for developers. 一个为开发者设计的跨平台网络工具.
+* [d2](https://github.com/terrastruct/d2) - D2 is a modern diagram scripting language that turns text to diagrams.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
