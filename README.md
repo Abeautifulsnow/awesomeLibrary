@@ -330,6 +330,7 @@
 * [yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
 * [clash-verge](https://github.com/zzzgydi/clash-verge) - A Clash GUI based on tauri. Supports Windows, macOS and Linux.
 * [actix-web](https://github.com/actix/actix-web) - Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.
+* [atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
