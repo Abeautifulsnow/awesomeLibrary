@@ -378,6 +378,7 @@
 * [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Discover the latest machine learning / AI courses on YouTube.
 * [conference](https://github.com/gopherchina/conference) - Golang Conference PPT
 * [my-ebook](https://github.com/rmlzy/my-ebook) - 我收集的电子书, 主要是软件开发方向
+* [rust-course](https://github.com/sunface/rust-course) - Rust语言圣经
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
