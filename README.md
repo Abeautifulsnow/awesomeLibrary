@@ -316,6 +316,7 @@
 * [tuna](https://github.com/nschloe/tuna) - 🐟 Python profile viewer
 * [django-axes](https://github.com/jazzband/django-axes) - Keep track of failed login attempts in Django-powered sites.
 * [websockets](https://github.com/aaugustin/websockets) - Library for building WebSocket servers and clients in Python
+* [channels](https://github.com/django/channels) - Developer-friendly asynchrony for Django
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
