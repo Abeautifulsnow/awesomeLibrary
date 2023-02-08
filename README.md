@@ -240,6 +240,7 @@
 * [brook](https://github.com/txthinking/brook) - A cross-platform network tool designed for developers. 一个为开发者设计的跨平台网络工具.
 * [d2](https://github.com/terrastruct/d2) - D2 is a modern diagram scripting language that turns text to diagrams.
 * [jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform
+* [wtf](https://github.com/wtfutil/wtf) - The personal information dashboard for your terminal
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
