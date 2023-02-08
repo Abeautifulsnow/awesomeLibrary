@@ -315,6 +315,7 @@
 * [fast_amis_admin](https://github.com/amisadmin/fastapi_amis_admin) - A high-performance, efficient and easily extensible FastAPI admin framework. Inspired by django-admin, and has as many powerful functions as django-admin.
 * [tuna](https://github.com/nschloe/tuna) - 🐟 Python profile viewer
 * [django-axes](https://github.com/jazzband/django-axes) - Keep track of failed login attempts in Django-powered sites.
+* [websockets](https://github.com/aaugustin/websockets) - Library for building WebSocket servers and clients in Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
