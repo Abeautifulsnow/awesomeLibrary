@@ -241,6 +241,7 @@
 * [d2](https://github.com/terrastruct/d2) - D2 is a modern diagram scripting language that turns text to diagrams.
 * [jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform
 * [wtf](https://github.com/wtfutil/wtf) - The personal information dashboard for your terminal
+* [tproxy](https://github.com/kevwan/tproxy) - A cli tool to proxy and analyze TCP connections.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
