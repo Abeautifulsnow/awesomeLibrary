@@ -119,6 +119,7 @@
 * [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) - 🎨 ArtPlayer.js is a modern and full featured HTML5 video player
 * [remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
 * [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
+* [x-render](https://github.com/alibaba/x-render) - 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
