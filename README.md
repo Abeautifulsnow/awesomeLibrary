@@ -320,6 +320,7 @@
 * [django-axes](https://github.com/jazzband/django-axes) - Keep track of failed login attempts in Django-powered sites.
 * [websockets](https://github.com/aaugustin/websockets) - Library for building WebSocket servers and clients in Python
 * [channels](https://github.com/django/channels) - Developer-friendly asynchrony for Django
+* [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
