@@ -321,6 +321,7 @@
 * [websockets](https://github.com/aaugustin/websockets) - Library for building WebSocket servers and clients in Python
 * [channels](https://github.com/django/channels) - Developer-friendly asynchrony for Django
 * [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
+* [ormar](https://github.com/collerek/ormar) - python async orm with fastapi in mind and pydantic validation
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
