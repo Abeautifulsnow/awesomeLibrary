@@ -244,6 +244,7 @@
 * [wtf](https://github.com/wtfutil/wtf) - The personal information dashboard for your terminal
 * [tproxy](https://github.com/kevwan/tproxy) - A cli tool to proxy and analyze TCP connections.
 * [caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
