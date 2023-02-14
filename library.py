@@ -1,8 +1,10 @@
 import argparse
 import json
 import re
+import sys
 from typing import List, TypedDict, Union
 
+from panel import PanelOut
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
 from validator import URLValidator, ValidationError
 
@@ -24,6 +26,12 @@ class RepeatValueError(Exception):
     ...
 
 
+class ValueNotBeNoneError(Exception):
+    """If the value is `None`, throw this error."""
+
+    ...
+
+
 class MKDownControl:
     def __init__(self, file_abs_path: str) -> None:
         self.file_path = file_abs_path
@@ -35,7 +43,7 @@ class MKDownControl:
         with open(file_name, "r", encoding="utf-8") as f_r:
             for line in f_r:
                 if line.startswith("#"):
-                    if len(tmp_dict.keys()) != 0:
+                    if len(tmp_dict.keys()) != 0 and tmp_dict["head"] != "":
                         content_list.append(tmp_dict)
                         tmp_dict = MDContent(head="", content=[])
 
@@ -45,7 +53,7 @@ class MKDownControl:
                     tmp_dict["content"].append(line)
             else:
                 # 确保 tmp_dict 能被兜底
-                if len(tmp_dict.keys()) != 0:
+                if len(tmp_dict.keys()) != 0 and tmp_dict["head"]:
                     content_list.append(tmp_dict)
 
         return content_list
@@ -69,7 +77,7 @@ class MKDownControl:
 
         return content
 
-    def rewrite_all_file(self, data: List[str]):
+    def _rewrite_all_file(self, data: List[str]):
         """Re-write the content.
 
         Args:
@@ -164,7 +172,19 @@ class MKDownControl:
             # [aim] [halo] etc.
             item_name = re.search("(?<!!)\[(.*?)\]", item)
             if item_name and repo_name in item_name.group():
-                raise RepeatValueError(f"`{repo_name}` already exists.")
+                # raise RepeatValueError(f"`{repo_name}` already exists.")
+                repeat_tips = (
+                    f"💥[bold][red]`{repo_name}` already exists.[/red]"
+                    + f"\n🐛{item}"
+                    + f"See detail:".center(60, "*")
+                    + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {header} | grep '{repo_name}'"
+                )
+                PanelOut(
+                    repeat_tips,
+                    panel_title=f"🤧[bold][green]{header}",
+                    panel_foot=f"🙉[bold][green]RepeatContent",
+                )()
+                exit(1)
 
         for repo_key, repo_value in {
             "repo_name": repo_name,
@@ -198,7 +218,7 @@ class MKDownControl:
 
         Args:
             head (str): the title of the content.
-            new_content (List[str]): new content.
+            new_content (List[str]): new content list.
         """
         if head:
             head = head.lower()
@@ -216,10 +236,60 @@ class MKDownControl:
 
         if not exist_flag:
             # head not exist.
-            new_head = self.set_new_header(head, 3)
-            self.md_content_list.append({"head": new_head, "content": new_content})
+            no_header_tips = (
+                f"💥[bold][red]`{head}` does not exist.[/red]"
+                + f"You can do it:".center(60, "*")
+                + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {head}"
+            )
+            PanelOut(
+                no_header_tips,
+                panel_title=f"🤧[bold][green]Missing Header",
+                panel_foot=f"🙉[bold][green]ValueNotFoundError",
+            )()
+            exit(1)
+
+    def _insert_new_header(self, head: str):
+        """Insert new header into `语言资源库`.
+
+        Args:
+            head (str): New header's name.
+        """
+        if head:
+            head = head.lower()
+        else:
+            raise ValueNotBeNoneError(f"head: `{head}` cannot be None...")
+
+        # The header's level is default 3.
+        new_head = self.set_new_header(head, 3)
+        self.md_content_list.append({"head": new_head, "content": []})
+
+    def insert_contents_catalog(self, head: str):
+        contents = self.md_content_list
+        insert_value = f"  - [{head}](#{head})"
+
+        for content in contents:
+            if "# Contents" in content["head"]:
+                catalog = content["content"]
+
+                for i in range(len(catalog) - 1, -1, -1):
+                    catalog_item = catalog[i]
+                    rr = re.search(r"^( *-)(.*?)$", catalog_item)
+                    if rr and rr.group() != "":
+                        print(catalog_item.strip("\n"))
+                        content["content"].insert(i + 1, insert_value)
+                        break
+
+                break
+
+    def insert_new_header(self, head: str):
+        # append new header to file content
+        self._insert_new_header(head)
+
+        # insert new header into the tail of section `语言资源库`
+        self.insert_contents_catalog(head)
 
     def restore_data_and_write(self) -> List[str]:
+        """Overwrite the data completely."""
         writable_data = []
         try:
             if len(self.md_content_list) > 0:
@@ -227,24 +297,37 @@ class MKDownControl:
                     writable_data.append(item["head"])
                     writable_data.extend(item["content"])
 
-            self.rewrite_all_file(writable_data)
+            self._rewrite_all_file(writable_data)
 
             return writable_data
         except Exception as e:
             raise e
 
 
-if __name__ == "__main__":
+def prepare_args() -> "argparse.ArgumentParser":
     parser = argparse.ArgumentParser(
         description="Add/Update new/old content to README.md file."
     )
 
-    parser.add_argument("-t", "--header", type=str, help="The header of content.")
-
+    # sub-command
     group_add_parser = parser.add_subparsers(
         title="Sub-parser commands", dest="sub_command"
     )
-    group_add = group_add_parser.add_parser("add", help="Add new data to content.")
+
+    # show contents belong with title.
+    group_new = group_add_parser.add_parser(
+        "new",
+        help="Insert new title into file.",
+        description="Insert new title into file.",
+    )
+    group_new.add_argument(
+        "-t", "--new_title", type=str, help="Specify accurate title's name."
+    )
+
+    # add new data
+    group_add = group_add_parser.add_parser(
+        "add", help="Add new data to content.", description="Add new data to content."
+    )
     group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of github repository."
     )
@@ -256,24 +339,42 @@ if __name__ == "__main__":
     )
 
     # others
-    parser.add_argument(
+    parser_basic = parser.add_argument_group(
+        "Basic", "If there is no sub-cmd, only show contents below header."
+    )
+    parser_basic.add_argument(
+        "-t", "--header", type=str, help="String: The header of content."
+    )
+
+    parser_header = parser.add_argument_group("Header", "show all headers.")
+    parser_header.add_argument(
         "-l",
         "--header_list",
         action="store_true",
-        help="List these headers.",
+        help="Boolean: List all headers.",
     )
+
+    return parser
+
+
+if __name__ == "__main__":
+    parser = prepare_args()
     args = parser.parse_args()
-    print(args)
 
     mkd = MKDownControl("README.md")
 
-    if args.header_list:
+    def _pretty_print_all_header():
         headers = mkd.get_all_head()
-        AllConsole(headers, Pprint).pretty_out()
+        AllConsole(headers, Pprint).pretty_out(expand_all=True)
+
+    if args.header_list:
+        _pretty_print_all_header()
     elif args.header:
         if not args.sub_command:
             {
-                AllConsole(line.strip("\n"), PrintMarkDown).pretty_out()
+                AllConsole(line.strip("\n"), PrintMarkDown).pretty_out(
+                    no_wrap=True, overflow="ellipsis"
+                )
                 for line in mkd.get_head_content(args.header)
                 if line != "\n"
             }
@@ -295,3 +396,10 @@ if __name__ == "__main__":
                     if line != "\n"
                 ]
                 AllConsole(json.dumps(json_list), PrintJson).pretty_out()
+    elif args.sub_command and args.sub_command == "new":
+        mkd.insert_new_header(args.new_title)
+        mkd.restore_data_and_write()
+        _pretty_print_all_header()
+    else:
+        print(args)
+        parser.print_help()

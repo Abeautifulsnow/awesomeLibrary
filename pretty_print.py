@@ -10,7 +10,9 @@ class PrettyPrint(metaclass=ABCMeta):
     @classmethod
     @abstractmethod
     def pretty_print(cls, content: Any):
-        raise NotImplementedError()
+        raise NotImplementedError(
+            f"{cls.__name__} does not implement `pretty_print` func."
+        )
 
 
 class PrintMarkDown(PrettyPrint):
