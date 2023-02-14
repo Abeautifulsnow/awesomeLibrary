@@ -181,7 +181,7 @@ class MKDownControl:
                 )
                 PanelOut(
                     repeat_tips,
-                    panel_title=f"🤧[bold][green]{header}",
+                    panel_title=f"🤧[bold][green]Traceback: {header}",
                     panel_foot=f"🙉[bold][green]RepeatContent",
                 )()
                 exit(1)
@@ -237,13 +237,13 @@ class MKDownControl:
         if not exist_flag:
             # head not exist.
             no_header_tips = (
-                f"💥[bold][red]`{head}` does not exist.[/red]"
+                f"💥[bold][red]`{head}` does not exist.[/red]\n"
                 + f"You can do it:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {head}"
             )
             PanelOut(
                 no_header_tips,
-                panel_title=f"🤧[bold][green]Missing Header",
+                panel_title="🤧[bold][green]Traceback: Missing Header",
                 panel_foot=f"🙉[bold][green]ValueNotFoundError",
             )()
             exit(1)
@@ -264,6 +264,11 @@ class MKDownControl:
         self.md_content_list.append({"head": new_head, "content": []})
 
     def insert_contents_catalog(self, head: str):
+        """Insert catalog link here.
+
+        Args:
+            head (str): category name
+        """
         contents = self.md_content_list
         insert_value = f"  - [{head}](#{head})"
 
@@ -283,6 +288,19 @@ class MKDownControl:
 
     def insert_new_header(self, head: str):
         # append new header to file content
+        head_list = self.get_all_head()
+        if head in head_list:
+            no_header_tips = (
+                f"💥[bold][red]`{head}` already exists.[/red]\n"
+                + f"See detail:".center(60, "*")
+                + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep '{head}'"
+            )
+            PanelOut(
+                no_header_tips,
+                panel_title=f"🤧[bold][green]Traceback: {head}",
+                panel_foot=f"🙉[bold][green]Duplicated Header",
+            )()
+            exit(1)
         self._insert_new_header(head)
 
         # insert new header into the tail of section `语言资源库`
