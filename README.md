@@ -12,7 +12,7 @@
   - [tools](#tools)
   - [books](#books)
   - [awesome library](#awesome-library)
-
+  - [swift](#swift)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
@@ -118,6 +118,8 @@
 * [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 * [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) - 🎨 ArtPlayer.js is a modern and full featured HTML5 video player
 * [remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
+* [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
+* [x-render](https://github.com/alibaba/x-render) - 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
@@ -231,6 +233,18 @@
 * [wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 * [server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
 * [go-recipes](https://github.com/nikolaydubina/go-recipes) - <0001f9a9> Tools for Go projects
+* [go-term-markdown](https://github.com/MichaelMure/go-term-markdown) - A markdown renderer package for the terminal
+* [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
+* [NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Real-time microphone noise suppression on Linux.
+* [filebrowser](https://github.com/filebrowser/filebrowser) - 📂 Web File Browser
+* [git-xargs](https://github.com/gruntwork-io/git-xargs) - git-xargs is a command-line tool (CLI) for making updates across multiple Github repositories with a single command.
+* [brook](https://github.com/txthinking/brook) - A cross-platform network tool designed for developers. 一个为开发者设计的跨平台网络工具.
+* [d2](https://github.com/terrastruct/d2) - D2 is a modern diagram scripting language that turns text to diagrams.
+* [jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform
+* [wtf](https://github.com/wtfutil/wtf) - The personal information dashboard for your terminal
+* [tproxy](https://github.com/kevwan/tproxy) - A cli tool to proxy and analyze TCP connections.
+* [caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -297,6 +311,19 @@
 * [mkdocs](https://github.com/mkdocs/mkdocs) - Project documentation with Markdown.
 * [dunamai](https://github.com/mtkennerly/dunamai) - Dynamic versioning library and CLI
 * [aim](https://github.com/aimhubio/aim) - Aim 💫 — easy-to-use and performant open-source ML experiment tracker.
+* [aio-libs](https://github.com/aio-libs) - The set of asyncio-based libraries built with high quality
+* [scipy](https://github.com/scipy/scipy) - an open-source software for mathematics, science, and engineering. 
+* [moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
+* [apscheduler](https://github.com/agronholm/apscheduler) - Task scheduling library for Python
+* [platformdirs](https://github.com/platformdirs/platformdirs) - A small Python module for determining appropriate platform-specific dirs, e.g. a <user data dir>.
+* [langchain](https://github.com/hwchase17/langchain) - ⚡ Building applications with LLMs through composability ⚡
+* [fast_amis_admin](https://github.com/amisadmin/fastapi_amis_admin) - A high-performance, efficient and easily extensible FastAPI admin framework. Inspired by django-admin, and has as many powerful functions as django-admin.
+* [tuna](https://github.com/nschloe/tuna) - 🐟 Python profile viewer
+* [django-axes](https://github.com/jazzband/django-axes) - Keep track of failed login attempts in Django-powered sites.
+* [websockets](https://github.com/aaugustin/websockets) - Library for building WebSocket servers and clients in Python
+* [channels](https://github.com/django/channels) - Developer-friendly asynchrony for Django
+* [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
+* [ormar](https://github.com/collerek/ormar) - python async orm with fastapi in mind and pydantic validation
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -308,12 +335,18 @@
 * [langs-in-rust](https://github.com/alilleybrinker/langs-in-rust) - A list of programming languages implemented in Rust, for inspiration.
 * [ruff](https://github.com/charliermarsh/ruff) - An extremely fast Python linter, written in Rust.
 * [wasmer-python](https://github.com/wasmerio/wasmer-python) - 🐍🕸 WebAssembly runtime for Python
+* [Rocket](https://github.com/SergioBenitez/Rocket) - A web framework for Rust.
+* [yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
+* [clash-verge](https://github.com/zzzgydi/clash-verge) - A Clash GUI based on tauri. Supports Windows, macOS and Linux.
+* [actix-web](https://github.com/actix/actix-web) - Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.
+* [atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
+* [Pake](https://github.com/tw93/Pake) - 🤱🏻 很简单的用 Rust 打包网页生成很小的桌面 App
+* [robyn](https://github.com/sansyrox/robyn) - Robyn is a fast and extensible async python web server with a rust runtime
 
 ### shell
-
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
 * [vim-plug](https://github.com/junegunn/vim-plug) - 🌺 Minimalist Vim Plugin Manager
-
+* [ShellClash](https://github.com/juewuy/ShellClash) - One-click deployment and management of Clash services using Shell scripts in Linux environment
 
 ### Organization-Forum-Blog
 
@@ -324,7 +357,6 @@
 * [edgedb](https://github.com/edgedb) - A next-generation graph-relational database.
 
 ### tools
-
 * [siyuan](https://github.com/siyuan-note/siyuan) - local-first personal knowledge management system
 * [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) - Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.
 * [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - Roadmap to becoming a developer in 2022
@@ -344,7 +376,8 @@
 * [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) - 🚀🚀🚀A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys.
 * [FastGithub](https://github.com/dotnetcore/FastGithub) - github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
 * [ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
-
+* [clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。
+* [qwerty-learner](https://github.com/Kaiyiwing/qwerty-learner) - Words learning and English muscle memory training software designed for keyboard workers
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
@@ -354,6 +387,9 @@
 * [Go42](https://github.com/ffhelicopter/Go42) - 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。
 * [vim-doc](https://github.com/yianwillis/vimcdoc) - Vim 中文文档计划
 * [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses) - 📺 Discover the latest machine learning / AI courses on YouTube.
+* [conference](https://github.com/gopherchina/conference) - Golang Conference PPT
+* [my-ebook](https://github.com/rmlzy/my-ebook) - 我收集的电子书, 主要是软件开发方向
+* [rust-course](https://github.com/sunface/rust-course) - Rust语言圣经
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
@@ -361,4 +397,10 @@
 * [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins, themes and tutorials.
 * [awesome-hand-pose-estimation](https://github.com/xinghaochen/awesome-hand-pose-estimation) - Awesome work on hand pose estimation/tracking
 * [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
+* [awesome-python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
+* [awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - Curated list of awesome tools, demos, docs for ChatGPT and GPT-3
+
+
+### swift
+* [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
 

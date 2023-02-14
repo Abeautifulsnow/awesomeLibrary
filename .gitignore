@@ -1,2 +1,4 @@
-test.md
+test.*
 feature.md
+.vscode
+__pycache__
