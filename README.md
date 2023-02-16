@@ -324,6 +324,7 @@
 * [channels](https://github.com/django/channels) - Developer-friendly asynchrony for Django
 * [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
 * [ormar](https://github.com/collerek/ormar) - python async orm with fastapi in mind and pydantic validation
+* [python-socketio](https://github.com/miguelgrinberg/python-socketio) - Python Socket.IO server and client
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
