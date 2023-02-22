@@ -327,6 +327,7 @@
 * [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
 * [ormar](https://github.com/collerek/ormar) - python async orm with fastapi in mind and pydantic validation
 * [twisted](https://github.com/twisted/twisted) - Event-driven networking engine written in Python.
+* [paramiko](https://github.com/paramiko/paramiko) - The leading native Python SSHv2 protocol library.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
