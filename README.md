@@ -326,6 +326,7 @@
 * [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
 * [ormar](https://github.com/collerek/ormar) - python async orm with fastapi in mind and pydantic validation
 * [twisted](https://github.com/twisted/twisted) - Event-driven networking engine written in Python.
+* [reloadium](https://github.com/reloadware/reloadium) - Advanced Hot Reloading & Profiling for Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
