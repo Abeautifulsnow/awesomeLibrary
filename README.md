@@ -1,18 +1,19 @@
 # Contents
 
-- [其它](#其它)
-- [语言资源库](#语言资源库)
-  - [typescript](#typescript)
-  - [JavaScript](#javascript)
-  - [go](#go)
-  - [python](#python)
-  - [rust](#rust)
-  - [shell](#shell)
-  - [Organization & Forum & Blog](#Organization-Forum-Blog)
-  - [tools](#tools)
-  - [books](#books)
-  - [awesome library](#awesome-library)
-  - [swift](#swift)
+- [Contents](#contents)
+	- [其它](#其它)
+	- [语言资源库](#语言资源库)
+		- [typescript](#typescript)
+		- [JavaScript](#javascript)
+		- [go](#go)
+		- [python](#python)
+		- [rust](#rust)
+		- [shell](#shell)
+		- [Organization-Forum-Blog](#organization-forum-blog)
+		- [tools](#tools)
+		- [books](#books)
+		- [awesome-library](#awesome-library)
+		- [swift](#swift)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
@@ -246,6 +247,7 @@
 * [caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 * [go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework.
+* [go-wsl2-host](https://github.com/shayne/go-wsl2-host) - Automatically update your Windows hosts file with the WSL2 VM IP address
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -326,6 +328,7 @@
 * [sqlmodel](https://github.com/tiangolo/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
 * [ormar](https://github.com/collerek/ormar) - python async orm with fastapi in mind and pydantic validation
 * [twisted](https://github.com/twisted/twisted) - Event-driven networking engine written in Python.
+* [paramiko](https://github.com/paramiko/paramiko) - The leading native Python SSHv2 protocol library.
 * [reloadium](https://github.com/reloadware/reloadium) - Advanced Hot Reloading & Profiling for Python
 
 ### rust
