@@ -248,6 +248,7 @@
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 * [go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework.
 * [go-wsl2-host](https://github.com/shayne/go-wsl2-host) - Automatically update your Windows hosts file with the WSL2 VM IP address
+* [todoit](https://github.com/sachaos/todoist) - Todoist CLI Client. I ❤️ Todoist and CLI.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
