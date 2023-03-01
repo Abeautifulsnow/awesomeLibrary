@@ -249,6 +249,7 @@
 * [go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework.
 * [go-wsl2-host](https://github.com/shayne/go-wsl2-host) - Automatically update your Windows hosts file with the WSL2 VM IP address
 * [todoit](https://github.com/sachaos/todoist) - Todoist CLI Client. I ❤️ Todoist and CLI.
+* [go-web-framework-stars](https://github.com/mingrammer/go-web-framework-stars) - ⭐ Web frameworks for Go, most starred on GitHub
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
