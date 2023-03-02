@@ -2,6 +2,7 @@ import argparse
 import json
 import re
 import sys
+from functools import partial
 from typing import List, TypedDict, Union
 
 from panel import PanelOut
@@ -270,7 +271,12 @@ class MKDownControl:
             head (str): category name
         """
         contents = self.md_content_list
-        insert_value = f"  - [{head}](#{head})"
+        insert_value = "{prefix}- [{head}](#{head})\n".format
+        insert_value_partial = partial(insert_value, head=head)
+
+        template_re = "^({}*-)(.*?)$".format
+        tab_re = re.compile(template_re("\t"))
+        blank_space_re = re.compile(template_re(" "))
 
         for content in contents:
             if "# Contents" in content["head"]:
@@ -278,10 +284,18 @@ class MKDownControl:
 
                 for i in range(len(catalog) - 1, -1, -1):
                     catalog_item = catalog[i]
-                    rr = re.search(r"^( *-)(.*?)$", catalog_item)
-                    if rr and rr.group() != "":
-                        print(catalog_item.strip("\n"))
-                        content["content"].insert(i + 1, insert_value)
+
+                    rr_tab = re.search(tab_re, catalog_item)
+                    rr_space = re.search(blank_space_re, catalog_item)
+
+                    if (rr_tab and rr_tab.group() != "") or (
+                        rr_space and rr_space.group() != ""
+                    ):
+                        # Get all whitespace or tas before the first hyphen(-) character.
+                        prefix_blank = catalog_item.split("-")[0]
+                        content["content"].insert(
+                            i + 1, insert_value_partial(prefix=prefix_blank)
+                        )
                         break
 
                 break
@@ -329,7 +343,9 @@ def prepare_args() -> "argparse.ArgumentParser":
 
     # sub-command
     group_add_parser = parser.add_subparsers(
-        title="Sub-parser commands", dest="sub_command"
+        title="Sub-parser commands",
+        dest="sub_command",
+        help="-t(in Basic) can be used with add, not new.",
     )
 
     # show contents belong with title.
@@ -339,7 +355,10 @@ def prepare_args() -> "argparse.ArgumentParser":
         description="Insert new title into file.",
     )
     group_new.add_argument(
-        "-t", "--new_title", type=str, help="Specify accurate title's name."
+        "-nt",
+        "--new_title",
+        type=str,
+        help="Specify accurate title's name to insert it",
     )
 
     # add new data
@@ -347,13 +366,16 @@ def prepare_args() -> "argparse.ArgumentParser":
         "add", help="Add new data to content.", description="Add new data to content."
     )
     group_add.add_argument(
-        "-n", "--repo_name", type=str, help="The name of github repository."
+        "-n", "--repo_name", type=str, help="The name of this github repository."
     )
     group_add.add_argument(
-        "-u", "--repo_url", type=str, help="The url of github repository."
+        "-u", "--repo_url", type=str, help="The url of this github repository."
     )
     group_add.add_argument(
-        "-a", "--repo_about", type=str, help="The description of github repository."
+        "-a",
+        "--repo_about",
+        type=str,
+        help="The description of this github repository.",
     )
 
     # others
@@ -361,7 +383,10 @@ def prepare_args() -> "argparse.ArgumentParser":
         "Basic", "If there is no sub-cmd, only show contents below header."
     )
     parser_basic.add_argument(
-        "-t", "--header", type=str, help="String: The header of content."
+        "-t",
+        "--header",
+        type=str,
+        help="String: If set, terminal will display all contents belong to this header.",
     )
 
     parser_header = parser.add_argument_group("Header", "show all headers.")
@@ -414,6 +439,9 @@ if __name__ == "__main__":
                     if line != "\n"
                 ]
                 AllConsole(json.dumps(json_list), PrintJson).pretty_out()
+
+            if args.sub_command == "new":
+                parser.print_help()
     elif args.sub_command and args.sub_command == "new":
         mkd.insert_new_header(args.new_title)
         mkd.restore_data_and_write()

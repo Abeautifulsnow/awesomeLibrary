@@ -14,6 +14,7 @@
 		- [books](#books)
 		- [awesome-library](#awesome-library)
 		- [swift](#swift)
+		- [v](#v)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
@@ -90,37 +91,7 @@
 * [remix](https://github.com/remix-run/remix) - Build Better Websites. Create modern, resilient user experiences with web fundamentals.
 
 ### JavaScript
-* [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
-* [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) 命令行工具接口
-* [hoppscotch](https://github.com/hoppscotch/hoppscotch) API接口调试
-* [drawio](https://github.com/jgraph/drawio) js绘图工具
-* [drawio-desktop](https://github.com/jgraph/drawio-desktop) 桌面版drawio应用
-* [regexper-static](https://gitlab.com/javallone/regexper-static) 正则表达式可视化
-* [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy
-* [commander.js](https://github.com/tj/commander.js) node.js command-line interfaces made easy
-* [glsl-sandbox](https://github.com/mrdoob/glsl-sandbox) Online live editor for fragment shaders.
-* [m3u8-downloader](https://github.com/Momo707577045/m3u8-downloader) - m3u8 视频在线提取工具
-* [httpx](https://github.com/encode/httpx) - A next generation HTTP client for Python. 🦋
-* [smarGate](https://github.com/lazy-luo/smarGate) - 内网穿透工具
-* [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D Library.
-* [mavonEditor](https://github.com/hinesboy/mavonEditor) - A markdown editor based on Vue that supports a variety of personalized features.
-* [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
-* [vue-form-making](https://github.com/GavinZhuLei/vue-form-making) - 基于Vue的可视化表单设计器.
-* [next.js](https://github.com/vercel/next.js) - The React Framework.
-* [Painter](https://github.com/Kujiale-Mobile/Painter) - 小程序生成图片库，轻松通过 json 方式绘制一张可以发到朋友圈的图片.
-* [vuex](https://github.com/vuejs/vuex) - 🗃️ Centralized State Management for Vue.js.
-* [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
-* [react-container-query](https://github.com/react-container-query/react-container-query) - 📦 Modular responsive component
-* [vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv) - 🌈Rainbow CSV - VS Code extension: Highlight CSV and TSV spreadsheet files in different rainbow colors.
-* [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) - Drag-and-drop sortable component for nested data and hierarchies
-* [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) - Vue drag-and-drop component based on Sortable.js
-* [strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
-* [next.js](https://github.com/vercel/next.js) - The React Framework.
-* [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
-* [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) - 🎨 ArtPlayer.js is a modern and full featured HTML5 video player
-* [remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
-* [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
-* [x-render](https://github.com/alibaba/x-render) - 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
+* [v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
@@ -411,4 +382,8 @@
 
 ### swift
 * [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
+
+
+### v
+* [v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io
 
