@@ -73,20 +73,24 @@ class MKDownControl:
             raise ValueNotFoundError(f"head: `{head}` not exist...")
         for item in self.md_content_list:
             # Refer to: https://stackoverflow.com/questions/63829680/type-assertion-in-mypy
-            if head == item["head"].lower():
+            in_head = head.strip(" ").lower()
+            origin_head = item["head"].strip("#\n\t ").lower()
+
+            if in_head == origin_head:
                 content = item["content"]
-            else:
-                not_exist_tips = (
-                    f"💥[bold][red]Header - `{head}` does not exist.[/red]\n"
-                    + f"See detail:".center(60, "*")
-                    + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep -w '{head}'"
-                )
-                PanelOut(
-                    not_exist_tips,
-                    panel_title=f"🤧[bold][green]Traceback: {head}",
-                    panel_foot=f"🙉[bold][green]RepeatContent",
-                )()
-                exit(1)
+
+        if not content:
+            not_exist_tips = (
+                f"💥[bold][red]Header - `{head}` does not exist.[/red]\n"
+                + f"See detail:".center(60, "*")
+                + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep -w '{head}'"
+            )
+            PanelOut(
+                not_exist_tips,
+                panel_title=f"🤧[bold][green]Traceback: {head}",
+                panel_foot=f"🙉[bold][green]RepeatContent",
+            )()
+            exit(1)
 
         return content
 
