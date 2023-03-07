@@ -333,6 +333,7 @@
 * [twisted](https://github.com/twisted/twisted) - Event-driven networking engine written in Python.
 * [paramiko](https://github.com/paramiko/paramiko) - The leading native Python SSHv2 protocol library.
 * [reloadium](https://github.com/reloadware/reloadium) - Advanced Hot Reloading & Profiling for Python
+* [asgiref](https://github.com/django/asgiref) - ASGI specification and utilities
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
