@@ -335,6 +335,7 @@
 * [paramiko](https://github.com/paramiko/paramiko) - The leading native Python SSHv2 protocol library.
 * [reloadium](https://github.com/reloadware/reloadium) - Advanced Hot Reloading & Profiling for Python
 * [asgiref](https://github.com/django/asgiref) - ASGI specification and utilities
+* [urllib3](https://github.com/urllib3/urllib3) - Python HTTP library with thread-safe connection pooling, file post support, user friendly, and more.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
