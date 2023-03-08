@@ -89,6 +89,7 @@
 * [solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
 * [hope-ui](https://github.com/hope-ui/hope-ui) - 🤞 The SolidJS component library you've hoped for.
 * [remix](https://github.com/remix-run/remix) - Build Better Websites. Create modern, resilient user experiences with web fundamentals.
+* [magic-regexp](https://github.com/danielroe/magic-regexp) - A compiled-away, type-safe, readable RegExp alternative
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
