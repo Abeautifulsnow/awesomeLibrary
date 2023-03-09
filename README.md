@@ -91,6 +91,7 @@
 * [remix](https://github.com/remix-run/remix) - Build Better Websites. Create modern, resilient user experiences with web fundamentals.
 * [magic-regexp](https://github.com/danielroe/magic-regexp) - A compiled-away, type-safe, readable RegExp alternative
 * [tfjs-models](https://github.com/tensorflow/tfjs-models) - Pretrained models for TensorFlow.js
+* [excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
