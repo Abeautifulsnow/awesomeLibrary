@@ -192,7 +192,7 @@
 * [lumberjack](https://github.com/natefinch/lumberjack) - lumberjack is a log rolling package for Go.
 * [validator](https://github.com/go-playground/validator) - 💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
 * [lo](https://github.com/samber/lo) - 💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...).
-* [rpcx](https://github.com/smallnest/rpcx) - Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. 
+* [rpcx](https://github.com/smallnest/rpcx) - Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily.
 * [zinx](https://github.com/aceld/zinx) - 基于Golang轻量级TCP并发服务器框架.
 * [go-kit](https://github.com/go-kit/kit) - A standard library for microservices.
 * [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer
@@ -255,6 +255,7 @@
 * [todoit](https://github.com/sachaos/todoist) - Todoist CLI Client. I ❤️ Todoist and CLI.
 * [go-web-framework-stars](https://github.com/mingrammer/go-web-framework-stars) - ⭐ Web frameworks for Go, most starred on GitHub
 * [webrtc](https://github.com/pion/webrtc) - Pure Go implementation of the WebRTC API
+* [nvm-windows](https://github.com/coreybutler/nvm-windows) - A node.js version management utility for Windows. Ironically written in Go.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -322,7 +323,7 @@
 * [dunamai](https://github.com/mtkennerly/dunamai) - Dynamic versioning library and CLI
 * [aim](https://github.com/aimhubio/aim) - Aim 💫 — easy-to-use and performant open-source ML experiment tracker.
 * [aio-libs](https://github.com/aio-libs) - The set of asyncio-based libraries built with high quality
-* [scipy](https://github.com/scipy/scipy) - an open-source software for mathematics, science, and engineering. 
+* [scipy](https://github.com/scipy/scipy) - an open-source software for mathematics, science, and engineering.
 * [moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
 * [apscheduler](https://github.com/agronholm/apscheduler) - Task scheduling library for Python
 * [platformdirs](https://github.com/platformdirs/platformdirs) - A small Python module for determining appropriate platform-specific dirs, e.g. a <user data dir>.
@@ -424,4 +425,3 @@
 
 ### v
 * [v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io
-
