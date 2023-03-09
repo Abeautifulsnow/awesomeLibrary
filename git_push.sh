@@ -42,7 +42,7 @@ function push_code() {
 		[yY][eE][sS] | [yY])
 			printf $PrintYellow "Continue to submit..."
 			git add -A
-			git commit -m "${commit}"
+			git commit -m "${commit}" || exit 1
 			git push origin ${default_branch}
 			exit 1
 			;;
