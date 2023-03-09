@@ -338,6 +338,7 @@
 * [reloadium](https://github.com/reloadware/reloadium) - Advanced Hot Reloading & Profiling for Python
 * [asgiref](https://github.com/django/asgiref) - ASGI specification and utilities
 * [urllib3](https://github.com/urllib3/urllib3) - Python HTTP library with thread-safe connection pooling, file post support, user friendly, and more.
+* [virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win) - Port of Doug Hellmann's virtualenvwrapper to Windows batch scripts
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
