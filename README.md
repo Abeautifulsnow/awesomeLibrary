@@ -256,6 +256,7 @@
 * [go-web-framework-stars](https://github.com/mingrammer/go-web-framework-stars) - ⭐ Web frameworks for Go, most starred on GitHub
 * [webrtc](https://github.com/pion/webrtc) - Pure Go implementation of the WebRTC API
 * [nvm-windows](https://github.com/coreybutler/nvm-windows) - A node.js version management utility for Windows. Ironically written in Go.
+* [streampipe](https://github.com/turbot/steampipe) - Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
