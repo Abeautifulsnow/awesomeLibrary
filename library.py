@@ -70,7 +70,7 @@ class MKDownControl:
         if head:
             head = head.lower()
         else:
-            raise ValueNotFoundError(f"head: `{head}` not exist...")
+            raise ValueNotBeNoneError(f"head must be a valid string... got {head}")
         for item in self.md_content_list:
             # Refer to: https://stackoverflow.com/questions/63829680/type-assertion-in-mypy
             in_head = head.strip(" ").lower()
@@ -188,20 +188,22 @@ class MKDownControl:
         for item in head_content:
             # [aim] [halo] etc.
             item_name = re.search("(?<!!)\[(.*?)\]", item)
-            if item_name and repo_name in item_name.group():
-                # raise RepeatValueError(f"`{repo_name}` already exists.")
-                repeat_tips = (
-                    f"💥[bold][red]`{repo_name}` already exists.[/red]"
-                    + f"\n🐛{item}"
-                    + f"See detail:".center(60, "*")
-                    + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {header} | grep '{repo_name}'"
-                )
-                PanelOut(
-                    repeat_tips,
-                    panel_title=f"🤧[bold][green]Traceback: {header}",
-                    panel_foot=f"🙉[bold][green]RepeatContent",
-                )()
-                exit(1)
+            if item_name:
+                match_repo = item_name.group()
+                if match_repo and repo_name == match_repo.strip("[]"):
+                    # raise RepeatValueError(f"`{repo_name}` already exists.")
+                    repeat_tips = (
+                        f"💥[bold][red]`{repo_name}` already exists.[/red]"
+                        + f"\n🐛{item}"
+                        + f"See detail:".center(60, "*")
+                        + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {header} | grep '{repo_name}'"
+                    )
+                    PanelOut(
+                        repeat_tips,
+                        panel_title=f"🤧[bold][green]Traceback: {header}",
+                        panel_foot=f"🙉[bold][green]RepeatContent",
+                    )()
+                    exit(1)
 
         for repo_key, repo_value in {
             "repo_name": repo_name,
@@ -274,7 +276,7 @@ class MKDownControl:
         if head:
             head = head.lower()
         else:
-            raise ValueNotBeNoneError(f"head: `{head}` cannot be None...")
+            raise ValueNotBeNoneError(f"head must be a valid string... got {head}")
 
         # The header's level is default 3.
         new_head = self.set_new_header(head, 3)
@@ -416,7 +418,7 @@ def prepare_args() -> "argparse.ArgumentParser":
     return parser
 
 
-if __name__ == "__main__":
+def main():
     parser = prepare_args()
     args = parser.parse_args()
 
@@ -465,3 +467,7 @@ if __name__ == "__main__":
     else:
         print(args)
         parser.print_help()
+
+
+if __name__ == "__main__":
+    main()
