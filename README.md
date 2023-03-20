@@ -345,6 +345,7 @@
 * [urllib3](https://github.com/urllib3/urllib3) - Python HTTP library with thread-safe connection pooling, file post support, user friendly, and more.
 * [virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win) - Port of Doug Hellmann's virtualenvwrapper to Windows batch scripts
 * [structlog](https://github.com/hynek/structlog) - Simple, powerful, and fast logging for Python.
+* [kitty](https://github.com/kovidgoyal/kitty) - Cross-platform, fast, feature-rich, GPU based terminal
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
