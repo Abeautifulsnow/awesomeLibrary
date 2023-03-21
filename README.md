@@ -366,6 +366,7 @@
 * [Pake](https://github.com/tw93/Pake) - 🤱🏻 很简单的用 Rust 打包网页生成很小的桌面 App
 * [robyn](https://github.com/sansyrox/robyn) - Robyn is a fast and extensible async python web server with a rust runtime
 * [tikv](https://github.com/tikv/tikv) - Distributed transactional key-value database, originally created to complement TiDB
+* [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
