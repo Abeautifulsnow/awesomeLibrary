@@ -371,6 +371,7 @@
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
 * [vim-plug](https://github.com/junegunn/vim-plug) - 🌺 Minimalist Vim Plugin Manager
 * [ShellClash](https://github.com/juewuy/ShellClash) - One-click deployment and management of Clash services using Shell scripts in Linux environment
+* [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
 
 ### Organization-Forum-Blog
 
