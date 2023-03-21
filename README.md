@@ -367,6 +367,21 @@
 * [robyn](https://github.com/sansyrox/robyn) - Robyn is a fast and extensible async python web server with a rust runtime
 * [tikv](https://github.com/tikv/tikv) - Distributed transactional key-value database, originally created to complement TiDB
 * [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
+* [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
+* [exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’
+* [procs](https://github.com/dalance/procs) - A modern replacement for ps written in Rust
+* [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI (sed alternative)
+* [dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
+* [starship](https://github.com/starship/starship) - ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+* [ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+* [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
+* [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+* [tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
+* [bandwhich](https://github.com/imsnif/bandwhich) - Terminal bandwidth utilization tool
+* [grex](https://github.com/pemistahl/grex) - A command-line tool and Rust library for generating regular expressions from user-provided test cases
+* [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+* [delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for git, diff, and grep output
+* [nushell](https://github.com/nushell/nushell) - A new type of shell
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
