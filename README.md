@@ -351,6 +351,7 @@
 * [structlog](https://github.com/hynek/structlog) - Simple, powerful, and fast logging for Python.
 * [kitty](https://github.com/kovidgoyal/kitty) - Cross-platform, fast, feature-rich, GPU based terminal
 * [django-markdownx](https://github.com/neutronX/django-markdownx) - Comprehensive Markdown plugin built for Django
+* [docker-py](https://github.com/docker/docker-py) - A Python library for the Docker Engine API
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
