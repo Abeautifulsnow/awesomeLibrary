@@ -260,6 +260,7 @@
 * [log](https://github.com/charmbracelet/log) - A minimal, colorful Go logging library 🪵
 * [sonic](https://github.com/go-sonic/sonic) - Sonic is a blogging platform developed by Go. Simple and powerful
 * [miller](https://github.com/johnkerl/miller) - Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+* [aiac](https://github.com/gofireflyio/aiac) - Artificial Intelligence Infrastructure-as-Code Generator.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
