@@ -388,6 +388,7 @@
 * [delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for git, diff, and grep output
 * [nushell](https://github.com/nushell/nushell) - A new type of shell
 * [cargo](https://github.com/rust-lang/cargo) - The Rust package manager
+* [bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
