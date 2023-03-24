@@ -353,6 +353,7 @@
 * [django-markdownx](https://github.com/neutronX/django-markdownx) - Comprehensive Markdown plugin built for Django
 * [docker-py](https://github.com/docker/docker-py) - A Python library for the Docker Engine API
 * [myGPTReader](https://github.com/madawei2699/myGPTReader) - myGPTReader is a slack bot that can read any webpage, ebook or document and summarize it with chatGPT. It can also talk to you via voice using the content in the channel.
+* [frigate](https://github.com/blakeblackshear/frigate) - NVR with realtime local object detection for IP cameras
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
