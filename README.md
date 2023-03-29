@@ -355,6 +355,9 @@
 * [docker-py](https://github.com/docker/docker-py) - A Python library for the Docker Engine API
 * [myGPTReader](https://github.com/madawei2699/myGPTReader) - myGPTReader is a slack bot that can read any webpage, ebook or document and summarize it with chatGPT. It can also talk to you via voice using the content in the channel.
 * [frigate](https://github.com/blakeblackshear/frigate) - NVR with realtime local object detection for IP cameras
+* [pg_activity](https://github.com/dalibo/pg_activity) - pg_activity is a top like application for PostgreSQL server activity monitoring.
+* [watchfiles](https://github.com/samuelcolvin/watchfiles) - Simple, modern and fast file watching and code reload in python.
+* [watchdog](https://github.com/gorakhargosh/watchdog) - Python library and shell utilities to monitor filesystem events.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -392,6 +395,7 @@
 * [nushell](https://github.com/nushell/nushell) - A new type of shell
 * [cargo](https://github.com/rust-lang/cargo) - The Rust package manager
 * [bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
+* [notify](https://github.com/notify-rs/notify) - 🔭 Cross-platform filesystem notification library for Rust.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
