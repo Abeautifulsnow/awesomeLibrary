@@ -362,6 +362,9 @@
 * [watchfiles](https://github.com/samuelcolvin/watchfiles) - Simple, modern and fast file watching and code reload in python.
 * [watchdog](https://github.com/gorakhargosh/watchdog) - Python library and shell utilities to monitor filesystem events.
 * [taichi](https://github.com/taichi-dev/taichi) - Productive & portable high-performance programming in Python.
+* [bokeh](https://github.com/bokeh/bokeh) - Interactive Data Visualization in the browser, from Python
+* [dagster](https://github.com/dagster-io/dagster) - An orchestration platform for the development, production, and observation of data assets.
+* [zulip](https://github.com/zulip/zulip) - Zulip server and web application. Open-source team chat that helps teams stay productive and focused.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
