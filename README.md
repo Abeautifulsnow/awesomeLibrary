@@ -403,6 +403,7 @@
 * [cargo](https://github.com/rust-lang/cargo) - The Rust package manager
 * [bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
 * [notify](https://github.com/notify-rs/notify) - 🔭 Cross-platform filesystem notification library for Rust.
+* [maturin](https://github.com/PyO3/maturin) - Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
