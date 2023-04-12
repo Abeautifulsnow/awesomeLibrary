@@ -129,6 +129,7 @@
 * [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
 * [x-render](https://github.com/alibaba/x-render) - 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
 * [html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player) - Play RTSP stream from IP camera in browser in this HTML5 player without plugins
+* [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) - FFmpeg for browser and node, powered by WebAssembly
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
