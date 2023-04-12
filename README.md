@@ -94,6 +94,7 @@
 * [excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams
 * [amix](https://github.com/baidu/amis) - 前端低代码框架，通过 JSON 配置就能生成各种页面。
 * [open-pose-editor](https://github.com/ZhUyU1997/open-pose-editor) - online 3d openpose editor for stable diffusion and controlnet
+* [remotion](https://github.com/remotion-dev/remotion) - 🎥 Make videos programmatically with React
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
