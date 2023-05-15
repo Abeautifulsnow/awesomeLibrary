@@ -96,6 +96,7 @@
 * [open-pose-editor](https://github.com/ZhUyU1997/open-pose-editor) - online 3d openpose editor for stable diffusion and controlnet
 * [remotion](https://github.com/remotion-dev/remotion) - 🎥 Make videos programmatically with React
 * [zustand](https://github.com/pmndrs/zustand) - 🐻 Bear necessities for state management in React
+* [jotai](https://github.com/pmndrs/jotai) - 👻 Primitive and flexible state management for React
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
@@ -131,6 +132,7 @@
 * [x-render](https://github.com/alibaba/x-render) - 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
 * [html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player) - Play RTSP stream from IP camera in browser in this HTML5 player without plugins
 * [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) - FFmpeg for browser and node, powered by WebAssembly
+* [Recoil](https://github.com/facebookexperimental/Recoil) - Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
