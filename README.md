@@ -99,6 +99,11 @@
 * [jotai](https://github.com/pmndrs/jotai) - 👻 Primitive and flexible state management for React
 * [hls](https://github.com/video-dev/hls.js) - HLS.js is a JavaScript library that plays HLS in browsers with support for MSE.
 * [party-js](https://github.com/yiliansource/party-js) - A JavaScript library to brighten up your user's site experience with visual effects!
+* [qrcode.vue](https://github.com/scopewu/qrcode.vue) - A Vue.js component to generate qrcode.
+* [vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
+* [mitt](https://github.com/developit/mitt) - 🥊 Tiny 200 byte functional event emitter / pubsub.
+* [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
+* [react-markdown-editor](https://github.com/uiwjs/react-markdown-editor) - A markdown editor with preview, implemented with React.js and TypeScript.
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
@@ -136,6 +141,11 @@
 * [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) - FFmpeg for browser and node, powered by WebAssembly
 * [Recoil](https://github.com/facebookexperimental/Recoil) - Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.
 * [canvas-confetti](https://github.com/catdad/canvas-confetti) - 🎉 on-demand confetti gun
+* [Fuse](https://github.com/krisk/Fuse) - Lightweight fuzzy-search, in JavaScript
+* [react-markdown](https://github.com/remarkjs/react-markdown) - Markdown component for React
+* [pica](https://github.com/nodeca/pica) - Resize image in browser with high quality and high speed
+* [stackedit](https://github.com/benweet/stackedit) - In-browser Markdown editor
+* [qrbtf](https://github.com/ciaochaos/qrbtf) - An art QR code (qrcode) beautifier. 艺术二维码生成器。https://qrbtf.com/
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
@@ -275,6 +285,15 @@
 * [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system
 * [unipdf](https://github.com/unidoc/unipdf) - Golang PDF library for creating and processing PDF files (pure go)
 * [ffmpeg-go](https://github.com/u2takey/ffmpeg-go) - golang binding for ffmpeg
+* [go-qrcode](https://github.com/skip2/go-qrcode) - ✨ QR Code encoder (Go)
+* [moby](https://github.com/moby/moby) - a collaborative project for the container ecosystem to assemble container-based systems
+* [toml](https://github.com/BurntSushi/toml) - TOML parser for Golang with reflection.
+* [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
+* [jsoniter](https://github.com/json-iterator/go) - A high-performance 100% compatible drop-in replacement of "encoding/json"
+* [ssh](https://github.com/gliderlabs/ssh) - Easy SSH servers in Golang
+* [play-with-docker](https://github.com/play-with-docker/play-with-docker) - You know it, you use it, now it's time to improve it. PWD!.
+* [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
+
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -376,6 +395,12 @@
 * [vidgear](https://github.com/abhiTronix/vidgear) - A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features 🔥
 * [decord](https://github.com/dmlc/decord) - An efficient video loader for deep learning with smart shuffling that's super easy to digest
 * [jax](https://github.com/google/jax) - Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
+* [tortoise](https://github.com/tortoise/tortoise-orm) - Familiar asyncio ORM for python, built with relations in mind
+* [word_cloud](https://github.com/amueller/word_cloud) - A little word cloud generator in Python
+* [passlib](https://passlib.readthedocs.io/en/stable/) - Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms
+* [pyttsx3](https://github.com/nateshmbhat/pyttsx3) - Offline Text To Speech synthesis for python
+* [socketify.py](https://github.com/cirospaciari/socketify.py) - Bringing WebSockets, Http/Https High Peformance servers for PyPy3 and Python3
+* [walrus](https://github.com/coleifer/walrus) - Lightweight Python utilities for working with Redis
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -417,6 +442,7 @@
 * [maturin](https://github.com/PyO3/maturin) - Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages
 * [ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 * [qdrant](https://github.com/qdrant/qdrant) - Qdrant - Vector Database for the next generation of AI applications. Also available in the cloud
+* [rtoml](https://github.com/samuelcolvin/rtoml) - A fast TOML library for python implemented in rust.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
@@ -454,6 +480,9 @@
 * [ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
 * [clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。
 * [qwerty-learner](https://github.com/Kaiyiwing/qwerty-learner) - Words learning and English muscle memory training software designed for keyboard workers
+* [ccxt](https://github.com/ccxt/ccxt) - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
+* [Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相关资源汇总 📺 💯 IPTV、M3U
+* [zeal](https://github.com/zealdocs/zeal/) - Offline documentation browser inspired by Dash
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
@@ -477,6 +506,9 @@
 * [awesome-python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources
 * [awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - Curated list of awesome tools, demos, docs for ChatGPT and GPT-3
 * [awesome-compose](https://github.com/docker/awesome-compose) - Awesome Docker Compose samples
+* [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - ⚡ Delightful Node.js packages and resources
+* [awesome-fastapi](https://github.com/mjhea0/awesome-fastapi) - A curated list of awesome things related to FastAPI
+* [awesome-rust](https://github.com/rust-unofficial/awesome-rust) - A curated list of Rust code and resources.
 
 ### swift
 * [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
