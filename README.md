@@ -401,6 +401,7 @@
 * [pyttsx3](https://github.com/nateshmbhat/pyttsx3) - Offline Text To Speech synthesis for python
 * [socketify.py](https://github.com/cirospaciari/socketify.py) - Bringing WebSockets, Http/Https High Peformance servers for PyPy3 and Python3
 * [walrus](https://github.com/coleifer/walrus) - Lightweight Python utilities for working with Redis
+* [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
