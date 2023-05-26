@@ -97,6 +97,8 @@
 * [remotion](https://github.com/remotion-dev/remotion) - 🎥 Make videos programmatically with React
 * [zustand](https://github.com/pmndrs/zustand) - 🐻 Bear necessities for state management in React
 * [jotai](https://github.com/pmndrs/jotai) - 👻 Primitive and flexible state management for React
+* [hls](https://github.com/video-dev/hls.js) - HLS.js is a JavaScript library that plays HLS in browsers with support for MSE.
+* [party-js](https://github.com/yiliansource/party-js) - A JavaScript library to brighten up your user's site experience with visual effects!
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
@@ -133,6 +135,7 @@
 * [html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player) - Play RTSP stream from IP camera in browser in this HTML5 player without plugins
 * [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) - FFmpeg for browser and node, powered by WebAssembly
 * [Recoil](https://github.com/facebookexperimental/Recoil) - Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.
+* [canvas-confetti](https://github.com/catdad/canvas-confetti) - 🎉 on-demand confetti gun
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
