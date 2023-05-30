@@ -105,6 +105,7 @@
 * [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
 * [react-markdown-editor](https://github.com/uiwjs/react-markdown-editor) - A markdown editor with preview, implemented with React.js and TypeScript.
 * [mkdocs-material](https://github.com/squidfunk/mkdocs-material) - Documentation that simply works
+* [docsaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
@@ -295,6 +296,7 @@
 * [play-with-docker](https://github.com/play-with-docker/play-with-docker) - You know it, you use it, now it's time to improve it. PWD!.
 * [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
 * [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image.
+* [hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
