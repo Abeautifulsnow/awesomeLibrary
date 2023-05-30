@@ -104,6 +104,7 @@
 * [mitt](https://github.com/developit/mitt) - 🥊 Tiny 200 byte functional event emitter / pubsub.
 * [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
 * [react-markdown-editor](https://github.com/uiwjs/react-markdown-editor) - A markdown editor with preview, implemented with React.js and TypeScript.
+* [mkdocs-material](https://github.com/squidfunk/mkdocs-material) - Documentation that simply works
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
