@@ -405,6 +405,8 @@
 * [socketify.py](https://github.com/cirospaciari/socketify.py) - Bringing WebSockets, Http/Https High Peformance servers for PyPy3 and Python3
 * [walrus](https://github.com/coleifer/walrus) - Lightweight Python utilities for working with Redis
 * [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image.
+* [trio](https://github.com/python-trio/trio) - Trio – a friendly Python library for async concurrency and I/O
+* [anyio](https://github.com/agronholm/anyio) - High level asynchronous concurrency and networking framework that works on top of either trio or asyncio
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
