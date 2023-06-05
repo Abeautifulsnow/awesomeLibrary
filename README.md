@@ -297,6 +297,7 @@
 * [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
 * [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image.
 * [hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
+* [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
