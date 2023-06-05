@@ -407,6 +407,7 @@
 * [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image.
 * [trio](https://github.com/python-trio/trio) - Trio – a friendly Python library for async concurrency and I/O
 * [anyio](https://github.com/agronholm/anyio) - High level asynchronous concurrency and networking framework that works on top of either trio or asyncio
+* [coverageppy](https://github.com/nedbat/coveragepy) - The code coverage tool for Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
