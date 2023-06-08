@@ -409,6 +409,9 @@
 * [trio](https://github.com/python-trio/trio) - Trio – a friendly Python library for async concurrency and I/O
 * [anyio](https://github.com/agronholm/anyio) - High level asynchronous concurrency and networking framework that works on top of either trio or asyncio
 * [coverageppy](https://github.com/nedbat/coveragepy) - The code coverage tool for Python
+* [tox](https://github.com/tox-dev/tox) - Command line driven CI frontend and development task automation tool.
+* [nox](https://github.com/wntrblm/nox) - Flexible test automation for Python
+* [invoke](https://github.com/pyinvoke/invoke) - Pythonic task management & command execution.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
