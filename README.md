@@ -412,6 +412,7 @@
 * [tox](https://github.com/tox-dev/tox) - Command line driven CI frontend and development task automation tool.
 * [nox](https://github.com/wntrblm/nox) - Flexible test automation for Python
 * [invoke](https://github.com/pyinvoke/invoke) - Pythonic task management & command execution.
+* [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth using speedtest.net
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
