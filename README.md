@@ -72,7 +72,7 @@
 * [embla-carousel](https://github.com/davidjerleke/embla-carousel) - A lightweight carousel library with fluid motion and great swipe precision.
 * [vue3-ace-editor](https://github.com/CarterLi/vue3-ace-editor) - Like vue2-ace-editor but more functional and supports Vue 3
 * [turbo-console-log](https://github.com/Chakroun-Anas/turbo-console-log) - fantastic debug tool
-* [nextui](https://github.com/nextui-org/nextui) - 🚀 Beautiful, fast and modern React UI library.
+* [nex](https://github.com/nex-org/nex) - 🚀 Beautiful, fast and modern React UI library.
 * [chakra-ui](https://github.com/chakra-ui/chakra-ui) - ⚡️ Simple, Modular & Accessible UI Components for your React Applications
 * [puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API
 * [xterm.js](https://github.com/xtermjs/xterm.js) - A terminal for the web
@@ -237,6 +237,7 @@
 * [pp](https://github.com/k0kubun/pp) - Colored pretty printer for Go language
 * [NoiseTorch](https://github.com/noisetorch/NoiseTorch) - Real-time microphone noise suppression on Linux.
 * [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
+* [bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧
 * [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/) - cqhttp的golang实现，轻量、原生跨平台.
 * [pixlet](https://github.com/tidbyt/pixlet) - Build apps for pixel-based displays ✨
 * [gnomock](https://github.com/orlangure/gnomock) - Test your code without writing mocks with ephemeral Docker containers 📦 Setup popular services with just a couple lines of code ⏱️ No bash, no yaml, only code 💻
