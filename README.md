@@ -299,6 +299,7 @@
 * [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image.
 * [hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
 * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
+* [mivus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
