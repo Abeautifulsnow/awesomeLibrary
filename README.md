@@ -301,6 +301,7 @@
 * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
 * [mivus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
 * [grpcui](https://github.com/fullstorydev/grpcui) - An interactive web UI for gRPC, along the lines of postman
+* [g](https://github.com/voidint/g) - Golang Version Manager
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -460,6 +461,7 @@
 * [rtoml](https://github.com/samuelcolvin/rtoml) - A fast TOML library for python implemented in rust.
 * [RedisJSON](https://github.com/RedisJSON/RedisJSON) - RedisJSON - a JSON data type for Redis
 * [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
+* [delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for git, diff, and grep output
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
