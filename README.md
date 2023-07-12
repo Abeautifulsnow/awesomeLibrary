@@ -502,6 +502,7 @@
 * [ccxt](https://github.com/ccxt/ccxt) - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 * [Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相关资源汇总 📺 💯 IPTV、M3U
 * [zeal](https://github.com/zealdocs/zeal/) - Offline documentation browser inspired by Dash
+* [excalidraw](https://excalidraw.com/) - 在线白板工具
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
