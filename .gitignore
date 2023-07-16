@@ -2,3 +2,4 @@ test.*
 feature.md
 .vscode
 __pycache__
+token.txt

@@ -1,13 +1,23 @@
 import argparse
+import asyncio
 import json
+import logging
 import re
 import sys
 from functools import partial
 from typing import List, TypedDict, Union
 
+from api import GetRepoInfo
 from panel import PanelOut
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
+from tracelog import install_traceback, print_exception, setup_logging
 from validator import URLValidator, ValidationError
+
+# Do some preparation work.
+install_traceback()
+setup_logging()
+
+logger = logging.getLogger(__name__)
 
 
 class MDContent(TypedDict):
@@ -82,13 +92,13 @@ class MKDownControl:
         if not content:
             not_exist_tips = (
                 f"💥[bold][red]Header - `{head}` does not exist.[/red]\n"
-                + f"See detail:".center(60, "*")
+                + "See detail:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep -w '{head}'"
             )
             PanelOut(
                 not_exist_tips,
                 panel_title=f"🤧[bold][green]Traceback: {head}",
-                panel_foot=f"🙉[bold][green]RepeatContent",
+                panel_foot="🙉[bold][green]RepeatContent",
             )()
             exit(1)
 
@@ -195,13 +205,13 @@ class MKDownControl:
                     repeat_tips = (
                         f"💥[bold][red]`{repo_name}` already exists.[/red]"
                         + f"\n🐛{item}"
-                        + f"See detail:".center(60, "*")
+                        + "See detail:".center(60, "*")
                         + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {header} | grep '{repo_name}'"
                     )
                     PanelOut(
                         repeat_tips,
                         panel_title=f"🤧[bold][green]Traceback: {header}",
-                        panel_foot=f"🙉[bold][green]RepeatContent",
+                        panel_foot="🙉[bold][green]RepeatContent",
                     )()
                     exit(1)
 
@@ -257,13 +267,13 @@ class MKDownControl:
             # head not exist.
             no_header_tips = (
                 f"💥[bold][red]`{head}` does not exist.[/red]\n"
-                + f"You can do it:".center(60, "*")
+                + "You can do it:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {head}"
             )
             PanelOut(
                 no_header_tips,
                 panel_title="🤧[bold][green]Traceback: Missing Header",
-                panel_foot=f"🙉[bold][green]ValueNotFoundError",
+                panel_foot="🙉[bold][green]ValueNotFoundError",
             )()
             exit(1)
 
@@ -324,13 +334,13 @@ class MKDownControl:
         if head in head_list:
             no_header_tips = (
                 f"💥[bold][red]`{head}` already exists.[/red]\n"
-                + f"See detail:".center(60, "*")
+                + "See detail:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep '{head}'"
             )
             PanelOut(
                 no_header_tips,
                 panel_title=f"🤧[bold][green]Traceback: {head}",
-                panel_foot=f"🙉[bold][green]Duplicated Header",
+                panel_foot="🙉[bold][green]Duplicated Header",
             )()
             exit(1)
         self._insert_new_header(head)
@@ -450,7 +460,7 @@ def main():
                 mkd.update_content(args.header, head_new_content)
                 mkd.restore_data_and_write()
                 # Print last five elements. Not include [\n].
-                print("last five elements are displayed here".center(80, "*"))
+                logger.info("last five elements are displayed here".center(80, "*"))
                 json_list = [
                     line.rstrip("\n")
                     for line in mkd.get_head_content(args.header)[-6:]
@@ -465,9 +475,12 @@ def main():
         mkd.restore_data_and_write()
         _pretty_print_all_header()
     else:
-        print(args)
+        logger.info(args)
+        print("---------")
         parser.print_help()
 
 
 if __name__ == "__main__":
-    main()
+    rp = GetRepoInfo("https://github.com/Textualize/rich")
+    asyncio.run(rp.request_api())
+    # main()
