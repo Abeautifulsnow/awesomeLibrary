@@ -417,6 +417,7 @@
 * [nox](https://github.com/wntrblm/nox) - Flexible test automation for Python
 * [invoke](https://github.com/pyinvoke/invoke) - Pythonic task management & command execution.
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth using speedtest.net
+* [yolov5](https://github.com/ultralytics/yolov5) - YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
