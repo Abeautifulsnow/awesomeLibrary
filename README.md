@@ -303,6 +303,7 @@
 * [grpcui](https://github.com/fullstorydev/grpcui) - An interactive web UI for gRPC, along the lines of postman
 * [g](https://github.com/voidint/g) - Golang Version Manager
 * [zenity](https://github.com/ncruces/zenity) - Zenity dialogs for Golang, Windows, macOS.
+* [pterm](https://github.com/pterm/pterm) - ✨ #PTerm is a modern Go module to easily beautify console output. 
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
