@@ -506,6 +506,7 @@
 * [Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相关资源汇总 📺 💯 IPTV、M3U
 * [zeal](https://github.com/zealdocs/zeal/) - Offline documentation browser inspired by Dash
 * [excalidraw](https://excalidraw.com/) - 在线白板工具
+* [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
