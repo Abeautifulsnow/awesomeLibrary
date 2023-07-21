@@ -463,8 +463,8 @@
 * [qdrant](https://github.com/qdrant/qdrant) - Qdrant - Vector Database for the next generation of AI applications. Also available in the cloud
 * [rtoml](https://github.com/samuelcolvin/rtoml) - A fast TOML library for python implemented in rust.
 * [RedisJSON](https://github.com/RedisJSON/RedisJSON) - RedisJSON - a JSON data type for Redis
-* [tokei](https://github.com/XAMPPRocky/tokei) - Count your code, quickly.
-* [delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for git, diff, and grep output
+* [egui](https://github.com/emilk/egui) - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
+* [dioxus](https://github.com/dioxuslabs/dioxus) - Fullstack GUI library for desktop, web, mobile, and more.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
