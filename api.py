@@ -1,11 +1,14 @@
 import asyncio
 import logging
-from typing import Dict, List, Union
+from typing import List
 
 import httpx
 from pydantic import BaseModel
 
 logger = logging.getLogger(__name__)
+
+# Some constant variables.
+API_PREFIX = "https://api.github.com/repos/"
 
 
 class RepoOwner(BaseModel):
@@ -17,6 +20,7 @@ class Repo(BaseModel):
     description: str
     language: str
     owner: RepoOwner
+    html_url: str
 
 
 def getAccessToken():
@@ -36,7 +40,7 @@ class GetRepoInfo:
         self.repo_url = repo_url
         self._trim_dot_git_suffix()
 
-        self.api_prefix = "https://api.github.com/repos/"
+        self.api_prefix = API_PREFIX
 
     def _trim_dot_git_suffix(self):
         """Trim the `.git` suffix."""
@@ -51,6 +55,7 @@ class GetRepoInfo:
         """
         return self.repo_url
 
+    @property
     def get_repo_list(self) -> List[str]:
         """Split the repository string with a slash.
 
@@ -66,8 +71,7 @@ class GetRepoInfo:
         Returns:
             str: Return the repository name.
         """
-        repo_list = self.repo_url.split("/")
-        return repo_list[-1]
+        return self.get_repo_list[-1]
 
     def get_repo_user(self) -> str:
         """Return the repository owner.
@@ -75,10 +79,9 @@ class GetRepoInfo:
         Returns:
             str: Return the repository owner.
         """
-        repo_list = self.repo_url.split("/")
-        return repo_list[-2]
+        return self.get_repo_list[-2]
 
-    async def request_api(self) -> Dict[str, Union[str, Dict[str, str]]]:
+    async def request_api(self) -> Repo:
         access_token = getAccessToken()
         if not access_token:
             raise ValueError("Token not found.")
@@ -95,7 +98,7 @@ class GetRepoInfo:
                 exit(1)
             else:
                 data = response.json()
-                result = Repo(**data).dict()
+                result = Repo(**data)
                 return result
 
 

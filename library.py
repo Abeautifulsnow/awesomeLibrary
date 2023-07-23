@@ -7,7 +7,7 @@ import sys
 from functools import partial
 from typing import List, TypedDict, Union
 
-from api import GetRepoInfo
+from api import GetRepoInfo, Repo
 from panel import PanelOut
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
 from tracelog import install_traceback, print_exception, setup_logging
@@ -81,12 +81,14 @@ class MKDownControl:
             head = head.lower()
         else:
             raise ValueNotBeNoneError(f"head must be a valid string... got {head}")
+
         for item in self.md_content_list:
             # Refer to: https://stackoverflow.com/questions/63829680/type-assertion-in-mypy
             in_head = head.strip(" ").lower()
             origin_head = item["head"].strip("#\n\t ").lower()
 
             if in_head == origin_head:
+                # If content is empty, there still have two \n character.
                 content = item["content"]
 
         if not content:
@@ -98,7 +100,7 @@ class MKDownControl:
             PanelOut(
                 not_exist_tips,
                 panel_title=f"🤧[bold][green]Traceback: {head}",
-                panel_foot="🙉[bold][green]RepeatContent",
+                panel_foot="🙉[bold][green]HeaderNotExist",
             )()
             exit(1)
 
@@ -364,6 +366,76 @@ class MKDownControl:
             raise e
 
 
+def _update_new_repo(
+    mkd: MKDownControl, header: str, repo_name: str, repo_url: str, repo_about: str
+):
+    """The interface of updating data into README.md
+
+    Args:
+        mkd (MKDownControl): The instance of MKDownControl.
+        header (str): Language or topic.
+        repo_name (str): The name of repository.
+        repo_url (str): The url of repository.
+        repo_about (str): The description of repository.
+    """
+    head_new_content = mkd.append_new_content(
+        header=header,
+        repo_name=repo_name,
+        repo_url=repo_url,
+        repo_about=repo_about,
+    )
+    mkd.update_content(header, head_new_content)
+    mkd.restore_data_and_write()
+    # Print last five elements. Not include [\n].
+    logger.info("last five elements are displayed here".center(80, "*"))
+    json_list = [
+        line.rstrip("\n") for line in mkd.get_head_content(header)[-6:] if line != "\n"
+    ]
+    AllConsole(json.dumps(json_list), PrintJson).pretty_out()
+
+
+def request_api(repo_url: str) -> Repo:
+    """
+    Args:
+        repo_url (str): The url of repository in github.
+    """
+    rp = GetRepoInfo(repo_url=repo_url)
+
+    loop = asyncio.get_event_loop()
+    result = loop.run_until_complete(rp.request_api())
+
+    return result
+
+
+def handle_readme_from_api_data(mkd: MKDownControl, repo_d: Repo):
+    """_summary_
+
+    Args:
+        mkd (MKDownControl): The instance of MKDownControl.
+        header (str): Language or topic.
+        repo_url (str): The url of repository.
+    """
+    _update_new_repo(
+        mkd, repo_d.language, repo_d.name, repo_d.html_url, repo_d.description
+    )
+
+
+def update_new_repo(mkd: MKDownControl, args: argparse.Namespace):
+    """Update new data into README.md.
+
+    Args:
+        mkd (MKDownControl): The instance of MKDownControl.
+        args (argparse.Namespace): The Namespace of argparse.
+    """
+    _update_new_repo(
+        mkd,
+        args.header,
+        args.repo_name,
+        args.repo_url,
+        args.repo_about,
+    )
+
+
 def prepare_args() -> "argparse.ArgumentParser":
     parser = argparse.ArgumentParser(
         description="Add/Update new/old content to README.md file."
@@ -391,7 +463,9 @@ def prepare_args() -> "argparse.ArgumentParser":
 
     # add new data
     group_add = group_add_parser.add_parser(
-        "add", help="Add new data to content.", description="Add new data to content."
+        "add",
+        help="Add new data to content.(Should specify -t before.)",
+        description="Add new data to content.",
     )
     group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of this github repository."
@@ -404,6 +478,16 @@ def prepare_args() -> "argparse.ArgumentParser":
         "--repo_about",
         type=str,
         help="The description of this github repository.",
+    )
+
+    # add new data from git, not manually do it.
+    group_add = group_add_parser.add_parser(
+        "git",
+        help="Add new data to content from url directly.",
+        description="Add new data to content.",
+    )
+    group_add.add_argument(
+        "-u", "--repo_url", type=str, help="The url of this github repository."
     )
 
     # others
@@ -451,29 +535,16 @@ def main():
             }
         else:
             if args.sub_command == "add":
-                head_new_content = mkd.append_new_content(
-                    header=args.header,
-                    repo_name=args.repo_name,
-                    repo_url=args.repo_url,
-                    repo_about=args.repo_about,
-                )
-                mkd.update_content(args.header, head_new_content)
-                mkd.restore_data_and_write()
-                # Print last five elements. Not include [\n].
-                logger.info("last five elements are displayed here".center(80, "*"))
-                json_list = [
-                    line.rstrip("\n")
-                    for line in mkd.get_head_content(args.header)[-6:]
-                    if line != "\n"
-                ]
-                AllConsole(json.dumps(json_list), PrintJson).pretty_out()
-
+                update_new_repo(mkd, args)
             if args.sub_command == "new":
                 parser.print_help()
     elif args.sub_command and args.sub_command == "new":
         mkd.insert_new_header(args.new_title)
         mkd.restore_data_and_write()
         _pretty_print_all_header()
+    elif args.sub_command and args.sub_command == "git":
+        repo = request_api(args.repo_url)
+        handle_readme_from_api_data(mkd, repo)
     else:
         logger.info(args)
         print("---------")
@@ -481,6 +552,4 @@ def main():
 
 
 if __name__ == "__main__":
-    rp = GetRepoInfo("https://github.com/Textualize/rich")
-    asyncio.run(rp.request_api())
-    # main()
+    main()
