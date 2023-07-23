@@ -300,6 +300,11 @@
 * [hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
 * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
 * [mivus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
+* [grpcui](https://github.com/fullstorydev/grpcui) - An interactive web UI for gRPC, along the lines of postman
+* [g](https://github.com/voidint/g) - Golang Version Manager
+* [zenity](https://github.com/ncruces/zenity) - Zenity dialogs for Golang, Windows, macOS.
+* [pterm](https://github.com/pterm/pterm) - ✨ #PTerm is a modern Go module to easily beautify console output.
+* [lego](https://github.com/go-acme/lego) - Let's Encrypt/ACME client and library written in Go
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -415,6 +420,7 @@
 * [nox](https://github.com/wntrblm/nox) - Flexible test automation for Python
 * [invoke](https://github.com/pyinvoke/invoke) - Pythonic task management & command execution.
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) - Command line interface for testing internet bandwidth using speedtest.net
+* [yolov5](https://github.com/ultralytics/yolov5) - YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -458,6 +464,8 @@
 * [qdrant](https://github.com/qdrant/qdrant) - Qdrant - Vector Database for the next generation of AI applications. Also available in the cloud
 * [rtoml](https://github.com/samuelcolvin/rtoml) - A fast TOML library for python implemented in rust.
 * [RedisJSON](https://github.com/RedisJSON/RedisJSON) - RedisJSON - a JSON data type for Redis
+* [egui](https://github.com/emilk/egui) - egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
+* [dioxus](https://github.com/dioxuslabs/dioxus) - Fullstack GUI library for desktop, web, mobile, and more.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
@@ -498,6 +506,8 @@
 * [ccxt](https://github.com/ccxt/ccxt) - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 * [Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相关资源汇总 📺 💯 IPTV、M3U
 * [zeal](https://github.com/zealdocs/zeal/) - Offline documentation browser inspired by Dash
+* [excalidraw](https://excalidraw.com/) - 在线白板工具
+* [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
