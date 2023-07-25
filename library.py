@@ -429,7 +429,7 @@ def update_new_repo(mkd: MKDownControl, args: argparse.Namespace):
     """
     _update_new_repo(
         mkd,
-        args.header,
+        args.repo_lang,
         args.repo_name,
         args.repo_url,
         args.repo_about,
@@ -445,17 +445,17 @@ def prepare_args() -> "argparse.ArgumentParser":
     group_add_parser = parser.add_subparsers(
         title="Sub-parser commands",
         dest="sub_command",
-        help="-t(in Basic) can be used with add, not new.",
+        help="Top-level sub commands.",
     )
 
     # show contents belong with title.
     group_new = group_add_parser.add_parser(
         "new",
-        help="Insert new title into file.",
+        help="Insert new title into file.📌",
         description="Insert new title into file.",
     )
     group_new.add_argument(
-        "-nt",
+        "-t",
         "--new_title",
         type=str,
         help="Specify accurate title's name to insert it",
@@ -464,8 +464,14 @@ def prepare_args() -> "argparse.ArgumentParser":
     # add new data
     group_add = group_add_parser.add_parser(
         "add",
-        help="Add new data to content.(Should specify -t before.)",
-        description="Add new data to content.",
+        help="Add new data to content manually(Which means you need to type in every section🤯)..",
+        description="Add new data to content manually(Which means you need to type in every section🤯).",
+    )
+    group_add.add_argument(
+        "-l",
+        "--repo_lang",
+        type=str,
+        help="String: The language or topic.",
     )
     group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of this github repository."
@@ -484,7 +490,7 @@ def prepare_args() -> "argparse.ArgumentParser":
     group_add = group_add_parser.add_parser(
         "git",
         help="Add new data to content from url directly.",
-        description="Add new data to content.",
+        description="Add new data to content from url directly🤓.",
     )
     group_add.add_argument(
         "-u", "--repo_url", type=str, help="The url of this github repository."
@@ -498,7 +504,7 @@ def prepare_args() -> "argparse.ArgumentParser":
         "-t",
         "--header",
         type=str,
-        help="String: If set, terminal will display all contents belong to this header.",
+        help="String: If set, terminal will display all contents belong to this header.💻",
     )
 
     parser_header = parser.add_argument_group("Header", "show all headers.")
@@ -506,10 +512,22 @@ def prepare_args() -> "argparse.ArgumentParser":
         "-l",
         "--header_list",
         action="store_true",
-        help="Boolean: List all headers.",
+        help="Boolean: List all headers.📅",
     )
 
     return parser
+
+
+def log_err_args(args: argparse.Namespace, parser: argparse.ArgumentParser):
+    """Represent the cli usage.
+
+    Args:
+        args (argparse.Namespace): Simple object for storing attributes.
+        parser (argparse.ArgumentParser): Object for parsing command line strings into Python objects.
+    """
+    logger.error(args)
+    print("Refer to usage below".center("60", "-"))
+    parser.print_help()
 
 
 def main():
@@ -534,21 +552,23 @@ def main():
                 if line != "\n"
             }
         else:
-            if args.sub_command == "add":
+            log_err_args(args, parser)
+
+    elif args.sub_command:
+        # New future from python3.10
+        match args.sub_command:
+            case "new":
+                mkd.insert_new_header(args.new_title)
+                mkd.restore_data_and_write()
+                _pretty_print_all_header()
+            case "git":
+                repo = request_api(args.repo_url)
+                handle_readme_from_api_data(mkd, repo)
+            case "add":
                 update_new_repo(mkd, args)
-            if args.sub_command == "new":
-                parser.print_help()
-    elif args.sub_command and args.sub_command == "new":
-        mkd.insert_new_header(args.new_title)
-        mkd.restore_data_and_write()
-        _pretty_print_all_header()
-    elif args.sub_command and args.sub_command == "git":
-        repo = request_api(args.repo_url)
-        handle_readme_from_api_data(mkd, repo)
+
     else:
-        logger.info(args)
-        print("---------")
-        parser.print_help()
+        log_err_args(args, parser)
 
 
 if __name__ == "__main__":

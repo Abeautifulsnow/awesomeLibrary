@@ -305,6 +305,7 @@
 * [zenity](https://github.com/ncruces/zenity) - Zenity dialogs for Golang, Windows, macOS.
 * [pterm](https://github.com/pterm/pterm) - ✨ #PTerm is a modern Go module to easily beautify console output.
 * [lego](https://github.com/go-acme/lego) - Let's Encrypt/ACME client and library written in Go
+* [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 4 and beyond.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
