@@ -307,6 +307,7 @@
 * [lego](https://github.com/go-acme/lego) - Let's Encrypt/ACME client and library written in Go
 * [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 4 and beyond.
 * [trzsz-ssh](https://github.com/trzsz/trzsz-ssh) - 支持 trzsz 的 ssh 客户端，支持选择或搜索服务器批量登录，支持记住密码
+* [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
