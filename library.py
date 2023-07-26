@@ -526,7 +526,7 @@ def log_err_args(args: argparse.Namespace, parser: argparse.ArgumentParser):
         parser (argparse.ArgumentParser): Object for parsing command line strings into Python objects.
     """
     logger.error(args)
-    print("Refer to usage below".center("60", "-"))
+    print("Refer to usage below".center(60, "-"))
     parser.print_help()
 
 

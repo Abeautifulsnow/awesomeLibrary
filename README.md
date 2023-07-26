@@ -306,6 +306,7 @@
 * [pterm](https://github.com/pterm/pterm) - ✨ #PTerm is a modern Go module to easily beautify console output.
 * [lego](https://github.com/go-acme/lego) - Let's Encrypt/ACME client and library written in Go
 * [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 4 and beyond.
+* [trzsz-ssh](https://github.com/trzsz/trzsz-ssh) - 支持 trzsz 的 ssh 客户端，支持选择或搜索服务器批量登录，支持记住密码
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
