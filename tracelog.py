@@ -20,7 +20,7 @@ def setup_logging():
     FORMAT = "%(asctime)s | [%(levelname)s] | %(name)s | %(funcName)s | %(message)s"
 
     logging.basicConfig(
-        level="NOTSET",
+        level="INFO",
         format=FORMAT,
         datefmt="%Y-%m-%d %H:%M:%S",
         handlers=[RichHandler(show_time=False, show_level=False, rich_tracebacks=True)],
@@ -36,7 +36,7 @@ def install_traceback():
 if __name__ == "__main__":
     setup_logging()
     logger = logging.getLogger(__name__)
-    logger.debug("test")
+    logger.info("test")
 
     install_traceback()
     try:
