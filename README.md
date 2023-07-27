@@ -309,6 +309,7 @@
 * [trzsz-ssh](https://github.com/trzsz/trzsz-ssh) - 支持 trzsz 的 ssh 客户端，支持选择或搜索服务器批量登录，支持记住密码
 * [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
 
+
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
 * [typer](https://github.com/tiangolo/typer) Typer, build great CLIs. Easy to code. Based on Python type hints.
