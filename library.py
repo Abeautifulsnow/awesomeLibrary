@@ -1,13 +1,23 @@
 import argparse
+import asyncio
 import json
+import logging
 import re
 import sys
 from functools import partial
 from typing import List, TypedDict, Union
 
+from api import GetRepoInfo, Repo
 from panel import PanelOut
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
+from tracelog import install_traceback, print_exception, setup_logging
 from validator import URLValidator, ValidationError
+
+# Do some preparation work.
+install_traceback()
+setup_logging()
+
+logger = logging.getLogger(__name__)
 
 
 class MDContent(TypedDict):
@@ -71,24 +81,26 @@ class MKDownControl:
             head = head.lower()
         else:
             raise ValueNotBeNoneError(f"head must be a valid string... got {head}")
+
         for item in self.md_content_list:
             # Refer to: https://stackoverflow.com/questions/63829680/type-assertion-in-mypy
             in_head = head.strip(" ").lower()
             origin_head = item["head"].strip("#\n\t ").lower()
 
             if in_head == origin_head:
+                # If content is empty, there still have two \n character.
                 content = item["content"]
 
         if not content:
             not_exist_tips = (
                 f"💥[bold][red]Header - `{head}` does not exist.[/red]\n"
-                + f"See detail:".center(60, "*")
+                + "See detail:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep -w '{head}'"
             )
             PanelOut(
                 not_exist_tips,
                 panel_title=f"🤧[bold][green]Traceback: {head}",
-                panel_foot=f"🙉[bold][green]RepeatContent",
+                panel_foot="🙉[bold][green]HeaderNotExist",
             )()
             exit(1)
 
@@ -195,13 +207,13 @@ class MKDownControl:
                     repeat_tips = (
                         f"💥[bold][red]`{repo_name}` already exists.[/red]"
                         + f"\n🐛{item}"
-                        + f"See detail:".center(60, "*")
+                        + "See detail:".center(60, "*")
                         + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {header} | grep '{repo_name}'"
                     )
                     PanelOut(
                         repeat_tips,
                         panel_title=f"🤧[bold][green]Traceback: {header}",
-                        panel_foot=f"🙉[bold][green]RepeatContent",
+                        panel_foot="🙉[bold][green]RepeatContent",
                     )()
                     exit(1)
 
@@ -257,13 +269,13 @@ class MKDownControl:
             # head not exist.
             no_header_tips = (
                 f"💥[bold][red]`{head}` does not exist.[/red]\n"
-                + f"You can do it:".center(60, "*")
+                + "You can do it:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -t {head}"
             )
             PanelOut(
                 no_header_tips,
                 panel_title="🤧[bold][green]Traceback: Missing Header",
-                panel_foot=f"🙉[bold][green]ValueNotFoundError",
+                panel_foot="🙉[bold][green]ValueNotFoundError",
             )()
             exit(1)
 
@@ -324,13 +336,13 @@ class MKDownControl:
         if head in head_list:
             no_header_tips = (
                 f"💥[bold][red]`{head}` already exists.[/red]\n"
-                + f"See detail:".center(60, "*")
+                + "See detail:".center(60, "*")
                 + f"\n🐞Cmd: [blue]{sys.executable} {__file__} -l | grep '{head}'"
             )
             PanelOut(
                 no_header_tips,
                 panel_title=f"🤧[bold][green]Traceback: {head}",
-                panel_foot=f"🙉[bold][green]Duplicated Header",
+                panel_foot="🙉[bold][green]Duplicated Header",
             )()
             exit(1)
         self._insert_new_header(head)
@@ -354,6 +366,76 @@ class MKDownControl:
             raise e
 
 
+def _update_new_repo(
+    mkd: MKDownControl, header: str, repo_name: str, repo_url: str, repo_about: str
+):
+    """The interface of updating data into README.md
+
+    Args:
+        mkd (MKDownControl): The instance of MKDownControl.
+        header (str): Language or topic.
+        repo_name (str): The name of repository.
+        repo_url (str): The url of repository.
+        repo_about (str): The description of repository.
+    """
+    head_new_content = mkd.append_new_content(
+        header=header,
+        repo_name=repo_name,
+        repo_url=repo_url,
+        repo_about=repo_about,
+    )
+    mkd.update_content(header, head_new_content)
+    mkd.restore_data_and_write()
+    # Print last five elements. Not include [\n].
+    logger.info("last five elements are displayed here".center(80, "*"))
+    json_list = [
+        line.rstrip("\n") for line in mkd.get_head_content(header)[-6:] if line != "\n"
+    ]
+    AllConsole(json.dumps(json_list), PrintJson).pretty_out()
+
+
+def request_api(repo_url: str) -> Repo:
+    """
+    Args:
+        repo_url (str): The url of repository in github.
+    """
+    rp = GetRepoInfo(repo_url=repo_url)
+
+    loop = asyncio.get_event_loop()
+    result = loop.run_until_complete(rp.request_api())
+
+    return result
+
+
+def handle_readme_from_api_data(mkd: MKDownControl, repo_d: Repo):
+    """_summary_
+
+    Args:
+        mkd (MKDownControl): The instance of MKDownControl.
+        header (str): Language or topic.
+        repo_url (str): The url of repository.
+    """
+    _update_new_repo(
+        mkd, repo_d.language, repo_d.name, repo_d.html_url, repo_d.description
+    )
+
+
+def update_new_repo(mkd: MKDownControl, args: argparse.Namespace):
+    """Update new data into README.md.
+
+    Args:
+        mkd (MKDownControl): The instance of MKDownControl.
+        args (argparse.Namespace): The Namespace of argparse.
+    """
+    _update_new_repo(
+        mkd,
+        args.repo_lang,
+        args.repo_name,
+        args.repo_url,
+        args.repo_about,
+    )
+
+
 def prepare_args() -> "argparse.ArgumentParser":
     parser = argparse.ArgumentParser(
         description="Add/Update new/old content to README.md file."
@@ -363,17 +445,17 @@ def prepare_args() -> "argparse.ArgumentParser":
     group_add_parser = parser.add_subparsers(
         title="Sub-parser commands",
         dest="sub_command",
-        help="-t(in Basic) can be used with add, not new.",
+        help="Top-level sub commands.",
     )
 
     # show contents belong with title.
     group_new = group_add_parser.add_parser(
         "new",
-        help="Insert new title into file.",
+        help="Insert new title into file.📌",
         description="Insert new title into file.",
     )
     group_new.add_argument(
-        "-nt",
+        "-t",
         "--new_title",
         type=str,
         help="Specify accurate title's name to insert it",
@@ -381,7 +463,15 @@ def prepare_args() -> "argparse.ArgumentParser":
 
     # add new data
     group_add = group_add_parser.add_parser(
-        "add", help="Add new data to content.", description="Add new data to content."
+        "add",
+        help="Add new data to content manually(Which means you need to type in every section🤯)..",
+        description="Add new data to content manually(Which means you need to type in every section🤯).",
+    )
+    group_add.add_argument(
+        "-l",
+        "--repo_lang",
+        type=str,
+        help="String: The language or topic.",
     )
     group_add.add_argument(
         "-n", "--repo_name", type=str, help="The name of this github repository."
@@ -396,6 +486,16 @@ def prepare_args() -> "argparse.ArgumentParser":
         help="The description of this github repository.",
     )
 
+    # add new data from git, not manually do it.
+    group_add = group_add_parser.add_parser(
+        "git",
+        help="Add new data to content from url directly.",
+        description="Add new data to content from url directly🤓.",
+    )
+    group_add.add_argument(
+        "-u", "--repo_url", type=str, help="The url of this github repository."
+    )
+
     # others
     parser_basic = parser.add_argument_group(
         "Basic", "If there is no sub-cmd, only show contents below header."
@@ -404,7 +504,7 @@ def prepare_args() -> "argparse.ArgumentParser":
         "-t",
         "--header",
         type=str,
-        help="String: If set, terminal will display all contents belong to this header.",
+        help="String: If set, terminal will display all contents belong to this header.💻",
     )
 
     parser_header = parser.add_argument_group("Header", "show all headers.")
@@ -412,10 +512,22 @@ def prepare_args() -> "argparse.ArgumentParser":
         "-l",
         "--header_list",
         action="store_true",
-        help="Boolean: List all headers.",
+        help="Boolean: List all headers.📅",
     )
 
     return parser
+
+
+def log_err_args(args: argparse.Namespace, parser: argparse.ArgumentParser):
+    """Represent the cli usage.
+
+    Args:
+        args (argparse.Namespace): Simple object for storing attributes.
+        parser (argparse.ArgumentParser): Object for parsing command line strings into Python objects.
+    """
+    logger.error(args)
+    print("Refer to usage below".center(60, "-"))
+    parser.print_help()
 
 
 def main():
@@ -440,33 +552,23 @@ def main():
                 if line != "\n"
             }
         else:
-            if args.sub_command == "add":
-                head_new_content = mkd.append_new_content(
-                    header=args.header,
-                    repo_name=args.repo_name,
-                    repo_url=args.repo_url,
-                    repo_about=args.repo_about,
-                )
-                mkd.update_content(args.header, head_new_content)
-                mkd.restore_data_and_write()
-                # Print last five elements. Not include [\n].
-                print("last five elements are displayed here".center(80, "*"))
-                json_list = [
-                    line.rstrip("\n")
-                    for line in mkd.get_head_content(args.header)[-6:]
-                    if line != "\n"
-                ]
-                AllConsole(json.dumps(json_list), PrintJson).pretty_out()
+            log_err_args(args, parser)
 
-            if args.sub_command == "new":
-                parser.print_help()
-    elif args.sub_command and args.sub_command == "new":
-        mkd.insert_new_header(args.new_title)
-        mkd.restore_data_and_write()
-        _pretty_print_all_header()
+    elif args.sub_command:
+        # New future from python3.10
+        match args.sub_command:
+            case "new":
+                mkd.insert_new_header(args.new_title)
+                mkd.restore_data_and_write()
+                _pretty_print_all_header()
+            case "git":
+                repo = request_api(args.repo_url)
+                handle_readme_from_api_data(mkd, repo)
+            case "add":
+                update_new_repo(mkd, args)
+
     else:
-        print(args)
-        parser.print_help()
+        log_err_args(args, parser)
 
 
 if __name__ == "__main__":
