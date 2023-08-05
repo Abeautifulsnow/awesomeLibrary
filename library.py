@@ -385,9 +385,10 @@ def _update_new_repo(
         repo_about=repo_about,
     )
     mkd.update_content(header, head_new_content)
-    mkd.restore_data_and_write()
     # Print last five elements. Not include [\n].
-    logger.info("last five elements are displayed here".center(80, "*"))
+    title = f"Topic: {header}(Last five elements)"
+    logger.info(f"{title:*^60}")
+    mkd.restore_data_and_write()
     json_list = [
         line.rstrip("\n") for line in mkd.get_head_content(header)[-6:] if line != "\n"
     ]
