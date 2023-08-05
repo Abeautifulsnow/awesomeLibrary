@@ -148,6 +148,7 @@
 * [pica](https://github.com/nodeca/pica) - Resize image in browser with high quality and high speed
 * [stackedit](https://github.com/benweet/stackedit) - In-browser Markdown editor
 * [qrbtf](https://github.com/ciaochaos/qrbtf) - An art QR code (qrcode) beautifier. 艺术二维码生成器。https://qrbtf.com/
+* [monaco-editor](https://github.com/microsoft/monaco-editor) - A browser based code editor
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
