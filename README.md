@@ -546,6 +546,7 @@
 * [sklearn-doc-zh](https://github.com/apachecn/sklearn-doc-zh) - 📖 [译] scikit-learn（sklearn） 中文文档
 * [web3](https://github.com/life-itself/web3) - Making sense of web3 & crypto. Introduction to key concepts and ideas. Rigorous, constructive analysis of key claims pro and con. A look at the deeper hopes and aspirations.
 * [Classy Django REST Framework](https://www.cdrf.co/) - Detailed descriptions, with full methods and attributes, for each of Django REST Framework's class-based views and serializers.
+* [free-programming-books](https://github.com/EbookFoundation/free-programming-books) - 📚 Freely available programming books
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
