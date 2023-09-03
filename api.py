@@ -37,7 +37,7 @@ class GetRepoInfo:
                 f"Repo url must be startedwith https://github.com/, got {repo_url}"
             )
 
-        self.repo_url = repo_url
+        self.repo_url = repo_url.rstrip("/ ")
         self._trim_dot_git_suffix()
 
         self.api_prefix = API_PREFIX
