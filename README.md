@@ -317,6 +317,7 @@
 * [zerolog](https://github.com/rs/zerolog) - Zero Allocation JSON Logger
 * [zap](https://github.com/uber-go/zap) - Blazing fast, structured, leveled logging in Go.
 * [portainer](https://github.com/portainer/portainer) - Making Docker and Kubernetes management easy.
+* [go-yaml](https://github.com/goccy/go-yaml) - YAML support for the Go language
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
