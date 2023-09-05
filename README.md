@@ -539,6 +539,7 @@
 * [excalidraw](https://excalidraw.com/) - 在线白板工具
 * [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 * [whimsical](https://whimsical.com/) - Combine diagramming, whiteboarding, and more with Whimsical.
+* [canva](https://www.canva.com/) - Draw images online.
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
