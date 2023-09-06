@@ -540,6 +540,7 @@
 * [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 * [whimsical](https://whimsical.com/) - Combine diagramming, whiteboarding, and more with Whimsical.
 * [canva](https://www.canva.com/) - Draw images online.
+* [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) - 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
