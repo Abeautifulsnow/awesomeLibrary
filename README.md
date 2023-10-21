@@ -448,6 +448,9 @@
 * [jumpserver](https://github.com/jumpserver/jumpserver) - JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。
 * [art](https://github.com/sepandhaghighi/art) - 🎨 ASCII art library for Python
 * [asciimatics](https://github.com/peterbrittain/asciimatics) - A cross platform package to do curses-like operations, plus higher level APIs and widgets to create text UIs and ASCII art animations
+* [ebsynth_utility](https://github.com/s9roll7/ebsynth_utility) - AUTOMATIC1111 UI extension for creating videos using img2img and ebsynth.
+* [sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet
+* [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
