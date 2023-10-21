@@ -150,6 +150,7 @@
 * [qrbtf](https://github.com/ciaochaos/qrbtf) - An art QR code (qrcode) beautifier. 艺术二维码生成器。https://qrbtf.com/
 * [monaco-editor](https://github.com/microsoft/monaco-editor) - A browser based code editor
 * [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) - 🎆Interactive Online Platform that Visualizes Algorithms from Code
+* [MrDoc](https://github.com/zmister2016/MrDoc) - mrdoc,online document system developed based on python. It is suitable for individuals and small teams to manage documents, wiki, knowledge and notes. 觅思文档，适合于个人和中小型团队的在线文档、知识库系统。
 
 ### go
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
