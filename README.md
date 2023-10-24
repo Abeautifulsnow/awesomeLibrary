@@ -503,6 +503,7 @@
 * [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - ⚙️ A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.
 * [rustimport](https://github.com/mityax/rustimport) - Import Rust source files directly from Python!
 * [pyo3](https://github.com/PyO3/pyo3) - Rust bindings for the Python interpreter
+* [polars](https://github.com/pola-rs/polars) - Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
