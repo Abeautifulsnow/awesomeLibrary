@@ -453,6 +453,7 @@
 * [ebsynth_utility](https://github.com/s9roll7/ebsynth_utility) - AUTOMATIC1111 UI extension for creating videos using img2img and ebsynth.
 * [sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet
 * [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
+* [sympy](https://github.com/sympy/sympy) - A computer algebra system written in pure Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
