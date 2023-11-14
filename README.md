@@ -572,6 +572,7 @@
 * [free-programming-books](https://github.com/EbookFoundation/free-programming-books) - 📚 Freely available programming books
 * [blog-demos](https://github.com/zq2599/blog_demos) - CSDN博客专家程序员欣宸的github，这里有六百多篇原创文章的详细分类和汇总，以及对应的源码，内容涉及Java、Docker、Kubernetes、DevOPS等方面
 * [Road2Coding](https://github.com/rd2coding/Road2Coding) - 编程之路
+* [go语言圣经](https://github.com/gopl-zh/gopl-zh.github.com) - 📚 Go语言圣经中文版 🇨🇳
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
