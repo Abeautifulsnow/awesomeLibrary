@@ -108,6 +108,7 @@
 * [docsaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 * [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Curated coding interview preparation materials for busy software engineers
 * [joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
+* [tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
