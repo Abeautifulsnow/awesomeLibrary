@@ -459,6 +459,7 @@
 * [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
 * [sympy](https://github.com/sympy/sympy) - A computer algebra system written in pure Python
 * [web3.py](https://github.com/ethereum/web3.py) - A python interface for interacting with the Ethereum blockchain and ecosystem.
+* [vyper](https://github.com/vyperlang/vyper) - Pythonic Smart Contract Language for the EVM
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
