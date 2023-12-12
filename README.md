@@ -324,6 +324,7 @@
 * [portainer](https://github.com/portainer/portainer) - Making Docker and Kubernetes management easy.
 * [go-yaml](https://github.com/goccy/go-yaml) - YAML support for the Go language
 * [go-pretty](https://github.com/jedib0t/go-pretty) - Table-writer and more in golang!
+* [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
