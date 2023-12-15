@@ -581,6 +581,7 @@
 * [Road2Coding](https://github.com/rd2coding/Road2Coding) - 编程之路
 * [go语言圣经](https://github.com/gopl-zh/gopl-zh.github.com) - 📚 Go语言圣经中文版 🇨🇳
 * [rust-by-practice](https://github.com/sunface/rust-by-practice) - Learning Rust By Practice, narrowing the gap between beginner and skilled-dev through challenging examples, exercises and projects.
+* [share_ppt](https://github.com/rfyiamcool/share_ppt) - 🚗 个人做过的技术分享... ( topic: 高性能架构, 中间件原理实践，云原生，Golang 等)
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
