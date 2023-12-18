@@ -460,6 +460,7 @@
 * [sympy](https://github.com/sympy/sympy) - A computer algebra system written in pure Python
 * [web3.py](https://github.com/ethereum/web3.py) - A python interface for interacting with the Ethereum blockchain and ecosystem.
 * [vyper](https://github.com/vyperlang/vyper) - Pythonic Smart Contract Language for the EVM
+* [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - The most powerful and modular stable diffusion GUI with a graph/nodes interface.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
