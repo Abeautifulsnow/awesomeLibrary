@@ -582,6 +582,7 @@
 * [go语言圣经](https://github.com/gopl-zh/gopl-zh.github.com) - 📚 Go语言圣经中文版 🇨🇳
 * [rust-by-practice](https://github.com/sunface/rust-by-practice) - Learning Rust By Practice, narrowing the gap between beginner and skilled-dev through challenging examples, exercises and projects.
 * [share_ppt](https://github.com/rfyiamcool/share_ppt) - 🚗 个人做过的技术分享... ( topic: 高性能架构, 中间件原理实践，云原生，Golang 等)
+* [leedl-tutorial](https://github.com/datawhalechina/leedl-tutorial) - 《李宏毅深度学习教程》，PDF下载地址：https://github.com/datawhalechina/leedl-tutorial/releases
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
