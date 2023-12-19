@@ -562,6 +562,7 @@
 * [cpolar](https://www.cpolar.com/) - 内网转公网
 * [EverythingToolBar](https://github.com/srwi/EverythingToolbar) - Everything integration for the Windows taskbar.
 * [WindTerm](https://github.com/kingToolbox/WindTerm) - A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal.
+* [helix-editor](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
