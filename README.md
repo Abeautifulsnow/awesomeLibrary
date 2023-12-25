@@ -516,6 +516,7 @@
 * [pyo3](https://github.com/PyO3/pyo3) - Rust bindings for the Python interpreter
 * [polars](https://github.com/pola-rs/polars) - Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends
 * [helix-editor](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+* [tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
