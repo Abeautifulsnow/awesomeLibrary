@@ -15,6 +15,7 @@
 		- [awesome-library](#awesome-library)
 		- [swift](#swift)
 		- [v](#v)
+		- [zig](#zig)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
@@ -618,3 +619,5 @@
 
 ### v
 * [v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io
+
+### zig
