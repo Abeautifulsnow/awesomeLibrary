@@ -463,6 +463,7 @@
 * [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - The most powerful and modular stable diffusion GUI with a graph/nodes interface.
 * [spaCy](https://github.com/explosion/spaCy) - 💫 Industrial-strength Natural Language Processing (NLP) in Python
 * [austin](https://github.com/P403n1x87/austin) - Python frame stack sampler for CPython
+* [dill](https://github.com/uqfoundation/dill) - serialize all of Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
