@@ -5,7 +5,7 @@ import logging
 import re
 import sys
 from functools import partial
-from typing import List, TypedDict, Union
+from typing import List, Optional, TypedDict, Union
 
 from api import GetRepoInfo, Repo
 from panel import PanelOut
@@ -75,8 +75,8 @@ class MKDownControl:
             headers.append(item["head"].strip("\n# "))
         return headers
 
-    def get_head_content(self, head: str) -> Union[str, List[str]]:
-        content: Union[str, List[str]] = []
+    def get_head_content(self, head: str) -> Optional[Union[str, List[str]]]:
+        content: Optional[Union[str, List[str]]] = None
         if head:
             head = head.lower()
         else:
@@ -91,7 +91,7 @@ class MKDownControl:
                 # If content is empty, there still have two \n character.
                 content = item["content"]
 
-        if not content:
+        if content is None:
             not_exist_tips = (
                 f"💥[bold][red]Header - `{head}` does not exist.[/red]\n"
                 + "See detail:".center(60, "*")
