@@ -468,6 +468,7 @@
 * [austin](https://github.com/P403n1x87/austin) - Python frame stack sampler for CPython
 * [dill](https://github.com/uqfoundation/dill) - serialize all of Python
 * [mpi4py](https://github.com/mpi4py/mpi4py) - Python bindings for MPI
+* [latexify_py](https://github.com/google/latexify_py) - A library to generate LaTeX expression from Python code.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -614,6 +615,7 @@
 * [awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) - 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
 * [awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn) - 一个很棒的Go框架、库和软件的中文收录大全
 * [awesome-solidity](https://github.com/bkrem/awesome-solidity) - A curated list of awesome Solidity resources, libraries, tools and more
+* [web3-awesome](https://github.com/fltenwall/web3-awesome) - web3百科全书👏🏻 打造 web3 全球第一中文资源
 
 ### swift
 * [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
