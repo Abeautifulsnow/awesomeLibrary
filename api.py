@@ -89,17 +89,21 @@ class GetRepoInfo:
         repoAPI = f"https://api.github.com/repos/{self.repo_url[19:]}"
         logger.info(f"Request repo url: {repoAPI}")
 
-        headers = {"Authorization": f"Bearer {access_token}"}
-        async with httpx.AsyncClient(headers=headers) as client:
-            response = await client.get(repoAPI)
+        try:
+            headers = {"Authorization": f"Bearer {access_token}"}
+            async with httpx.AsyncClient(headers=headers) as client:
+                response = await client.get(repoAPI)
 
-            if response.status_code != 200:
-                logger.fatal(response)
-                exit(1)
-            else:
-                data = response.json()
-                result = Repo(**data)
-                return result
+                if response.status_code != 200:
+                    logger.fatal(response)
+                    exit(1)
+                else:
+                    data = response.json()
+                    result = Repo(**data)
+                    return result
+        except Exception as e:
+            logger.exception(e)
+            raise e
 
 
 if __name__ == "__main__":

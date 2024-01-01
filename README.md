@@ -111,6 +111,9 @@
 * [joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
 * [tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
 * [web3.js](https://github.com/web3/web3.js) - Ethereum JavaScript API
+* [wagmi](https://github.com/wevm/wagmi) - React Hooks for Ethereum
+* [web3-react](https://github.com/Uniswap/web3-react) - A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps
+* [vditor](https://github.com/Vanessa219/vditor) - ♏  一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.
 
 ### JavaScript
 * [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
@@ -523,6 +526,7 @@
 * [polars](https://github.com/pola-rs/polars) - Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends
 * [helix-editor](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 * [tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
+* [solana](https://github.com/solana-labs/solana) - Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
@@ -596,6 +600,7 @@
 * [share_ppt](https://github.com/rfyiamcool/share_ppt) - 🚗 个人做过的技术分享... ( topic: 高性能架构, 中间件原理实践，云原生，Golang 等)
 * [leedl-tutorial](https://github.com/datawhalechina/leedl-tutorial) - 《李宏毅深度学习教程》，PDF下载地址：https://github.com/datawhalechina/leedl-tutorial/releases
 * [comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
+* [full-blockchain-solidity-course-js](https://github.com/smartcontractkit/full-blockchain-solidity-course-js) - Learn Blockchain, Solidity, and Full Stack Web3 Development with Javascript
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js

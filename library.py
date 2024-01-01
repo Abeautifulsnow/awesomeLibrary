@@ -10,7 +10,7 @@ from typing import List, Optional, TypedDict, Union
 from api import GetRepoInfo, Repo
 from panel import PanelOut
 from pretty_print import AllConsole, Pprint, PrintJson, PrintMarkDown
-from tracelog import install_traceback, print_exception, setup_logging
+from tracelog import install_traceback, setup_logging
 from validator import URLValidator, ValidationError
 
 # Do some preparation work.
@@ -199,7 +199,7 @@ class MKDownControl:
 
         for item in head_content:
             # [aim] [halo] etc.
-            item_name = re.search("(?<!!)\[(.*?)\]", item)
+            item_name = re.search(r"(?<!!)\[(.*?)]", item)
             if item_name:
                 match_repo = item_name.group()
                 if match_repo and repo_name == match_repo.strip("[]"):
@@ -413,8 +413,7 @@ def handle_readme_from_api_data(mkd: MKDownControl, repo_d: Repo):
 
     Args:
         mkd (MKDownControl): The instance of MKDownControl.
-        header (str): Language or topic.
-        repo_url (str): The url of repository.
+        repo_d (str): The url of repository.
     """
     _update_new_repo(
         mkd, repo_d.language, repo_d.name, repo_d.html_url, repo_d.description
