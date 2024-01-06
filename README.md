@@ -330,6 +330,7 @@
 * [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol
 * [ssh3](https://github.com/francoismichel/ssh3) - SSH3: faster and rich secure shell using HTTP/3, checkout our article here
 * [cortex](https://github.com/cortexproject/cortex) - A horizontally scalable, highly available, multi-tenant, long term Prometheus.
+* [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
