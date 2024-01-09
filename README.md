@@ -331,6 +331,7 @@
 * [ssh3](https://github.com/francoismichel/ssh3) - SSH3: faster and rich secure shell using HTTP/3, checkout our article here
 * [cortex](https://github.com/cortexproject/cortex) - A horizontally scalable, highly available, multi-tenant, long term Prometheus.
 * [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library
+* [incubator-answer](https://github.com/apache/incubator-answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
