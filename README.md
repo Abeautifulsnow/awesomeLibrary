@@ -528,6 +528,7 @@
 * [tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
 * [solana](https://github.com/solana-labs/solana) - Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.
 * [lapce](https://github.com/lapce/lapce) - Lightning-fast and Powerful Code Editor written in Rust.
+* [rayon](https://github.com/rayon-rs/rayon) - Rayon: A data parallelism library for Rust
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
