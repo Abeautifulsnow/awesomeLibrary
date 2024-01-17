@@ -474,6 +474,7 @@
 * [mpi4py](https://github.com/mpi4py/mpi4py) - Python bindings for MPI
 * [latexify_py](https://github.com/google/latexify_py) - A library to generate LaTeX expression from Python code.
 * [icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff
+* [ply](https://github.com/dabeaz/ply) - Python Lex-Yacc - parser
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
