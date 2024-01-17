@@ -284,7 +284,6 @@
 * [wtf](https://github.com/wtfutil/wtf) - The personal information dashboard for your terminal
 * [tproxy](https://github.com/kevwan/tproxy) - A cli tool to proxy and analyze TCP connections.
 * [caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
-* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 * [go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework.
 * [go-wsl2-host](https://github.com/shayne/go-wsl2-host) - Automatically update your Windows hosts file with the WSL2 VM IP address
 * [todoit](https://github.com/sachaos/todoist) - Todoist CLI Client. I ❤️ Todoist and CLI.
@@ -582,6 +581,7 @@
 * [EverythingToolBar](https://github.com/srwi/EverythingToolbar) - Everything integration for the Windows taskbar.
 * [WindTerm](https://github.com/kingToolbox/WindTerm) - A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal.
 * [helix-editor](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 
 ### books
 * [ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
