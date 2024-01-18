@@ -332,6 +332,7 @@
 * [cortex](https://github.com/cortexproject/cortex) - A horizontally scalable, highly available, multi-tenant, long term Prometheus.
 * [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library
 * [incubator-answer](https://github.com/apache/incubator-answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
+* [goa](https://github.com/goadesign/goa) - 🌟 Goa: Elevate Go API development! 🚀 Streamlined design, automatic code generation, and seamless HTTP/gRPC support. ✨
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -475,6 +476,7 @@
 * [latexify_py](https://github.com/google/latexify_py) - A library to generate LaTeX expression from Python code.
 * [icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff
 * [ply](https://github.com/dabeaz/ply) - Python Lex-Yacc - parser
+* [pyparsing](https://github.com/pyparsing/pyparsing) - Python library for creating PEG parsers.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
