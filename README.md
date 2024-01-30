@@ -336,6 +336,7 @@
 * [incubator-answer](https://github.com/apache/incubator-answer) - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
 * [goa](https://github.com/goadesign/goa) - 🌟 Goa: Elevate Go API development! 🚀 Streamlined design, automatic code generation, and seamless HTTP/gRPC support. ✨
 * [v2ray-core](https://github.com/v2fly/v2ray-core) - A platform for building proxies to bypass network restrictions.
+* [json-sonic](https://github.com/bytedance/sonic) - A blazingly fast JSON serializing & deserializing library.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
