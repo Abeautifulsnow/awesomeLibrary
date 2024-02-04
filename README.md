@@ -163,6 +163,7 @@
 * [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
 ### go
+* [casdoor](https://github.com/casbin/casdoor) - An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA and RADIUS.
 * [cli](https://github.com/cli/cli) GitHub官方命令行工具
 * [gin](https://github.com/gin-gonic/gin) 优秀的go后端web框架
 * [Prometheus](https://github.com/prometheus/prometheus) 监控系统
