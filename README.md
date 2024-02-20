@@ -482,6 +482,7 @@
 * [icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff
 * [ply](https://github.com/dabeaz/ply) - Python Lex-Yacc - parser
 * [pyparsing](https://github.com/pyparsing/pyparsing) - Python library for creating PEG parsers.
+* [memray](https://github.com/bloomberg/memray) - Memray is a memory profiler for Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
