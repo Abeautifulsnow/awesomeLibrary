@@ -338,6 +338,7 @@
 * [goa](https://github.com/goadesign/goa) - 🌟 Goa: Elevate Go API development! 🚀 Streamlined design, automatic code generation, and seamless HTTP/gRPC support. ✨
 * [v2ray-core](https://github.com/v2fly/v2ray-core) - A platform for building proxies to bypass network restrictions.
 * [json-sonic](https://github.com/bytedance/sonic) - A blazingly fast JSON serializing & deserializing library.
+* [milvus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
