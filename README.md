@@ -620,7 +620,8 @@
 * [comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
 * [full-blockchain-solidity-course-js](https://github.com/smartcontractkit/full-blockchain-solidity-course-js) - Learn Blockchain, Solidity, and Full Stack Web3 Development with Javascript
 * [hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
-* [python-guide](https://github.com/realpython/python-guide） - Python best practices guidebook, written for humans.
+* [python-guide](https://github.com/realpython/python-guide) - Python best practices guidebook, written for humans.
+* [styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
