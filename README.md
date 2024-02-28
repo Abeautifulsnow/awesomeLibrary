@@ -558,6 +558,7 @@
 * [gopherdaily](https://github.com/bigwhite/gopherdaily) - the archive of gopher daily articles.
 * [overnote](https://github.com/overnote) - overnote
 * [edgedb](https://github.com/edgedb) - A next-generation graph-relational database.
+* [web-infra](https://github.com/web-infra-dev) - build an open technical ecosystem to promote the development of frontend technology.
 
 ### tools
 * [siyuan](https://github.com/siyuan-note/siyuan) - local-first personal knowledge management system
