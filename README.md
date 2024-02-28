@@ -624,6 +624,7 @@
 * [hello-algo](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
 * [python-guide](https://github.com/realpython/python-guide) - Python best practices guidebook, written for humans.
 * [styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
+* [learning](https://github.com/anzhihe/learning) - Learning Shell，Python，Golang，System，Network
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
