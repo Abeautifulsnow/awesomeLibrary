@@ -485,6 +485,7 @@
 * [ply](https://github.com/dabeaz/ply) - Python Lex-Yacc - parser
 * [pyparsing](https://github.com/pyparsing/pyparsing) - Python library for creating PEG parsers.
 * [memray](https://github.com/bloomberg/memray) - Memray is a memory profiler for Python
+* [kazoo](https://github.com/python-zk/kazoo) - Kazoo is a high-level Python library that makes it easier to use Apache Zookeeper.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
