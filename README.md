@@ -630,6 +630,9 @@
 * [python-guide](https://github.com/realpython/python-guide) - Python best practices guidebook, written for humans.
 * [styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
 * [learning](https://github.com/anzhihe/learning) - Learning Shell，Python，Golang，System，Network
+* [uber_go_guide_cn](https://github.com/xxjwxc/uber_go_guide_cn) - Uber Go 语言编码规范中文版. The Uber Go Style Guide.
+* [project-layout](https://github.com/golang-standards/project-layout) - Standard Go Project Layout.
+* [100go](https://100go.co/) - 📖 100 Go Mistakes and How to Avoid Them
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
