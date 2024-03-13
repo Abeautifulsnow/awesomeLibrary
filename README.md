@@ -489,6 +489,7 @@
 * [kazoo](https://github.com/python-zk/kazoo) - Kazoo is a high-level Python library that makes it easier to use Apache Zookeeper.
 * [ultralytics](https://github.com/ultralytics/ultralytics) - NEW - YOLOv8 🚀 in PyTorch > ONNX > OpenVINO > CoreML > TFLite
 * [multiprocess](https://github.com/uqfoundation/multiprocess) - better multiprocessing and multithreading in Python.
+* [prometheus-fastapi-instrumentator](https://github.com/trallnag/prometheus-fastapi-instrumentator) - Instrument your FastAPI with Prometheus metrics.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
