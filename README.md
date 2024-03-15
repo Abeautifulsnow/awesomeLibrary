@@ -346,7 +346,6 @@
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
 * [typer](https://github.com/tiangolo/typer) Typer, build great CLIs. Easy to code. Based on Python type hints.
-* [awesome-python](https://github.com/vinta/awesome-python) 精选的python库、框架、软件、资源列表集
 * [rich](https://github.com/willmcgugan/rich) 富文本以及漂亮格式输出的终端库
 * [pyecharts](https://github.com/pyecharts/pyecharts) python版本的echarts库
 * [Ulauncher](https://github.com/Ulauncher/Ulauncher) Linux应用启动器，类似Mac的SpotLight
