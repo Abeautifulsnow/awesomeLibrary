@@ -495,6 +495,7 @@
 * [flet](https://github.com/flet-dev/flet) - Flet enables developers to easily build realtime web, mobile and desktop apps in Python. No frontend experience required.
 * [sqlglot](https://github.com/tobymao/sqlglot) - Python SQL Parser and Transpiler.
 * [FastUI](https://github.com/pydantic/FastUI) - Build better UIs faster.
+* [jsonpickle](https://github.com/jsonpickle/jsonpickle) - Python library for serializing any arbitrary object graph into JSON. It can take almost any Python object and turn the object into JSON. Additionally, it can reconstitute the object back into Python.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
