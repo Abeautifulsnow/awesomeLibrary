@@ -496,6 +496,9 @@
 * [sqlglot](https://github.com/tobymao/sqlglot) - Python SQL Parser and Transpiler.
 * [FastUI](https://github.com/pydantic/FastUI) - Build better UIs faster.
 * [jsonpickle](https://github.com/jsonpickle/jsonpickle) - Python library for serializing any arbitrary object graph into JSON. It can take almost any Python object and turn the object into JSON. Additionally, it can reconstitute the object back into Python.
+* [piper](https://github.com/rhasspy/piper) - A fast, local neural text to speech system
+* [tortoise-tts](https://github.com/neonbjb/tortoise-tts) - A multi-voice TTS system trained with an emphasis on quality
+* [silero-models](https://github.com/snakers4/silero-models) - Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
