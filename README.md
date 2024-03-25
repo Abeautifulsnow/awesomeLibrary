@@ -345,6 +345,9 @@
 * [milvus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications.
 * [athens](https://github.com/gomods/athens) - A Go module datastore and proxy
 * [templ](https://github.com/a-h/templ) - A language for writing HTML user interfaces in Go.
+* [gocache](https://github.com/eko/gocache) - ☔️ A complete Go cache library that brings you multiple ways of managing your caches
+* [ccache](https://github.com/karlseguin/ccache) - A golang LRU Cache for high concurrency
+* [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
