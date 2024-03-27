@@ -582,6 +582,7 @@
 * [edgedb](https://github.com/edgedb) - A next-generation graph-relational database.
 * [web-infra](https://github.com/web-infra-dev) - build an open technical ecosystem to promote the development of frontend technology.
 * [chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么
+* [chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs) - 中文独立博客列表
 
 ### tools
 * [siyuan](https://github.com/siyuan-note/siyuan) - local-first personal knowledge management system
