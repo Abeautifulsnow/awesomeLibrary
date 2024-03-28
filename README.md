@@ -508,7 +508,7 @@
 * [silero-models](https://github.com/snakers4/silero-models) - Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple
 * [lark](https://github.com/lark-parser/lark) - Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity.
 * [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) - Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes.
-* [streamlit](https://github.com/streamlit/streamlit) - Streamlit — A faster way to build and share data apps.
+* [streamlit](https://github.com/streamlit/streamlit) - Streamlit — A faster way to build and share data apps - protobuf.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
