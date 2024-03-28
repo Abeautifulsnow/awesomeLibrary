@@ -16,6 +16,8 @@
 		- [swift](#swift)
 		- [v](#v)
 		- [zig](#zig)
+		- [c](#c)
+		- [c++](#c++)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
@@ -692,3 +694,9 @@
 
 ### zig
 * [zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
+
+### c
+
+
+### c++
+* [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
