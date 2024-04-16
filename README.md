@@ -17,7 +17,7 @@
 		- [v](#v)
 		- [zig](#zig)
 		- [c](#c)
-		- [c++](#c++)
+		- [c++](#c-1)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
