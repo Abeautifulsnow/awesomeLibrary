@@ -351,6 +351,7 @@
 * [ccache](https://github.com/karlseguin/ccache) - A golang LRU Cache for high concurrency
 * [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
 * [langchaingo](https://github.com/tmc/langchaingo) - LangChain for Go, the easiest way to write LLM-based programs in Go
+* [gojq](https://github.com/itchyny/gojq) - Pure Go implementation of jq.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
