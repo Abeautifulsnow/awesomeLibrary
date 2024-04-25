@@ -353,6 +353,7 @@
 * [langchaingo](https://github.com/tmc/langchaingo) - LangChain for Go, the easiest way to write LLM-based programs in Go
 * [gojq](https://github.com/itchyny/gojq) - Pure Go implementation of jq.
 * [flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
+* [fsnotify](https://github.com/fsnotify/fsnotify) - Cross-platform file system notifications for Go.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
