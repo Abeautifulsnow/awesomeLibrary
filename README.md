@@ -671,6 +671,7 @@
 * [project-layout](https://github.com/golang-standards/project-layout) - Standard Go Project Layout.
 * [100go](https://100go.co/) - 📖 100 Go Mistakes and How to Avoid Them
 * [ml-engineering](https://github.com/stas00/ml-engineering) - Machine Learning Engineering Open Book.
+* [effective-rust-cn](https://github.com/rustx-labs/effective-rust-cn) - Effective Rust 中文版
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
