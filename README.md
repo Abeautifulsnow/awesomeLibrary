@@ -1,26 +1,5 @@
 # Contents
-
-- [Contents](#contents)
-	- [其它](#其它)
-	- [语言资源库](#语言资源库)
-		- [typescript](#typescript)
-		- [JavaScript](#javascript)
-		- [go](#go)
-		- [python](#python)
-		- [rust](#rust)
-		- [shell](#shell)
-		- [Organization-Forum-Blog](#organization-forum-blog)
-		- [tools](#tools)
-		- [books](#books)
-		- [awesome-library](#awesome-library)
-		- [swift](#swift)
-		- [v](#v)
-		- [zig](#zig)
-		- [c](#c)
-		- [c++](#c-1)
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
+* [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 
 ## 其它
 
@@ -32,141 +11,10 @@
 ## 语言资源库
 
 ### typescript
-* [typeorm](https://github.com/typeorm/typeorm) 支持typescript的orm库
-* [pg-god](https://github.com/ivawzh/pg-god) postgresql创建or删除的库
-* [nestjs](https://github.com/nestjs/nest) nodejs中支持typescript最好的后端框架
-* [directus](https://github.com/directus/directus) 数据平台
-* [echarts](https://github.com/apache/echarts) 可视化库
-* [autocomplete](https://github.com/withfig/autocomplete) 终端自动补全命令，可自定制[目前仅支持macos]
-* [ioredis](https://github.com/luin/ioredis) redis的ts版本组件
-* [slidev](https://github.com/slidevjs/slidev) 友好的开发者slide模板生成工具
-* [typeorm-model-generator](https://github.com/Kononnable/typeorm-model-generator) typeorm逆向生成models
-* [wangEditor](https://github.com/wangeditor-team/wangEditor) 轻量级web富文本编辑器
-* [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 帮助没有类型定义的js代码声明变量的定义
-* [topology](https://github.com/le5le-com/topology) 一个轻量、功能丰富的绘图工具
-* [LogicFlow](https://github.com/didi/LogicFlow) 流程图交互
-* [actionsflow](https://github.com/actionsflow/actionsflow) 基于GitHub行为的自动化工作流工具
-* [react-hook-form](https://github.com/react-hook-form/react-hook-form) React Hooks for forms validation (Web + React Native)
-* [virtual-background](https://github.com/Volcomix/virtual-background) Demo on adding virtual background to a live video stream in the browser
-* [redux-toolkit](https://github.com/reduxjs/redux-toolkit) The official, opinionated, batteries-included toolset for efficient Redux development
-* [vscode-database-client](https://github.com/cweijan/vscode-database-client) Database Client For Visual Studio Code
-* [varlet](https://github.com/haoziqaq/varlet) 基于Vue3的Material design风格移动端组件库 Material design mobile component library for Vue3
-* [typescript-book-chinese](https://github.com/jkchao/typescript-book-chinese) typescript中文版
-* [github1s](https://github.com/conwnet/github1s) One second to read GitHub code with VS Code.
-* [sourcegraph](https://github.com/sourcegraph/sourcegraph) Universal code search (self-hosted) [website](https://sourcegraph.com/)
-* [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
-* [SwitchHosts](https://github.com/oldj/SwitchHosts) - Switch hosts quickly!
-* [pnpm](https://github.com/pnpm/pnpm) - 快速的，节省磁盘空间的包管理工具.
-* [tui.editor](https://github.com/nhn/tui.editor) - 🍞📝 Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible.
-* [rsuite](https://github.com/rsuite/rsuite) - 🧱 A suite of React components .(React UI framework.)
-* [umi](https://github.com/umijs/umi) - 🌋 Pluggable enterprise-level react application framework.
-* [milkdown](https://github.com/Saul-Mirone/milkdown) - 🍼 Plugin driven WYSIWYG markdown editor framework.
-* [react-use](https://github.com/streamich/react-use) - React Hooks.
-* [nextui](https://github.com/nextui-org/nextui) - 🚀 Beautiful, fast and modern React UI library.
-* [hooks](https://github.com/alibaba/hooks) - A high-quality & reliable React Hooks library.
-* [pixijs](https://github.com/pixijs/pixijs) - The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.
-* [vue-class-component](https://github.com/vuejs/vue-class-component) - ES / TypeScript decorator for class-style Vue components.
-* [vuex-class](https://github.com/ktsn/vuex-class) - Binding helpers for Vuex and vue-class-component.
-* [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) - Vue.js and Property Decorator.
-* [react-redux](https://github.com/reduxjs/react-redux) - Official React bindings for Redux
-* [foca](https://github.com/foca-js/foca) - 流畅的react状态管理库
-* [sql-generator](https://github.com/liyupi/sql-generator) - 🔨 用 JSON 来生成结构化的 SQL 语句.
-* [docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
-* [embla-carousel](https://github.com/davidjerleke/embla-carousel) - A lightweight carousel library with fluid motion and great swipe precision.
-* [vue3-ace-editor](https://github.com/CarterLi/vue3-ace-editor) - Like vue2-ace-editor but more functional and supports Vue 3
-* [turbo-console-log](https://github.com/Chakroun-Anas/turbo-console-log) - fantastic debug tool
-* [nex](https://github.com/nex-org/nex) - 🚀 Beautiful, fast and modern React UI library.
-* [chakra-ui](https://github.com/chakra-ui/chakra-ui) - ⚡️ Simple, Modular & Accessible UI Components for your React Applications
-* [puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API
-* [xterm.js](https://github.com/xtermjs/xterm.js) - A terminal for the web
-* [html-to-image](https://github.com/bubkoo/html-to-image) - ✂️ Generates an image from a DOM node using HTML5 canvas and SVG.
-* [satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
-* [windicss](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
-* [memlab](https://github.com/facebook/memlab) - A framework for finding JavaScript memory leaks and analyzing heap snapshots
-* [naive-ui](https://github.com/tusen-ai/naive-ui) - A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.
-* [outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, realtime, feature rich, and markdown compatible.
-* [primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps.
-* [taro](https://github.com/NervJS/taro) - 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。
-* [vant](https://github.com/youzan/vant) - Lightweight Mobile UI Components built on Vue
-* [quark-design](https://github.com/hellof2e/quark-design) - Next generation Frontend component library, it can be used in any framework or no framework at the same time.
-* [solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
-* [hope-ui](https://github.com/hope-ui/hope-ui) - 🤞 The SolidJS component library you've hoped for.
-* [remix](https://github.com/remix-run/remix) - Build Better Websites. Create modern, resilient user experiences with web fundamentals.
-* [magic-regexp](https://github.com/danielroe/magic-regexp) - A compiled-away, type-safe, readable RegExp alternative
-* [tfjs-models](https://github.com/tensorflow/tfjs-models) - Pretrained models for TensorFlow.js
-* [excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams
-* [amix](https://github.com/baidu/amis) - 前端低代码框架，通过 JSON 配置就能生成各种页面。
-* [open-pose-editor](https://github.com/ZhUyU1997/open-pose-editor) - online 3d openpose editor for stable diffusion and controlnet
-* [remotion](https://github.com/remotion-dev/remotion) - 🎥 Make videos programmatically with React
-* [zustand](https://github.com/pmndrs/zustand) - 🐻 Bear necessities for state management in React
-* [jotai](https://github.com/pmndrs/jotai) - 👻 Primitive and flexible state management for React
-* [hls](https://github.com/video-dev/hls.js) - HLS.js is a JavaScript library that plays HLS in browsers with support for MSE.
-* [party-js](https://github.com/yiliansource/party-js) - A JavaScript library to brighten up your user's site experience with visual effects!
-* [qrcode.vue](https://github.com/scopewu/qrcode.vue) - A Vue.js component to generate qrcode.
-* [vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
-* [mitt](https://github.com/developit/mitt) - 🥊 Tiny 200 byte functional event emitter / pubsub.
-* [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
-* [react-markdown-editor](https://github.com/uiwjs/react-markdown-editor) - A markdown editor with preview, implemented with React.js and TypeScript.
-* [mkdocs-material](https://github.com/squidfunk/mkdocs-material) - Documentation that simply works
-* [docsaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
-* [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - 💯 Curated coding interview preparation materials for busy software engineers
-* [joplin](https://github.com/laurent22/joplin) - Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS.
-* [tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
-* [web3.js](https://github.com/web3/web3.js) - Ethereum JavaScript API
-* [wagmi](https://github.com/wevm/wagmi) - React Hooks for Ethereum
-* [web3-react](https://github.com/Uniswap/web3-react) - A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps
-* [vditor](https://github.com/Vanessa219/vditor) - ♏  一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.
-* [spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
-* [curlconverter](https://github.com/curlconverter/curlconverter) - Transpile curl commands into Python, JavaScript and 26 other languages
-* [code-inspector](https://github.com/zh-lx/code-inspector) - Click the dom on the page, it will open your IDE and position the cursor to the source code location of the dom.
-* [mathlive](https://github.com/arnog/mathlive) - A web component for easy math input
-* [compute-engine](https://github.com/cortex-js/compute-engine) - An engine for symbolic manipulation and numeric evaluation of math formulas expressed with MathJSON
+* [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 
 ### JavaScript
-* [chalk](https://github.com/chalk/chalk) 终端字符串样式(带颜色显示)
-* [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) 命令行工具接口
-* [hoppscotch](https://github.com/hoppscotch/hoppscotch) API接口调试
-* [drawio](https://github.com/jgraph/drawio) js绘图工具
-* [drawio-desktop](https://github.com/jgraph/drawio-desktop) 桌面版drawio应用
-* [regexper-static](https://gitlab.com/javallone/regexper-static) 正则表达式可视化
-* [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy
-* [commander.js](https://github.com/tj/commander.js) node.js command-line interfaces made easy
-* [glsl-sandbox](https://github.com/mrdoob/glsl-sandbox) Online live editor for fragment shaders.
-* [m3u8-downloader](https://github.com/Momo707577045/m3u8-downloader) - m3u8 视频在线提取工具
-* [httpx](https://github.com/encode/httpx) - A next generation HTTP client for Python. 🦋
-* [smarGate](https://github.com/lazy-luo/smarGate) - 内网穿透工具
-* [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D Library.
-* [mavonEditor](https://github.com/hinesboy/mavonEditor) - A markdown editor based on Vue that supports a variety of personalized features.
-* [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
-* [vue-form-making](https://github.com/GavinZhuLei/vue-form-making) - 基于Vue的可视化表单设计器.
-* [next.js](https://github.com/vercel/next.js) - The React Framework.
-* [Painter](https://github.com/Kujiale-Mobile/Painter) - 小程序生成图片库，轻松通过 json 方式绘制一张可以发到朋友圈的图片.
-* [vuex](https://github.com/vuejs/vuex) - 🗃️ Centralized State Management for Vue.js.
-* [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
-* [react-container-query](https://github.com/react-container-query/react-container-query) - 📦 Modular responsive component
-* [vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv) - 🌈Rainbow CSV - VS Code extension: Highlight CSV and TSV spreadsheet files in different rainbow colors.
-* [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) - Drag-and-drop sortable component for nested data and hierarchies
-* [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) - Vue drag-and-drop component based on Sortable.js
-* [strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
-* [marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
-* [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) - 🎨 ArtPlayer.js is a modern and full featured HTML5 video player
-* [remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
-* [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
-* [x-render](https://github.com/alibaba/x-render) - 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
-* [html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player) - Play RTSP stream from IP camera in browser in this HTML5 player without plugins
-* [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) - FFmpeg for browser and node, powered by WebAssembly
-* [Recoil](https://github.com/facebookexperimental/Recoil) - Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.
-* [canvas-confetti](https://github.com/catdad/canvas-confetti) - 🎉 on-demand confetti gun
-* [Fuse](https://github.com/krisk/Fuse) - Lightweight fuzzy-search, in JavaScript
-* [react-markdown](https://github.com/remarkjs/react-markdown) - Markdown component for React
-* [pica](https://github.com/nodeca/pica) - Resize image in browser with high quality and high speed
-* [stackedit](https://github.com/benweet/stackedit) - In-browser Markdown editor
-* [qrbtf](https://github.com/ciaochaos/qrbtf) - An art QR code (qrcode) beautifier. 艺术二维码生成器。https://qrbtf.com/
-* [monaco-editor](https://github.com/microsoft/monaco-editor) - A browser based code editor
-* [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) - 🎆Interactive Online Platform that Visualizes Algorithms from Code
-* [MrDoc](https://github.com/zmister2016/MrDoc) - mrdoc,online document system developed based on python. It is suitable for individuals and small teams to manage documents, wiki, knowledge and notes. 觅思文档，适合于个人和中小型团队的在线文档、知识库系统。
-* [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-* [KaTex](https://github.com/KaTeX/KaTeX) - Fast math typesetting for the web.
+* [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 
 ### go
 * [casdoor](https://github.com/casbin/casdoor) - An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA and RADIUS.
@@ -707,7 +555,7 @@
 * [zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
 
 ### c
-
+* [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 
 ### c++
-* [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
+* [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
