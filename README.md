@@ -707,7 +707,7 @@
 * [zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
 
 ### c
-
+* [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
 
 ### c++
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++

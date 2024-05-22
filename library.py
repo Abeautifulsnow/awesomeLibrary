@@ -150,9 +150,9 @@ class MKDownControl:
         Returns:
             A title that conforms to Markdown syntax.
         """
-        assert header not in [
-            head.lower() for head in self.get_all_head()
-        ], f"{header} already exists, you can `python {__file__} -l` command to list them."
+        assert (
+            header not in [head.lower() for head in self.get_all_head()]
+        ), f"{header} already exists, you can `python {__file__} -l` command to list them."
         return self.set_level_num_header(header, level)
 
     def set_new_content(self, *, repo_name: str, repo_url: str, repo_about: str) -> str:
@@ -261,7 +261,10 @@ class MKDownControl:
 
         exist_flag = False
         for item in self.md_content_list:
-            if head in item["head"].lower():
+            item_head = item["head"].lower().replace("#", "").strip("\n").strip(" ")
+            if (len(head) > 1 and head in item_head) or (
+                len(head) == 1 and head == item_head
+            ):
                 exist_flag = True
                 item["content"] = new_content
 

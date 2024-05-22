@@ -435,6 +435,20 @@ class LazyObject:
             "subclasses of LazyObject must provide a _setup() method"
         )
 
+    # Because we have messed with __class__ below, we confuse pickle as to what
+    # class we are pickling. We're going to have to initialize the wrapped
+    # object to successfully pickle it, so we might as well just pickle the
+    # wrapped object since they're supposed to act the same way.
+    #
+    # Unfortunately, if we try to simply act like the wrapped object, the ruse
+    # will break down when pickle gets our id(). Thus we end up with pickle
+    # thinking, in effect, that we are a distinct object from the wrapped
+    # object, but with the same __dict__. This can cause problems (see #25389).
+    #
+    # So instead, we define our own __reduce__ method and custom unpickler. We
+    # pickle the wrapped object as the unpickler's argument, so that pickle
+    # will pickle it normally, and then the unpickler simply returns its
+    # argument.
     def __reduce__(self):
         if self._wrapped is empty:
             self._setup()
@@ -467,7 +481,7 @@ class LazyObject:
 
     # Need to pretend to be the wrapped class, for the sake of objects that
     # care about this (especially in equality tests)
-    __class__ = property(new_method_proxy(operator.attrgetter("__class__")))  # type: ignore[assignment]
+    __class__ = property(new_method_proxy(operator.attrgetter("__class__")))
     __eq__ = new_method_proxy(operator.eq)
     __lt__ = new_method_proxy(operator.lt)
     __gt__ = new_method_proxy(operator.gt)
