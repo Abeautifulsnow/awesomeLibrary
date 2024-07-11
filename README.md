@@ -318,7 +318,6 @@
 * [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image.
 * [hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
 * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
-* [mivus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
 * [grpcui](https://github.com/fullstorydev/grpcui) - An interactive web UI for gRPC, along the lines of postman
 * [g](https://github.com/voidint/g) - Golang Version Manager
 * [zenity](https://github.com/ncruces/zenity) - Zenity dialogs for Golang, Windows, macOS.
@@ -458,7 +457,6 @@
 * [tortoise](https://github.com/tortoise/tortoise-orm) - Familiar asyncio ORM for python, built with relations in mind
 * [word_cloud](https://github.com/amueller/word_cloud) - A little word cloud generator in Python
 * [passlib](https://passlib.readthedocs.io/en/stable/) - Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms
-* [pyttsx3](https://github.com/nateshmbhat/pyttsx3) - Offline Text To Speech synthesis for python
 * [socketify.py](https://github.com/cirospaciari/socketify.py) - Bringing WebSockets, Http/Https High Peformance servers for PyPy3 and Python3
 * [walrus](https://github.com/coleifer/walrus) - Lightweight Python utilities for working with Redis
 * [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image.
