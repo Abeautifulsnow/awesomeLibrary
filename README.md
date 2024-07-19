@@ -354,6 +354,7 @@
 * [flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
 * [fsnotify](https://github.com/fsnotify/fsnotify) - Cross-platform file system notifications for Go.
 * [gopkg](https://github.com/bytedance/gopkg) - Universal Utilities for Go
+* [Ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3, Mistral, Gemma 2, and other large language models.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
