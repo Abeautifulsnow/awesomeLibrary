@@ -167,6 +167,7 @@
 * [MrDoc](https://github.com/zmister2016/MrDoc) - mrdoc,online document system developed based on python. It is suitable for individuals and small teams to manage documents, wiki, knowledge and notes. 觅思文档，适合于个人和中小型团队的在线文档、知识库系统。
 * [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 * [KaTex](https://github.com/KaTeX/KaTeX) - Fast math typesetting for the web.
+* [mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
 
 ### go
 * [casdoor](https://github.com/casbin/casdoor) - An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA and RADIUS.
