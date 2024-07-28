@@ -168,6 +168,7 @@
 * [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 * [KaTex](https://github.com/KaTeX/KaTeX) - Fast math typesetting for the web.
 * [quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+* [mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
 
 ### go
 * [casdoor](https://github.com/casbin/casdoor) - An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA and RADIUS.
@@ -319,7 +320,6 @@
 * [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image.
 * [hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
 * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
-* [mivus](https://github.com/milvus-io/milvus) - A cloud-native vector database, storage for next generation AI applications
 * [grpcui](https://github.com/fullstorydev/grpcui) - An interactive web UI for gRPC, along the lines of postman
 * [g](https://github.com/voidint/g) - Golang Version Manager
 * [zenity](https://github.com/ncruces/zenity) - Zenity dialogs for Golang, Windows, macOS.
@@ -356,6 +356,7 @@
 * [flyte](https://github.com/flyteorg/flyte) - Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
 * [fsnotify](https://github.com/fsnotify/fsnotify) - Cross-platform file system notifications for Go.
 * [gopkg](https://github.com/bytedance/gopkg) - Universal Utilities for Go
+* [Ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3, Mistral, Gemma 2, and other large language models.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -459,7 +460,6 @@
 * [tortoise](https://github.com/tortoise/tortoise-orm) - Familiar asyncio ORM for python, built with relations in mind
 * [word_cloud](https://github.com/amueller/word_cloud) - A little word cloud generator in Python
 * [passlib](https://passlib.readthedocs.io/en/stable/) - Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms
-* [pyttsx3](https://github.com/nateshmbhat/pyttsx3) - Offline Text To Speech synthesis for python
 * [socketify.py](https://github.com/cirospaciari/socketify.py) - Bringing WebSockets, Http/Https High Peformance servers for PyPy3 and Python3
 * [walrus](https://github.com/coleifer/walrus) - Lightweight Python utilities for working with Redis
 * [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image.
@@ -716,3 +716,4 @@
 
 ### c++
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
+* [duckdb](https://github.com/duckdb/duckdb) - DuckDB is an analytical in-process SQL database management system.
