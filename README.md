@@ -523,6 +523,7 @@
 * [yappi](https://github.com/sumerc/yappi) - Yet Another Python Profiler, but this time multithreading, asyncio and gevent aware.
 * [reflex](https://github.com/reflex-dev/reflex) - 🕸️ Web apps in pure Python 🐍
 * [opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) - OpenTelemetry Python API and SDK
+* [sqllineage](https://github.com/reata/sqllineage) - SQL Lineage Analysis Tool powered by Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
