@@ -358,6 +358,7 @@
 * [gopkg](https://github.com/bytedance/gopkg) - Universal Utilities for Go
 * [Ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3, Mistral, Gemma 2, and other large language models.
 * [traefik](https://github.com/traefik/traefik/) - The Cloud Native Application Proxy.
+* [swag](https://github.com/swaggo/swag) - Automatically generate RESTful API documentation with Swagger 2.0 for Go.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
