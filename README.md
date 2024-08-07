@@ -587,6 +587,7 @@
 * [num-bigint](https://github.com/rust-num/num-bigint) - Big integer types for Rust
 * [pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
 * [tonic](https://github.com/hyperium/tonic) - A native gRPC client & server implementation with async/await support.
+* [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
