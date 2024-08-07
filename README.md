@@ -703,6 +703,12 @@
 * [web3-awesome](https://github.com/fltenwall/web3-awesome) - web3百科全书👏🏻 打造 web3 全球第一中文资源
 * [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) - A curated list of awesome Machine Learning frameworks, libraries and software.
 * [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) - A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
+* [awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
+* [awesome-wails](https://github.com/wailsapp/awesome-wails) - ⭐ A carefully selected list of Wails applications
+* [awesome-tauri](https://github.com/tauri-apps/awesome-tauri) - 🚀 Awesome Tauri Apps, Plugins and Resources
+* [awesome-react](https://github.com/enaqx/awesome-react) - A collection of awesome things regarding React ecosystem
+* [awesome-react-components](https://github.com/brillout/awesome-react-components) - Curated List of React Components & Libraries.
+* [awesome-svelte](https://github.com/TheComputerM/awesome-svelte) - ⚡ A curated list of awesome Svelte resources
 
 ### swift
 * [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
