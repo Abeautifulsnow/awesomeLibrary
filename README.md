@@ -526,6 +526,7 @@
 * [reflex](https://github.com/reflex-dev/reflex) - 🕸️ Web apps in pure Python 🐍
 * [opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) - OpenTelemetry Python API and SDK
 * [sqllineage](https://github.com/reata/sqllineage) - SQL Lineage Analysis Tool powered by Python
+* [aiocache](https://github.com/aio-libs/aiocache) - Asyncio cache manager for redis, memcached and memory.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
