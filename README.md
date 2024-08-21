@@ -731,3 +731,4 @@
 ### c++
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
 * [duckdb](https://github.com/duckdb/duckdb) - DuckDB is an analytical in-process SQL database management system.
+* [nebula](https://github.com/vesoft-inc/nebula) - A distributed, fast open-source graph database featuring horizontal scalability and high availability
