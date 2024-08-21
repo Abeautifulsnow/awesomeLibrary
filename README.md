@@ -529,6 +529,7 @@
 * [aiocache](https://github.com/aio-libs/aiocache) - Asyncio cache manager for redis, memcached and memory.
 * [dramatiq](https://github.com/Bogdanp/dramatiq) - A fast and reliable background task processing library for Python 3.
 * [mpire](https://github.com/sybrenjansen/mpire) - A Python package for easy multiprocessing, but faster than multiprocessing
+* [readthedocs.org](https://github.com/readthedocs/readthedocs.org) - The source code that powers readthedocs.org
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
