@@ -696,6 +696,7 @@
 * [effective-rust-cn](https://github.com/rustx-labs/effective-rust-cn) - Effective Rust 中文版
 * [OI-wiki](https://github.com/OI-wiki/OI-wiki) - 🌟 Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）
 * [computer-science](https://github.com/ossu/computer-science) - 🎓 Path to a free self-taught education in Computer Science
+* [rustbook](https://github.com/rust-lang/book) - The Rust Programming Language
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
