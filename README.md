@@ -697,6 +697,7 @@
 * [OI-wiki](https://github.com/OI-wiki/OI-wiki) - 🌟 Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）
 * [computer-science](https://github.com/ossu/computer-science) - 🎓 Path to a free self-taught education in Computer Science
 * [rustbook](https://github.com/rust-lang/book) - The Rust Programming Language
+* [d2l-zh](https://github.com/d2l-ai/d2l-zh) - 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
