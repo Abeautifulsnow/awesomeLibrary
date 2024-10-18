@@ -599,6 +599,7 @@
 * [tonic](https://github.com/hyperium/tonic) - A native gRPC client & server implementation with async/await support.
 * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
 * [rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
+* [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
