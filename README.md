@@ -362,6 +362,7 @@
 * [traefik](https://github.com/traefik/traefik/) - The Cloud Native Application Proxy.
 * [swag](https://github.com/swaggo/swag) - Automatically generate RESTful API documentation with Swagger 2.0 for Go.
 * [hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
+* [cadence](https://github.com/uber/cadence) - Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
