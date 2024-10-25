@@ -603,6 +603,7 @@
 * [rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
 * [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) - 🐉 Making Rust a first-class language and ecosystem for GPU shaders 🚧
+* [indicatif](https://github.com/console-rs/indicatif) - A command line progress reporting library for Rust
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
