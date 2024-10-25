@@ -602,6 +602,7 @@
 * [clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
 * [rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Facilitating high-level interactions between Wasm modules and JavaScript
+* [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) - 🐉 Making Rust a first-class language and ecosystem for GPU shaders 🚧
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
