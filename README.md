@@ -608,6 +608,7 @@
 * [datafusion](https://github.com/apache/datafusion) - Apache DataFusion SQL Query Engine
 * [utoipa](https://github.com/juhaku/utoipa) - Simple, Fast, Code first and Compile time generated OpenAPI documentation for Rust
 * [petgraph](https://github.com/petgraph/petgraph) - Graph data structure library for Rust.
+* [chroma](https://github.com/chroma-core/chroma) - the AI-native open-source embedding database
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
