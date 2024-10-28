@@ -363,6 +363,7 @@
 * [swag](https://github.com/swaggo/swag) - Automatically generate RESTful API documentation with Swagger 2.0 for Go.
 * [hatchet](https://github.com/hatchet-dev/hatchet) - A distributed, fault-tolerant task queue
 * [cadence](https://github.com/uber/cadence) - Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way.
+* [weaviate](https://github.com/weaviate/weaviate) - Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
