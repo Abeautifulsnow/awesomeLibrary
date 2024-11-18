@@ -548,6 +548,7 @@
 * [viztracer](https://github.com/gaogaotiantian/viztracer) - VizTracer is a low-overhead logging/debugging/profiling tool that can trace and visualize your python code execution.
 * [OpenHands](https://github.com/All-Hands-AI/OpenHands) - 🙌 OpenHands: Code Less, Make More
 * [pystack](https://github.com/bloomberg/pystack) - 🔍 🐍 Like pstack but for Python!
+* [harlequin](https://github.com/tconbeer/harlequin) - The SQL IDE for Your Terminal.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
