@@ -550,6 +550,7 @@
 * [pystack](https://github.com/bloomberg/pystack) - 🔍 🐍 Like pstack but for Python!
 * [harlequin](https://github.com/tconbeer/harlequin) - The SQL IDE for Your Terminal.
 * [pyscript](https://github.com/pyscript/pyscript) - PyScript is an open source platform for Python in the browser.
+* [pyodide](https://github.com/pyodide/pyodide) - Pyodide is a Python distribution for the browser and Node.js based on WebAssembly
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
