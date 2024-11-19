@@ -552,6 +552,7 @@
 * [harlequin](https://github.com/tconbeer/harlequin) - The SQL IDE for Your Terminal.
 * [pyscript](https://github.com/pyscript/pyscript) - PyScript is an open source platform for Python in the browser.
 * [pyodide](https://github.com/pyodide/pyodide) - Pyodide is a Python distribution for the browser and Node.js based on WebAssembly
+* [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
