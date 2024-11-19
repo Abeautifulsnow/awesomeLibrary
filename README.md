@@ -549,6 +549,7 @@
 * [OpenHands](https://github.com/All-Hands-AI/OpenHands) - 🙌 OpenHands: Code Less, Make More
 * [pystack](https://github.com/bloomberg/pystack) - 🔍 🐍 Like pstack but for Python!
 * [harlequin](https://github.com/tconbeer/harlequin) - The SQL IDE for Your Terminal.
+* [pyscript](https://github.com/pyscript/pyscript) - PyScript is an open source platform for Python in the browser.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
