@@ -562,6 +562,7 @@
 * [docling](https://github.com/DS4SD/docling) - Get your documents ready for gen AI.
 * [ydata-profiling](https://github.com/ydataai/ydata-profiling) - 1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames.
 * [pypiserver](https://github.com/pypiserver/pypiserver) - Minimal PyPI server for uploading & downloading packages with pip/easy_install
+* [markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
