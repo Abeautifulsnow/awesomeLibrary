@@ -194,8 +194,6 @@
 * [air](https://github.com/cosmtrek/air) Go实时重载应用
 * [carbon](https://github.com/golang-module/carbon) 一个轻量级、语义化、对开发者友好的 Golang 时间处理库
 * [pg](https://github.com/go-pg/pg) PostgreSQL client and ORM for Golang
-* [rosedb](https://github.com/roseduan/rosedb) 一个 Go 语言实现的快速、稳定、内嵌的 k-v 数据库。
-* [minidb](https://github.com/roseduan/minidb) mini version of rosedb.
 * [goproxy.cn](https://github.com/goproxy/goproxy.cn) 国内go模块代理
 * [go-extend](https://github.com/thinkeridea/go-extend) go语言扩展包，收集一些常用的操作函数，辅助更快的完成开发工作，并减少重复代码
 * [cobra](https://github.com/spf13/cobra) A Commander for modern Go CLI interactions
