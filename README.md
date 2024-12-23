@@ -205,7 +205,6 @@
 * [go-stress-testing](https://github.com/link1st/go-stress-testing) go 实现的压测工具
 * [dtm](https://github.com/yedf/dtm) go分布式事务管理器
 * [go-playground](https://github.com/x1unix/go-playground) 一个好用的go运行窗口，在线运行go代码
-* [awesome-go](https://github.com/avelino/awesome-go) A curated list of awesome Go frameworks, libraries and software.
 * [ngrok](https://github.com/inconshreveable/ngrok) 内网穿透
 * [gopay](https://github.com/go-pay/gopay) 微信、支付宝、PayPal 的Go版本SDK。【极简、易用的聚合支付SDK】
 * [go-micro](https://github.com/asim/go-micro) A Go framework for distributed systems development.
