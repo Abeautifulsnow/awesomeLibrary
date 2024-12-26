@@ -634,6 +634,7 @@
 * [lancedb](https://github.com/lancedb/lancedb) - Developer-friendly, serverless vector database for AI applications. Easily add long-term memory to your LLM apps!
 * [napi-rs](https://github.com/napi-rs/napi-rs) - A framework for building compiled Node.js add-ons in Rust via Node-API
 * [mise](https://github.com/jdx/mise) - dev tools, env vars, task runner
+* [leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
