@@ -766,6 +766,7 @@
 * [awesome-svelte](https://github.com/TheComputerM/awesome-svelte) - ⚡ A curated list of awesome Svelte resources
 * [awesome-mlops-reference](https://github.com/visenger/awesome-mlops) - A curated list of references for MLOps
 * [awesome-mlops](https://github.com/kelvins/awesome-mlops) - 😎 A curated list of awesome MLOps tools
+* [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - 📄 A curated list of awesome .cursorrules files
 
 ### swift
 * [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
