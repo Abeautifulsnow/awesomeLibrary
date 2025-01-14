@@ -563,6 +563,7 @@
 * [pypiserver](https://github.com/pypiserver/pypiserver) - Minimal PyPI server for uploading & downloading packages with pip/easy_install
 * [markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
 * [optuna](https://github.com/optuna/optuna) - A hyperparameter optimization framework
+* [khoj](https://github.com/khoj-ai/khoj) - Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -770,6 +771,7 @@
 * [awesome-mlops-reference](https://github.com/visenger/awesome-mlops) - A curated list of references for MLOps
 * [awesome-mlops](https://github.com/kelvins/awesome-mlops) - 😎 A curated list of awesome MLOps tools
 * [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - 📄 A curated list of awesome .cursorrules files
+* [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.
 
 ### swift
 * [MiaoYan](https://github.com/tw93/MiaoYan) - ⛷ Lightweight Markdown app to help you write great sentences. ⛷ 轻灵的 Markdown 笔记本伴你写出妙言
