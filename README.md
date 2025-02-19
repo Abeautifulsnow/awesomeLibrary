@@ -745,6 +745,7 @@
 * [system-design-101](https://github.com/ByteByteGoHq/system-design-101) - Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.(blog.bytebytego.com)
 * [nlp-tutorial](https://github.com/PKU-TANGENT/nlp-tutorial) - NLP新手入门教程
 * [mathsisfun](https://www.mathsisfun.com/) - Math is fun.
+* [LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io) - 《大语言模型》作者：赵鑫，李军毅，周昆，唐天一，文继荣
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
