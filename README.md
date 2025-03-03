@@ -747,6 +747,7 @@
 * [nlp-tutorial](https://github.com/PKU-TANGENT/nlp-tutorial) - NLP新手入门教程
 * [mathsisfun](https://www.mathsisfun.com/) - Math is fun.
 * [LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io) - 《大语言模型》作者：赵鑫，李军毅，周昆，唐天一，文继荣
+* [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - 清华大学计算机系课程攻略 Guidance for courses in Department of Computer Science and Technology, Tsinghua University
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
