@@ -801,6 +801,7 @@
 
 ### c
 * [lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
+* [ferrules](https://github.com/AmineDiro/ferrules) - Modern, fast, document parser written in  🦀
 
 ### c++
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
