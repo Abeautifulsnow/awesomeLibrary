@@ -378,6 +378,7 @@
 * [goploy](https://github.com/zhenorzz/goploy) - Devops, Deploy, CI/CD, Terminal, Sftp, Server monitor, Crontab Manager, Nginx Manager.
 * [graph](https://github.com/dominikbraun/graph) - A library for creating generic graph data structures and modifying, analyzing, and visualizing them.
 * [dagger](https://github.com/dagger/dagger) - An open-source runtime for composable workflows. Great for AI agents and CI/CD.
+* [higress](https://github.com/alibaba/higress) - 🤖 AI Gateway | AI Native API Gateway
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
