@@ -579,6 +579,7 @@
 * [OmniParser](https://github.com/microsoft/OmniParser) - A simple screen parsing tool towards pure vision based GUI agent
 * [browser-use](https://github.com/browser-use/browser-use) - Make websites accessible for AI agents
 * [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
+* [graphrag](https://github.com/microsoft/graphrag) - A modular graph-based Retrieval-Augmented Generation (RAG) system
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
