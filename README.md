@@ -382,6 +382,7 @@
 * [graph](https://github.com/dominikbraun/graph) - A library for creating generic graph data structures and modifying, analyzing, and visualizing them.
 * [dagger](https://github.com/dagger/dagger) - An open-source runtime for composable workflows. Great for AI agents and CI/CD.
 * [higress](https://github.com/alibaba/higress) - 🤖 AI Gateway | AI Native API Gateway
+* [mcp-go](https://github.com/mark3labs/mcp-go) - A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
