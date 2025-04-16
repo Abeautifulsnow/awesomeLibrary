@@ -430,6 +430,10 @@ def update_new_repo(mkd: MKDownControl, args: argparse.Namespace):
         mkd (MKDownControl): The instance of MKDownControl.
         args (argparse.Namespace): The Namespace of argparse.
     """
+
+    if not args.repo_name:
+        args.repo_name = args.repo_url.split("/")[-1].rstrip(".git")
+
     _update_new_repo(
         mkd,
         args.repo_lang,
@@ -528,8 +532,9 @@ def log_err_args(args: argparse.Namespace, parser: argparse.ArgumentParser):
         args (argparse.Namespace): Simple object for storing attributes.
         parser (argparse.ArgumentParser): Object for parsing command line strings into Python objects.
     """
+
     logger.error(args)
-    print("Refer to usage below".center(60, "-"))
+    print("Refer to usage below".center(60, "*"))
     parser.print_help()
 
 
