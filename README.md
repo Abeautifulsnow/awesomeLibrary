@@ -582,6 +582,7 @@
 * [browser-use](https://github.com/browser-use/browser-use) - Make websites accessible for AI agents
 * [aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 * [graphrag](https://github.com/microsoft/graphrag) - A modular graph-based Retrieval-Augmented Generation (RAG) system
+* [llama_index](https://github.com/run-llama/llama_index) - LlamaIndex is the leading framework for building LLM-powered agents over your data.
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
