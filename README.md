@@ -667,6 +667,7 @@
 * [mise](https://github.com/jdx/mise) - dev tools, env vars, task runner
 * [leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
 * [goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+* [tensorzero](https://github.com/tensorzero/tensorzero) - TensorZero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
