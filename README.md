@@ -387,6 +387,7 @@
 * [dagger](https://github.com/dagger/dagger) - An open-source runtime for composable workflows. Great for AI agents and CI/CD.
 * [higress](https://github.com/alibaba/higress) - 🤖 AI Gateway | AI Native API Gateway
 * [mcp-go](https://github.com/mark3labs/mcp-go) - A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
+* [quic-go](https://github.com/quic-go/quic-go) - A production-ready QUIC implementation in pure Go
 
 ### python
 * [fastapi](https://github.com/tiangolo/fastapi) 高性能api框架
@@ -595,6 +596,7 @@
 * [pygwalker](https://github.com/Kanaries/pygwalker) - PyGWalker: Turn your dataframe into an interactive UI for visual analysis
 * [ragas](https://github.com/explodinggradients/ragas) - Supercharge Your LLM Application Evaluations 🚀
 * [unsloth](https://github.com/unslothai/unsloth) - Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek-R1, Qwen3, Gemma 3, TTS 2x faster with 70% less VRAM.
+* [aioquic](https://github.com/aiortc/aioquic) - QUIC and HTTP/3 implementation in Python
 
 ### rust
 * [rustdesk](https://github.com/rustdesk/rustdesk) Yet another remote desktop software
@@ -673,6 +675,7 @@
 * [goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 * [tensorzero](https://github.com/tensorzero/tensorzero) - TensorZero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.
 * [neon](https://github.com/neon-bindings/neon) - Rust bindings for writing safe and fast native Node.js modules.
+* [quiche](https://github.com/cloudflare/quiche) - 🥧 Savoury implementation of the QUIC transport protocol and HTTP/3
 
 ### shell
 * [pure-sh-bible](https://github.com/dylanaraps/pure-sh-bible) - 📖 A collection of pure POSIX sh alternatives to external processes.
