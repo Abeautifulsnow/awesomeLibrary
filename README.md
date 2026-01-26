@@ -18,6 +18,7 @@
 		- [zig](#zig)
 		- [c](#c)
 		- [c++](#c-1)
+    	- [ai](#ai)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
@@ -850,3 +851,6 @@
 * [LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed inference
 * [codon](https://github.com/exaloop/codon) - A high-performance, zero-overhead, extensible Python compiler using LLVM.
 * [LightGBM](https://github.com/microsoft/LightGBM) - A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+
+### ai
+* [skills](https://github.com/anthropics/skills) - Public repository for Agent Skills
