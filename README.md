@@ -854,3 +854,4 @@
 
 ### ai
 * [skills](https://github.com/anthropics/skills) - Public repository for Agent Skills
+* [agentskills](https://github.com/agentskills/agentskills) - Specification and documentation for Agent Skills
