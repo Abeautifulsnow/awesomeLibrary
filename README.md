@@ -786,6 +786,7 @@
 * [openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
 * [this-week-in-rust](https://github.com/rust-lang/this-week-in-rust) - Data for this-week-in-rust.org
 * [all-in-rag](https://github.com/datawhalechina/all-in-rag) - 🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/
+* [harness-books](https://github.com/wquguru/harness-books) - harness engineer.
 
 ### awesome-library
 * [awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
