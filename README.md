@@ -857,3 +857,4 @@
 ### ai
 * [skills](https://github.com/anthropics/skills) - Public repository for Agent Skills
 * [agentskills](https://github.com/agentskills/agentskills) - Specification and documentation for Agent Skills
+* [agent-qa](https://github.com/vostride/agent-qa) - vostride 推出的应用测试智能体，以自然语言测试网页、Android 和 iOS，具备持久记忆与经过验证的自我改进能力，支持 CLI 和 MCP。[官网](https://vostride.com)
